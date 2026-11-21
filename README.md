@@ -182,11 +182,13 @@ AGP 9.4.0, Gradle 9.6.0. Нужен совместимый JDK и Android SDK 37
 ```
 
 На Windows используется `gradlew.bat`. Объявлены Android, JVM, JS, Wasm,
-iOS ARM64 и iOS Simulator ARM64. Для сборки и публикации iOS нужен macOS с Xcode;
-на Windows эти таргеты не проверены. Проверка JS/Wasm — компиляция,
+iOS ARM64 и iOS Simulator ARM64. Компиляция и публикация iOS KLIB проверены
+на Windows: Kotlin позволяет кросс-компиляцию этой библиотеки без cinterop.
+Для сборки и запуска конечного iOS-приложения нужен macOS с Xcode.
+Проверка JS/Wasm — компиляция,
 без запуска приложения в браузере.
 
-Для Maven-публикации в `build/repo` на macOS со всеми toolchain:
+Для Maven-публикации в `build/repo`:
 
 ```shell
 ./gradlew :material-specs:publishAllPublicationsToLocalBuildRepository

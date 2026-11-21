@@ -7,6 +7,12 @@ kotlin {
     jvm()
 
     sourceSets.commonMain.dependencies {
-        implementation("io.material:material-specs:0.1.0")
+        val group = if (providers.gradleProperty("materialSpecsRepository").isPresent) {
+            "com.github.MrPaperMoon.MaterialIo"
+        } else {
+            "io.material"
+        }
+        val version = providers.gradleProperty("materialSpecsVersion").orElse("0.1.0").get()
+        implementation("$group:material-specs:$version")
     }
 }
