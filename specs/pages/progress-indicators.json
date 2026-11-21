@@ -1,0 +1,132 @@
+[
+  {
+    "htmlValue": "<h2>Variants</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Linear progress indicator</li><li>Circular progress indicator</li></ol>",
+    "altText": "2 variant of progress indicators.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmloz0082-01-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th><p>Variant</p></th><th style=\"text-align:center\"><p>M3</p></th><th style=\"text-align:center\"><p>M3 Expressive</p></th></tr></thead><tbody><tr><td><p>Linear progress indicator</p></td><td><p>Available</p></td><td><p>Available</p></td></tr><tr><td><p>Circular progress indicator</p></td><td><p>Available</p></td><td><p>Available</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Configurations</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Behavior: Determinate and indeterminate</li><li>Thickness: Default (4dp) and variable</li><li>Shape: Flat and wavy</li></ol>",
+    "altText": "4 configurations of the linear determinate progress indicator.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmloz0zuq-02-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"width:14.8398%\"><p>Category</p></th><th style=\"width:35.1153%\"><p>Configuration</p></th><th style=\"text-align:center\"><p>M3</p></th><th style=\"text-align:center\"><p>M3 Expressive</p></th></tr></thead><tbody><tr><td><p>Behavior</p></td><td><p>Determinate (default), Indeterminate</p></td><td><p>Available</p></td><td><p>Available</p></td></tr><tr><td rowspan=\"2\" style=\"width:14.8398%;vertical-align:top\"><p>Track thickness</p></td><td><p>Fixed (4dp) </p></td><td><p>Available</p></td><td><p>Available</p></td></tr><tr><td><p>Configurable</p></td><td><p>--</p></td><td><p>Available</p></td></tr><tr><td rowspan=\"2\" style=\"width:14.8398%;vertical-align:top\"><p>Shape</p></td><td><p>Flat (default)</p></td><td><p>Available</p></td><td><p>Available</p></td></tr><tr><td><p>Wavy</p></td><td><p>--</p></td><td><p>Available</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2><p>Browse the component elements, attributes, tokens, and their values. <a href=\"/m3/pages/progress-indicators/specs#c6f484b0-2bc6-4d37-bd75-f859a35a3594\" target=\"_self\">View baseline tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/6f51f7ab7775a392",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Progress Indicator - Common",
+        "Progress indicator - Linear",
+        "Progress indicator - Circular"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "tokenSetOrder": [
+        "Progress Indicator",
+        "Progress indicator - Linear",
+        "Progress indicator - Circular",
+        "[Deprecated] Progress indicator - Circular",
+        "[Deprecated] Progress indicator - Linear"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2>Anatomy</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Active indicator</li><li>Track</li><li>Stop indicator</li></ol>",
+    "altText": "3 elements of a progress indicator.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmloz1qik-03-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Color</h2>"
+  },
+  {
+    "footer": "<p>Progress indicator color roles used for light and dark schemes:</p><ol class=\"decimal\"><li><p>Primary</p></li><li><p>Secondary container</p></li></ol>",
+    "altText": "2 color roles of a linear progress indicator in light and dark themes: the active indicator and stop indicator are primary and the track is secondary container.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmloz2lzv-04-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "htmlValue": "<p>Wavy indicators use <strong>amplitude</strong> and <strong>wavelength</strong> to determine the shape of the wave. The height is the overall container height.</p>"
+  },
+  {
+    "footer": "<p><strong>Amplitude</strong> measures from the center of the resting position to the center of the peak</p>",
+    "altText": "Definitions of wave measurements for height and amplitude.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmloz3iks-05-3P.png?alt=media"
+  },
+  {
+    "footer": "<p><strong>Wavelength</strong> measures the distance between two adjacent peaks</p>",
+    "altText": "Definitions of wave measurements for wavelength.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmloz3ss3-06-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Size measurements for linear progress indicators. The thicker variants are provided as sample measurement for makers to adjust the default version based on their use cases. </p>",
+    "altText": "Linear progress indicator measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmloz4e98-07-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Size measurements for circular progress indicators. The thicker variants are provided as sample measurement for makers to adjust the default version based on their use cases. </p>",
+    "altText": "Circular progress indicator measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmloz4zbx-08-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>The linear progress indicator is inset from the edge of the screen by 4dp</p>",
+    "altText": "4dp padding on the left and right of the linear progress indicator.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmloz5p1v-09-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Baseline tokens</h2>"
+  },
+  {
+    "htmlValue": "<p>The circular and linear progress indicator had separate token sets. These are no longer recommended.</p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/6f51f7ab7775a392",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "[Deprecated] Progress indicator - Circular",
+        "[Deprecated] Progress indicator - Linear"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  }
+]

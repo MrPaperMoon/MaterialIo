@@ -1,0 +1,13 @@
+.gradle/
+.kotlin/
+**/build/
+local.properties
+.idea/
+*.iml
+__pycache__/
+specs/site-main.js
+specs/test-tokens.json
+specs/app-bars.json
+specs/motion-page.json
+specs/system-tokens.json
+*.log

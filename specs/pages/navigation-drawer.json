@@ -1,0 +1,95 @@
+[
+  {
+    "htmlValue": "<div class=\"fr-banner note\"><div class=\"fr-banner-icon\">star</div><div class=\"fr-banner-content note\"><div class=\"fr-banner-label\">Note:</div><div class=\"fr-banner-description\">The navigation drawer is no longer recommended in the Material 3 Expressive update. For those who have updated, use an <a href=\"/m3/pages/navigation-rail/overview/\" target=\"_blank\">expanded navigation rail</a>, which has mostly the same functionality of the navigation drawer and adapts better across breakpoints.</div></div></div>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>Container</p></li><li><p>Headline</p></li><li><p>Label text</p></li><li><p>Active indicator</p></li><li><p>Badge label text</p></li><li><p>Scrim</p></li><li><p>Icon</p></li></ol>",
+    "altText": "Navigation drawer diagram numbering 7 elements",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmobm461s-1-3P-3p.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2>"
+  },
+  {
+    "htmlValue": "<p>The navigation drawer has one token set. <a href=\"/m3/pages/design-tokens/overview/\" target=\"_blank\">Learn about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/376969f91547be8e",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Static",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Color</h2>"
+  },
+  {
+    "htmlValue": "<p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Navigation drawer color roles used for light and dark schemes:</p><ol><li>Surface container low</li><li>On surface variant</li><li>On secondary container</li><li>On secondary container</li><li>Secondary container</li><li>On secondary container</li><li>On surface variant</li><li>On surface variant</li><li>Scrim</li></ol>",
+    "altText": "Navigation drawer diagram numbering 9 color roles.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6b7pyr-2-3p.png?alt=media"
+  },
+  {
+    "htmlValue": "<p>For divider color roles, go to <a href=\"/m3/pages/divider/specs\" target=\"_blank\">divider specs</a>.</p>"
+  },
+  {
+    "htmlValue": "<h2>States</h2><p><app-froala-tooltip-element description=\"States show the interaction status of a component or UI element.\" link-label=\"More on states\" link-url=\"/m3/pages/interaction-states/overview\" should-open-link-in-new-tab=\"true\">States</app-froala-tooltip-element> are visual representations used to communicate the status of a component or interactive element. <a href=\"/m3/pages/interaction-states/overview\" target=\"_blank\">Learn more about interaction states</a></p>"
+  },
+  {
+    "footer": "<p>Navigation drawer states: </p><ol><li>Enabled </li><li>Hovered </li><li>Focused </li><li>Pressed</li></ol>",
+    "altText": "4 navigation drawers illustrating enabled, hovered, focused, and pressed states.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma77ejxi-3b-3p.png?alt=media"
+  },
+  {
+    "htmlValue": "<p><a href=\"/m3/pages/navigation-drawer/specs#6207b00f-a259-41d2-8146-b6efc6380976\" target=\"_self\">State specs are in the tokens module above</a></p>"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "htmlValue": "<h3>Standard navigation drawer</h3>"
+  },
+  {
+    "footer": "<p>Element size measurements</p>",
+    "altText": "Standard navigation drawer with measurements shown for various elements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmobmv0i5-4-3p.png?alt=media"
+  },
+  {
+    "footer": "<p>Padding and margins</p>",
+    "altText": "Standard navigation drawer with measurements shown for padding and margins.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6bb7nw-5-3p.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"margin-right:calc(0%);width:100%\"><thead><tr><th style=\"width:47.3735%;text-align:center\">Attribute</th><th style=\"width:52.5292%;text-align:center\">Value</th></tr></thead><tbody><tr><th>Container height<br /></th><td>100%</td></tr><tr><th>Container width<br /></th><td>360dp</td></tr><tr><th>Container shape<br /></th><td>0,16,16,0dp corner radii</td></tr><tr><th>Icon size<br /></th><td>24dp</td></tr><tr><th>Active indicator height<br /></th><td>56dp</td></tr><tr><th>Active indicator shape<br /></th><td>28dp</td></tr><tr><th>Active indicator width<br /></th><td>336dp</td></tr><tr><th>Horizontal label alignment<br /></th><td>Start-aligned</td></tr><tr><th>Left padding<br /></th><td>28dp</td></tr><tr><th>Right padding<br /></th><td>28dp</td></tr><tr><th>Active indicator padding<br /></th><td>12dp</td></tr><tr><th>Padding between elements<br /></th><td>0dp</td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h3>Modal navigation drawer</h3>"
+  },
+  {
+    "footer": "<p>Element size measurements</p>",
+    "altText": "Modal navigation drawer with measurements shown for various elements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma775z3o-6-3p-3p.png?alt=media"
+  },
+  {
+    "footer": "<p>Padding and margins</p>",
+    "altText": "Modal navigation drawer with measurements shown for padding and margins.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma7769l7-7-3p-3p.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"margin-right:calc(1%);width:99%\"><thead><tr><th style=\"width:50.5055%;text-align:center\">Attribute</th><th style=\"width:49.3962%;text-align:center\">Value</th></tr></thead><tbody><tr><th>Container height<br /></th><td>100%</td></tr><tr><th>Container width<br /></th><td>360dp</td></tr><tr><th>Icon size<br /></th><td>24dp</td></tr><tr><th>Active indicator height<br /></th><td>56dp</td></tr><tr><th>Active indicator shape<br /></th><td>28dp</td></tr><tr><th>Active indicator width<br /></th><td>336dp</td></tr><tr><th>Horizontal label alignment<br /></th><td>Start-aligned</td></tr><tr><th>Left padding<br /></th><td>28dp</td></tr><tr><th>Right padding<br /></th><td>28dp</td></tr><tr><th>Active indicator padding<br /></th><td>12dp</td></tr><tr><th>Padding between elements<br /></th><td>0dp</td></tr></tbody></table></div>"
+  }
+]

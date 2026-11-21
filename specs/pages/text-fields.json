@@ -1,0 +1,150 @@
+[
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2><p>Browse the component elements, attributes, tokens, and their values. <a href=\"/m3/pages/design-tokens/overview\" target=\"_self\">Learn about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/60990dd98dea0998",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Text field - Filled",
+        "Text field - Outlined"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Static",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Filled text field</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>Container</p></li><li><p>Leading icon (optional)</p></li><li><p>Label text in empty field</p></li><li><p>Label text in populated field</p></li><li><p>Trailing icon (optional)</p></li><li><p>Focused active Indicator</p></li><li><p>Caret</p></li><li><p>Input text</p></li><li><p>Supporting text (optional)</p></li><li><p>Enabled active indicator</p></li></ol>",
+    "altText": "Diagram of a filled text field indicating the 10 parts of its anatomy.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm2j3wjd6-1.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Filled text field color</h3><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\" target=\"_self\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p>Filled text field color roles used for light and dark schemes:</p><ol class=\"decimal\"><li><p>Surface container highest</p></li><li><p>On surface variant</p></li><li><p>On surface variant</p></li><li><p>Primary</p></li><li><p>On surface variant</p></li><li><p>Primary</p></li><li><p>Primary</p></li><li><p>On surface</p></li><li><p>On surface variant</p></li><li><p>On surface</p></li></ol>",
+    "altText": "Diagram of a filled text field indicating its color mappings. ",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm2j3x0d6-2-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Filled text field states</h3><p>States are visual representations used to communicate the status of a component or interactive element. <a href=\"/m3/pages/interaction-states/overview\" id=\"isPasted\">Learn more about interaction states</a></p>"
+  },
+  {
+    "footer": "<ol><li>Enabled (empty)</li><li>Focused (empty)</li><li>Hovered (empty)</li><li>Disabled (empty)</li><li>Enabled (populated)</li><li>Focused (populated)</li><li>Hovered (populated)</li><li>Disabled (populated)</li></ol>",
+    "altText": "Side by side view of empty and populated filled text fields across different states, showing the differences between enabled, focused, hovered, and disabled. ",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flyqwy2pr-3.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Filled text field error states</h3><p>Error <app-froala-tooltip-element description=\"States show the interaction status of a component or UI element.\" link-label=\"More on states\" link-url=\"/m3/pages/interaction-states/overview\" should-open-link-in-new-tab=\"true\">states</app-froala-tooltip-element> are visual representations used to communicate the status of a component or interactive element. An error message can display instructions on how to fix it. Error messages are displayed below the text field as supporting text until fixed.</p>"
+  },
+  {
+    "footer": "<ol><li>Enabled (empty)</li><li>Focused (empty)</li><li>Hovered (empty)</li><li>Enabled (populated)</li><li>Focused (populated)</li><li>Hovered (populated)</li></ol>",
+    "altText": "Side by side view of empty and populated filled text fields across different error states, showing the differences between enabled, focused, hovered. ",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flyqx5pjx-4.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Filled text field measurements</h3>"
+  },
+  {
+    "footer": "<p>Padding and size measurements without icons</p>",
+    "altText": "Diagram showing layout values and paddings for filled text fields without icons. ",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flyqxam89-5.png?alt=media"
+  },
+  {
+    "footer": "<p>Padding and size measurements with icons</p>",
+    "altText": "Diagram showing layout values and paddings for outlined text fields with leading and trailing icons. ",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flyqxhgvg-6.png?alt=media"
+  },
+  {
+    "footer": "<p>Padding and size measurements with supporting text and character count</p>",
+    "altText": "A diagram showing layout values and paddings for supporting text, and supporting text in combination with a character count. ",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm4adcnvc-7-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"border:none;border-collapse:collapse\"><thead><tr><th style=\"text-align:center\">Attribute</th><th style=\"text-align:center\">Value</th></tr></thead><tbody><tr><th>Default container height<br /></th><td>56dp</td></tr><tr><th>Label alignment (unpopulated)<br /></th><td>Vertically centered</td></tr><tr><th>Top/bottom padding<br /></th><td>8dp</td></tr><tr><th>Left/right padding without icons<br /></th><td>16dp</td></tr><tr><th>Left/right padding with icons<br /></th><td>12dp</td></tr><tr><th>Icon alignment<br /></th><td>Vertically centered</td></tr><tr><th>Padding between icons and text<br /></th><td>16dp</td></tr><tr><th>Supporting text and character counter top padding<br /></th><td>4dp</td></tr><tr><th>Padding between supporting text and character counter<br /></th><td>16dp</td></tr><tr><th>Target size</th><td>56dp</td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Filled text field configurations</h3>"
+  },
+  {
+    "footer": "<p>Empty and populated filled text fields with:</p><ol class=\"decimal\"><li><p>Supporting text</p></li><li><p>Trailing icon</p></li><li><p>Leading icon</p></li><li><p>Leading and trailing icons</p></li><li><p>Prefix</p></li><li><p>Suffix</p></li><li><p>Multi-line text field</p></li></ol>",
+    "altText": "Side by side view of filled text fields in different configurations.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm84goiff-8%20-%203P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Outlined text field</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>Enabled container outline</p></li><li><p>Leading icon (optional)</p></li><li><p>Label text in empty field</p></li><li><p>Label text in populated field</p></li><li><p>Trailing icon (optional)</p></li><li><p>Focused container outline</p></li><li><p>Caret</p></li><li><p>Input text</p></li><li><p>Supporting text (optional)</p></li></ol>",
+    "altText": "Diagram of an outlined text field indicating the 9 parts of its anatomy",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhk4c6jn-09-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Outlined text field color</h3><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Outlined text field color roles used for light and dark schemes:</p><ol><li>Outline</li><li>On surface variant</li><li>On surface variant</li><li>Primary</li><li>On surface variant</li><li>Primary</li><li>Primary</li><li>On surface</li><li>On surface variant</li></ol>",
+    "altText": "Diagram of an outlined text field indicating its color mappings ",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm2j3xtlg-10-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Outlined text field states</h3><p>States are visual representations used to communicate the status of a component or interactive element. <a href=\"/m3/pages/interaction-states/overview\" id=\"isPasted\">Learn more about interaction states</a></p>"
+  },
+  {
+    "footer": "<ol><li>Enabled (empty)</li><li>Focused (empty)</li><li>Hovered (empty)</li><li>Disabled (empty)</li><li>Enabled (populated)</li><li>Focused (populated)</li><li>Hovered (populated)</li><li>Disabled (populated)</li></ol>",
+    "altText": "Side by side view of empty and populated outlined text fields across different states, showing the differences between enabled, focused, hovered, and disabled. ",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flyqy69rp-11.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Outlined text field error states</h3><p>Error <app-froala-tooltip-element description=\"States show the interaction status of a component or UI element.\" link-label=\"More on states\" link-url=\"/m3/pages/interaction-states/overview\" should-open-link-in-new-tab=\"true\">states</app-froala-tooltip-element> are visual representations used to communicate the status of a component or interactive element. An error message can display instructions on how to fix it. Error messages are displayed below the text field as supporting text until fixed.</p>"
+  },
+  {
+    "footer": "<ol><li>Enabled (empty)</li><li>Focused (empty)</li><li>Hovered (empty)</li><li>Enabled (populated)</li><li>Focused (populated)</li><li>Hovered (populated)</li></ol>",
+    "altText": "Side by side view of empty and populated filled text fields across different error states, showing the differences between enabled, focused, hovered. ",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flyqya4uw-12.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Outlined text field measurements</h3>"
+  },
+  {
+    "footer": "<p>Padding and size measurements without icons</p>",
+    "altText": "A diagram showing layout values and paddings for outlined text fields without icons. ",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flyqys303-13.png?alt=media"
+  },
+  {
+    "footer": "<p>Padding and size measurements with icons</p>",
+    "altText": "A diagram showing layout values and paddings for outlined text fields with leading and trailing icons. ",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flyqyuu9g-14.png?alt=media"
+  },
+  {
+    "footer": "<p>Padding and size measurements with supporting text and character count</p>",
+    "altText": "A diagram showing layout values and paddings for supporting text, and supporting text in combination with a character count. ",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flyqywif5-15.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table><thead><tr><th style=\"text-align:center\">Attribute</th><th style=\"text-align:center\">Value</th></tr></thead><tbody><tr><th>Container height<br /></th><td>56dp</td></tr><tr><th>Left/right padding without icons<br /></th><td>16dp</td></tr><tr><th>Left/right padding with icons<br /></th><td>12dp</td></tr><tr><th>Padding between icons and text<br /></th><td>16dp</td></tr><tr><th>Icon alignment<br /></th><td>Vertically centered</td></tr><tr><th>Supporting text and character counter top padding<br /></th><td>4dp</td></tr><tr><th>Padding between supporting text and character counter<br /></th><td>16dp</td></tr><tr><th>Label alignment<br /></th><td>Vertically centered</td></tr><tr><th>Left/right padding populated label text<br /></th><td>4dp</td></tr><tr><th>Target size</th><td>56dp</td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Outlined text field configurations</h3>"
+  },
+  {
+    "footer": "<p>Empty and populated outlined text fields with:</p><ol class=\"decimal\"><li><p>Supporting text</p></li><li><p>Trailing icon</p></li><li><p>Leading icon</p></li><li><p>Leading and trailing icons</p></li><li><p>Prefix</p></li><li><p>Suffix</p></li><li><p>Multi-line text field</p></li></ol>",
+    "altText": "A side by side view of outlined text fields in different configurations.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm84gq17k-16%20-%203P.png?alt=media"
+  }
+]

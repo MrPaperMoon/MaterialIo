@@ -1,0 +1,82 @@
+[
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2><p>Select a component variant below to see its elements, attributes, <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">tokens</app-froala-tooltip-element>, and their values.</p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/0b1e39a67d5bafdc",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Dialog - Basic",
+        "Dialog - Full screen"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Static",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Basic dialogs</h2>"
+  },
+  {
+    "footer": "<ol><li>Container</li><li>Icon (optional) </li><li>Headline (optional)</li><li>Supporting text </li><li>Divider (optional) </li><li>Button label text</li><li>Scrim</li></ol>",
+    "altText": "Anatomy diagram numbering dialog elements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmk29t71i-01-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Basic dialog color</h3><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Basic dialog color roles used for light and dark themes:</p><ol><li>Surface container high </li><li>Secondary </li><li>On surface </li><li>On surface variant</li><li>Primary </li><li>Scrim</li></ol>",
+    "altText": "Color mapping diagram labeling 6 color roles across the dialog and scrim.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fml9yledn-02-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Basic dialog measurements</h3>"
+  },
+  {
+    "footer": "<p>Basic dialog padding and size measurements</p>",
+    "altText": "Annotated diagram showing padding values.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fml9ynrkv-03-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"border:none;border-collapse:collapse;width:100%\"><thead><tr><th style=\"text-align:center\">Attribute</th><th style=\"text-align:center\">Value</th></tr></thead><tbody><tr><th>Container shape<br /></th><td>28dp corner radius</td></tr><tr><th>Container height<br /></th><td>Dynamic</td></tr><tr><th>Container width<br /></th><td>Min 280dp; Max 560dp</td></tr><tr><th>Divider height<br /></th><td>1dp</td></tr><tr><th>Icon size<br /></th><td>24dp</td></tr><tr><th>Minimum width<br /></th><td>280dp </td></tr><tr><th>Maximum width<br /></th><td>560dp</td></tr><tr><th>Alignment with icon<br /></th><td>Center-aligned</td></tr><tr><th>Alignment without icon<br /></th><td>Start-aligned</td></tr><tr><th>Top/Left/right/bottom padding<br /></th><td>24dp</td></tr><tr><th>Padding between buttons<br /></th><td>8dp</td></tr><tr><th>Padding between title and body<br /></th><td>16dp</td></tr><tr><th>Padding between icon and title<br /></th><td>16dp</td></tr><tr><th>Padding between body and actions<br /></th><td>24dp</td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Full-screen dialogs</h2>"
+  },
+  {
+    "footer": "<ol><li>Container </li><li>Header </li><li>Icon (close affordance) </li><li>Headline (optional) </li><li>Text button </li><li>Divider (optional)</li></ol>",
+    "altText": "Diagram numbering 6 full-screen dialog elements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm9h7yor0-04-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 dir=\"ltr\" id=\"isPasted\">Full-screen dialog color</h3><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value.</p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Full-screen dialog color roles used for light and dark themes:</p><ol><li>Surface container high </li><li>On surface</li><li>On surface</li><li>Primary</li><li>On surface variant</li></ol>",
+    "altText": "Color mapping diagram shows 5 callout markers across the dialog.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm9h7z23b-05-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Full-screen dialog measurements</h3>"
+  },
+  {
+    "footer": "<p>Full-screen dialog padding and size measurements</p>",
+    "altText": "Diagram noting layout measurements for padding values, title, height, and action regions.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmafq2x4i-06-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"border:none;border-collapse:collapse;width:100%\"><thead><tr><th style=\"text-align:center\">Attribute</th><th style=\"text-align:center\">Value</th></tr></thead><tbody><tr><th>Container shape<br /></th><td>0dp corner radius</td></tr><tr><th>Container height<br /></th><td>Dynamic</td></tr><tr><th>Container width<br /></th><td>Container width; Max 560dp</td></tr><tr><th>Header height<br /></th><td>56dp</td></tr><tr><th>Header width<br /></th><td>Container width</td></tr><tr><th>Headline text alignment<br /></th><td>Start-aligned</td></tr><tr><th>Divider height<br /></th><td>1dp</td></tr><tr><th>Icon (close affordance) size<br /></th><td>24dp</td></tr><tr><th>Bottom action bar height<br /></th><td>56dp</td></tr><tr><th>Bottom action bar width<br /></th><td>Container width</td></tr><tr><th>Top/left/right padding<br /></th><td>24dp</td></tr><tr><th>Padding between elements<br /></th><td>8dp</td></tr></tbody></table></div>"
+  }
+]

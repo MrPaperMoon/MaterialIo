@@ -1,0 +1,94 @@
+[
+  {
+    "htmlValue": "<h2>Variants</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>Standard</p></li><li><p>Centered</p></li><li><p>Range</p></li></ol>",
+    "altText": "3 variants of sliders.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6a7kht-01-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"text-align:left\"><p>Variant</p></th><th style=\"text-align:center\"><p>M3</p></th><th style=\"text-align:center\"><p>M3 Expressive</p></th></tr></thead><tbody><tr><td><p>Standard</p></td><td><p>Available as “continuous” slider</p></td><td><p>Available</p></td></tr><tr><td><p>Centered</p></td><td><p>Available (web only)</p></td><td><p>Available</p></td></tr><tr><td><p>Range</p></td><td><p>Available</p></td><td><p>Available</p></td></tr><tr><td><p>Discrete</p></td><td><p>Available</p></td><td><p>Available as “stops” configuration</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Configurations</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li>Orientation: Horizontal, vertical</li><li id=\"isPasted\">Size: XS, S, M, L, XL</li></ol>",
+    "altText": "Orientation and size configurations of sliders.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6a86b2-02-3P.png?alt=media"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li>Inset icon</li><li>Stops </li><li id=\"isPasted\">Value indicator</li></ol>",
+    "altText": "Optional anatomy configurations of sliders.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6a8q7u-03-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"text-align:left\"><p>Category</p></th><th style=\"text-align:left\"><p>Configuration</p></th><th style=\"text-align:center\"><p>M3</p></th><th style=\"text-align:center\"><p>M3 Expressive</p></th></tr></thead><tbody><tr><td rowspan=\"2\" style=\"width:17.0863%\"><p>Inset icon</p></td><td><p>No (default)</p></td><td><p>Available</p></td><td><p>Available</p></td></tr><tr><td><p>Yes</p></td><td><p>--</p></td><td><p>Available</p></td></tr><tr><td rowspan=\"2\" style=\"width:17.0863%\"><p>Orientation</p></td><td><p>Horizontal (default)</p></td><td><p>Available</p></td><td><p>Available</p></td></tr><tr><td><p>Vertical</p></td><td><p>--</p></td><td><p>Available</p></td></tr><tr><td rowspan=\"2\" style=\"width:17.0863%\"><p>Size</p></td><td><p>XS (default)</p></td><td><p>Available</p></td><td><p>Available</p></td></tr><tr><td><p>S, M, L, XL</p></td><td><p>--</p></td><td><p>Available on Android Views (MDC-Android).<br />Available as tokens on other platforms.*<br /></p></td></tr><tr><td><p>Stop indicators</p></td><td><p>No (default), Yes</p></td><td><p>Available as “discrete” slider</p></td><td><p>Available</p></td></tr><tr><td><p>Value Indicator</p></td><td><p>No (default), Yes</p></td><td><p>Available</p></td><td><p>Available</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<blockquote>*Configurations only available using tokens don’t have implemented presets in code. To change the size, swap the default size tokens <span class=\"inline-code\">md.comp.slider.<strong>xsmall</strong>.[...]</span> with those of the desired size.</blockquote>"
+  },
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2><p>Slider tokens are organized into a common token set, and token sets for each size. Switch token sets from the table’s menu. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/0045edb815f2325e",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Static",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2>Anatomy</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Value indicator (optional)</li><li>Stop indicators (optional)</li><li>Active track</li><li>Handle</li><li>Inactive track</li><li>Inset icon (optional)</li></ol>",
+    "altText": "6 elements of a slider.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6a99lg-04-3p.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Color</h2>"
+  },
+  {
+    "footer": "<p>Slider color roles used for light and dark schemes:</p><ol class=\"decimal\"><li id=\"isPasted\">Inverse surface</li><li id=\"isPasted\">Inverse on surface</li><li id=\"isPasted\">Primary</li><li id=\"isPasted\">On primary</li><li id=\"isPasted\">Primary</li><li id=\"isPasted\">Secondary container</li><li id=\"isPasted\">On secondary container</li><li id=\"isPasted\">On secondary container</li><li id=\"isPasted\">On primary</li></ol>",
+    "altText": "9 color roles of a slider.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6aa21o-05-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>States</h2>"
+  },
+  {
+    "footer": "<ol><li>Enabled</li><li id=\"isPasted\">Disabled</li><li>Hovered</li><li>Focused</li><li>Pressed</li></ol>",
+    "altText": "5 states of sliders in light and dark schemes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6aaode-06-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "footer": "<p>Padding and size measurements for common sliders</p>",
+    "altText": "Common slider padding and size measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6abaty-07-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Padding and size measurements for XS, S, M, L, and XL sliders</p>",
+    "altText": "Slider padding and size measurements at each size configuration, XS to XL.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6absmo-07-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"margin-right:calc(0%);width:100%\"><thead><tr><th style=\"width:19.8591%;text-align:center\">Attribute</th><th style=\"width:13.5131%;text-align:center\">XS</th><th style=\"width:16.9416%;text-align:center\">S</th><th style=\"width:18.9776%;text-align:center\">M<br /></th><th style=\"width:15.4648%;text-align:center\">L</th><th style=\"width:15.9875%;text-align:center\">XL</th></tr></thead><tbody><tr><th style=\"width:19.8591%\">Track height</th><td>16dp</td><td>24dp</td><td>40dp</td><td>56dp</td><td>96dp</td></tr><tr><th style=\"width:19.8591%\">Label container height<br /></th><td colspan=\"5\">44dp</td></tr><tr><th style=\"width:19.8591%\">Label container width</th><td colspan=\"5\">48dp</td></tr><tr><th style=\"width:19.8591%\">Handle height<br /></th><td>44dp</td><td>44dp</td><td>52dp</td><td>68dp</td><td>108dp</td></tr><tr><th style=\"width:19.8591%\">Handle width<br /></th><td colspan=\"5\">4dp</td></tr><tr><th style=\"width:19.8591%\">Track shape</th><td>8dp</td><td>8dp</td><td>12dp</td><td>16dp</td><td>28dp</td></tr><tr><th style=\"width:19.8591%\">Inset icon size</th><td>--</td><td>--</td><td>24dp</td><td>24dp</td><td>32dp</td></tr></tbody></table></div>"
+  }
+]

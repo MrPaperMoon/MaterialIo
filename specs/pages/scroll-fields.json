@@ -1,0 +1,80 @@
+[
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2>"
+  },
+  {
+    "htmlValue": "<p>Select a component variant below to see its elements, attributes, tokens, and their values. <a href=\"/m3/pages/design-tokens\" target=\"_blank\">Learn more about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/42f95ef205743188",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "contextTags": [
+        "High contrast",
+        "3P",
+        "Medium contrast",
+        "Light",
+        "Bold",
+        "Default",
+        "Expressive",
+        "Static",
+        "Standard",
+        "Dark",
+        "None",
+        "Compose",
+        "Android",
+        "Web"
+      ],
+      "showInlineTokenShare": true
+    }
+  },
+  {
+    "htmlValue": "<h2>Anatomy</h2>"
+  },
+  {
+    "footer": "<ol type=\"1\" style=\"list-style-type:decimal\"><li><p>Scroll field container</p></li><li><p>Inactive number</p></li><li><p>Active number</p></li><li><p>Selected scroll field container</p></li><li><p>Selected active number</p></li><li><p>Cursor</p></li></ol>",
+    "altText": "Diagram identifying the 6 elements of a scroll field.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmwbncawf-01-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Color</h2>"
+  },
+  {
+    "htmlValue": "<p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens\" target=\"_blank\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p>Scroll field color roles used for light and dark themes:</p><ol type=\"1\" style=\"list-style-type:decimal\"><li><p>Surface container lowest</p></li><li><p>Outline</p></li><li><p>On surface</p></li><li><p>Primary</p></li><li><p>Primary</p></li><li><p>Primary</p></li></ol>",
+    "altText": "Side-by-side light and dark diagrams indicating the 6 different color elements of a scroll field.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmwbnddfl-02-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>States</h2>"
+  },
+  {
+    "footer": "<ol type=\"1\" style=\"list-style-type:decimal\"><li><p>Enabled (inactive)</p></li><li><p>Hovered (inactive)</p></li><li><p>Focused (inactive)</p></li><li><p>Disabled (inactive)</p></li><li><p>Enabled (active)</p></li><li><p>Hovered (active)</p></li><li><p>Focused (active)</p></li><li><p>Disabled (active)</p></li></ol>",
+    "altText": "Side-by-side light and dark diagram showing the 8 interactive states of scroll fields.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmwbneeji-03-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "htmlValue": "<p>Scroll fields hug the contents by default, down to a minimum width and height per size. In larger windows, the fields can fill the container instead, or have a custom fixed size.</p>"
+  },
+  {
+    "footer": "<ol type=\"1\" style=\"list-style-type:decimal\"><li><p>Small (1-2 digits)</p></li><li><p>Medium (3 digits)</p></li><li><p>Large (4 digits)</p></li></ol>",
+    "altText": "Diagram of width and height measurements for scroll fields, by number of digits. ",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmwbnf8lc-04-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>High contrast</h2>"
+  },
+  {
+    "htmlValue": "<p>High contrast mode is an accessibility feature that aims to maximize legibility by using a limited color palette, like black and white. <a href=\"/m3/pages/color/how-the-system-works#0207ef40-7f0d-4da8-9280-f062aa6b3e04\" target=\"_blank\">Learn more about high contrast</a></p>"
+  },
+  {
+    "footer": "<p>Scroll field in high-contrast mode</p>",
+    "altText": "Two fields, one with scroll and one with direct input, using high-contrast mode.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmwbng1dh-05-3P.png?alt=media"
+  }
+]

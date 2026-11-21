@@ -1,0 +1,96 @@
+[
+  {
+    "htmlValue": "<h2>Tokens and specs</h2><p>Select a component variant below to see its elements, attributes, tokens, and their values.</p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/6039f0080a95df1e",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Tabs - Primary navigation",
+        "Tabs - Secondary navigation"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Static",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "tokenSetOrder": [
+        "Tabs - Primary navigation",
+        "Tabs - Secondary navigation"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2>Primary tabs</h2>"
+  },
+  {
+    "footer": "<ol><li id=\"isPasted\">Container</li><li>Badge (optional)</li><li>Icon (optional)</li><li>Label</li><li>Divider</li><li>Active indicator</li></ol>",
+    "altText": "6 elements of primary tabs.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm2lequcy-1.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Primary tabs color</h3><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\" id=\"isPasted\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Primary tab color roles used for light and dark schemes:</p><ol><li id=\"isPasted\">Surface</li><li>Primary</li><li>Primary</li><li>On surface variant</li><li>On surface variant</li><li>Outline variant</li><li>Primary</li></ol>",
+    "altText": "7 color roles applied to primary tabs in light and dark themes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm2lerpx7-2.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Primary tabs states</h3>"
+  },
+  {
+    "footer": "<ol><li id=\"isPasted\">Enabled (active destination)</li><li>Hover (active destination)</li><li>Focused (active destination)</li><li>Pressed (active destination)</li><li>Enabled (inactive destination)</li><li>Hover (inactive destination)</li><li>Focused (inactive destination)</li><li>Pressed (inactive destination)</li></ol>",
+    "altText": "Diagram of all primary tab states in both light and dark mode",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm8t9w5tr-03-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Secondary tabs</h2>"
+  },
+  {
+    "footer": "<ol><li id=\"isPasted\">Container</li><li>Badge (optional)</li><li>Label</li><li>Divider</li><li>Active indicator</li></ol>",
+    "altText": "5 elements of secondary tabs.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm2letsf5-4.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Secondary tabs color</h3><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\" id=\"isPasted\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Secondary tab color roles used for light and dark schemes:</p><ol><li>Surface</li><li>On surface</li><li>On surface variant</li><li id=\"isPasted\">Outline variant</li><li>Primary</li></ol>",
+    "altText": "5 color roles applied to secondary tabs in light and dark themes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm2leuvo3-5.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Secondary tabs states</h3>"
+  },
+  {
+    "footer": "<ol><li>Enabled (active destination)</li><li>Hover (active destination)</li><li>Focused (active destination)</li><li>Pressed  (active destination)</li><li>Enabled (inactive destination)</li><li>Hover (inactive destination)</li><li>Focused (inactive destination)</li><li>Pressed (inactive destination)</li></ol>",
+    "altText": "Diagram of all secondary tab states in both light and dark mode",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm8t9wue2-06-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "footer": "<p>Tabs are divided into equal sections, with labels and icons positioned vertically centered. The divider is included in the height, placed inside the container.</p>",
+    "altText": "Diagram of measurements for four and two tabs per container, including icon and label placement.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm92tisv3-07-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Primary tab active indicators are inset 2dp on each side, have a fully rounded corner radius, and a minimum length of 24dp.</p>",
+    "altText": "Diagram of Primary tab active indicator measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm92thj1h-08-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"width:100%\"><thead><tr><th style=\"text-align:center\">Attribute<br /></th><th style=\"text-align:center\">Value<br /></th></tr></thead><tbody><tr><td>Container height (label text only)</td><td>48dp</td></tr><tr><td>Container height (icon and label text)</td><td>64dp</td></tr><tr><td>Icon size</td><td>24dp</td></tr><tr><td>Divider height</td><td>1dp</td></tr><tr><td>Primary active indicator height</td><td>3dp</td></tr><tr><td>Secondary active indicator height</td><td>2dp</td></tr><tr><td>Active indicator shape</td><td>3, 3, 0, 0</td></tr><tr><td>Active indicator minimum length</td><td>24dp</td></tr><tr><td>Padding between inline icon and text</td><td>8dp</td></tr><tr><td>Padding between inline text and badge</td><td>4dp</td></tr><tr><td>Overlap of badge on stacked icon</td><td>6dp</td></tr></tbody></table></div>"
+  }
+]

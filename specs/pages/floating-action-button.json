@@ -1,0 +1,212 @@
+[
+  {
+    "htmlValue": "<h2>Variants</h2>"
+  },
+  {
+    "footer": "<ol><li>FAB</li><li>Medium FAB</li><li>Large FAB</li></ol>",
+    "altText": "An icon on the container of a FAB, medium FAB, and large FAB.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkc6atia-01-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Baseline variants</h3><p>The small FAB is still available, but no longer recommended. <a href=\"/m3/pages/fab/specs#cd336045-e97d-4a6d-ac23-f778fa695e3c\" target=\"_self\">Jump to baseline specs</a></p>"
+  },
+  {
+    "footer": "<p>1. Small FAB</p>",
+    "altText": "An icon on the container of a small FAB.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkc6bkq8-02-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"width:17.479%\"><p>Variant</p></th><th style=\"width:38.8359%;text-align:center\"><p>M3</p></th><th style=\"width:43.6281%;text-align:center\"><p>M3 Expressive</p></th></tr></thead><tbody><tr><td><p>FAB</p></td><td><p>Available</p></td><td><p>Available</p></td></tr><tr><td><p>Medium FAB</p></td><td><p>--</p></td><td><p>Available</p></td></tr><tr><td><p>Large FAB</p></td><td><p>Available</p></td><td><p>Available</p></td></tr><tr><td><p>Small FAB</p></td><td><p>Available</p></td><td><p>Not recommended.</p><p>Use a larger size.</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Configurations</h2>"
+  },
+  {
+    "htmlValue": "<p>In the expressive update, the <strong>primary</strong>, <strong>secondary</strong>, and <strong>tertiary</strong> set colors were renamed to <strong>primary container</strong>, <strong>secondary container</strong>, and <strong>tertiary container </strong>to match the actual color roles used. New primary, secondary, and tertiary color styles were created to match the corresponding color roles. <a href=\"/m3/pages/fab/specs#67e71ec7-b520-405a-aa06-2decfa0b92a3\" target=\"_self\">View details in the color styles section</a></p>"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"width:16.9683%\"><p>Category</p></th><th style=\"width:40.4764%\"><p>Configuration</p></th><th style=\"width:20.4061%;text-align:center\"><p>M3</p></th><th style=\"width:22.0786%;text-align:center\"><p>M3 Expressive</p></th></tr></thead><tbody><tr><td rowspan=\"2\" style=\"width:16.9683%\"><p>Color</p></td><td><p>Primary container, secondary container, tertiary container</p></td><td><p>Available as primary, secondary, tertiary</p></td><td><p>Available</p></td></tr><tr><td><p>Primary. secondary, tertiary</p></td><td><p>--</p></td><td><p>Available</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2><p>Use the table's menu to select a token set. FAB tokens are organized by size and color. <a href=\"/m3/pages/design-tokens/overview/\" target=\"_blank\">Learn more about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/41587918e51cca98",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "FAB - Size - Regular",
+        "FAB - Size - Medium",
+        "FAB - Size - Large",
+        "FAB - Color - Tonal primary",
+        "FAB - Color - Tonal secondary",
+        "FAB - Color - Tonal tertiary",
+        "FAB - Color - Primary",
+        "FAB - Color - Secondary",
+        "FAB - Color - Tertiary"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "tokenSetOrder": [
+        "[Deprecated] FAB - Size - Small",
+        "FAB - Color - Surface",
+        "FAB - Color - Branded",
+        "FAB - Size - Regular",
+        "FAB - Size - Medium",
+        "FAB - Size - Large",
+        "FAB - Color - Tonal primary",
+        "FAB - Color - Tonal secondary",
+        "FAB - Color - Tonal tertiary",
+        "FAB - Color - Primary",
+        "FAB - Color - Secondary",
+        "FAB - Color - Tertiary",
+        "[Deprecated] FAB - Primary, small",
+        "[Deprecated] FAB - Primary, large",
+        "[Deprecated] FAB - Branded, large",
+        "[Deprecated] FAB - Secondary, large",
+        "[Deprecated] FAB - Secondary, small",
+        "[Deprecated] FAB - Surface, large",
+        "[Deprecated] FAB - Surface, small",
+        "[Deprecated] FAB - Tertiary, large",
+        "[Deprecated] FAB - Tertiary, small"
+      ]
+    }
+  },
+  {
+    "htmlValue": "<h2>Anatomy</h2>"
+  },
+  {
+    "footer": "<p>1. Container</p><p>2. Icon</p>",
+    "altText": "2 elements of the FAB.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkc6cml8-03-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Color</h2><p>Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. In implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens\" target=\"_blank\">Learn more about design tokens</a></p>"
+  },
+  {
+    "htmlValue": "<h3>Color styles</h3><p>FABs can use several combinations of <strong>color</strong> and <strong>on-color</strong> styles, such as <strong>primary</strong> and <strong>on-primary</strong>. The following color mappings provide the same legibility and functionality, so the color mapping you use depends on style alone.</p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Primary container &amp; On primary container (default)</span></li><li><span style=\"white-space:pre-wrap\">Secondary container &amp; On secondary container</span></li><li><span style=\"white-space:pre-wrap\">Tertiary container &amp; On tertiary container</span></li><li><span style=\"white-space:pre-wrap\">Primary &amp; On primary</span></li><li><span style=\"white-space:pre-wrap\">Secondary &amp; On secondary</span></li><li><span style=\"white-space:pre-wrap\">Tertiary &amp; On tertiary</span></li></ol>",
+    "altText": "6 FAB color styles in light and dark themes. Each style has 2 color roles, 1 for the container and icon.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkc6diiz-04-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Baseline color styles</h3>"
+  },
+  {
+    "htmlValue": "<p>Surface FAB color styles are still available, but no longer recommended.</p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>Surface FABs</p></li></ol>",
+    "altText": "Baseline FAB style in all 3 sizes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkc6empp-05-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">States</h2><p><span style=\"white-space:pre-wrap\" id=\"isPasted\">States are visual representations used to communicate the status of a component or interactive element.<br /><br />When using a non-default color mapping for FABs, make sure the state layer color is the same as the icon color. For example, the state layer color for the <strong>primary</strong> color style should be <span class=\"inline-code\">md.sys.color.primary</span>.</span></p>"
+  },
+  {
+    "footer": "<ol><li><span style=\"white-space:pre-wrap\">Enabled</span></li><li><span style=\"white-space:pre-wrap\">Hovered (8% state layer) - elevation 4</span></li><li><span style=\"white-space:pre-wrap\">Focused (10% state layer)</span></li><li><span style=\"white-space:pre-wrap\">Pressed (10% state layer)</span></li></ol>",
+    "altText": "4 states of a FAB shown in light and dark themes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkc6fdu1-06-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">FAB</h3>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">FAB size measurements</span></p>",
+    "altText": "FAB size measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkc6fz4n-07-3P.png?alt=media"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\" id=\"isPasted\">FAB padding measurements</span></p>",
+    "altText": "FAB padding measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkc6gdhg-08-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Medium FAB</h3>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Medium FAB size measurements</span></p>",
+    "altText": "Medium FAB size measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkc6gu0p-09-3P.png?alt=media"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\" id=\"isPasted\">Medium</span><span style=\"white-space:pre-wrap\" id=\"isPasted\"> FAB padding measurements</span></p>",
+    "altText": "Medium FAB padding measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkc6ha1z-10-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Large FAB</h3>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Large FAB size measurements</span></p>",
+    "altText": "Large FAB size measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkc6hrgc-11-3P.png?alt=media"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\" id=\"isPasted\">Large FAB padding measurements</span></p>",
+    "altText": "Large FAB padding measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkc6i508-12-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Baseline tokens &amp; specs</h2>"
+  },
+  {
+    "htmlValue": "<p>Use the table's menu to select a token set. This only includes tokens for small and surface FABs, which are both no longer recommended. It doesn't include other colors, or large or regular FABs, since those are still currently used.</p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/41587918e51cca98",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "[Deprecated] FAB - Size - Small",
+        "FAB - Color - Surface"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "tokenSetOrder": [
+        "[Deprecated] FAB - Primary, small",
+        "[Deprecated] FAB - Primary, large",
+        "[Deprecated] FAB - Secondary, small",
+        "[Deprecated] FAB - Secondary, large",
+        "[Deprecated] FAB - Tertiary, small",
+        "[Deprecated] FAB - Tertiary, large",
+        "[Deprecated] FAB - Branded, large",
+        "[Deprecated] FAB - Surface, small",
+        "[Deprecated] FAB - Surface, large",
+        "FAB - Primary",
+        "FAB - Branded",
+        "FAB - Secondary",
+        "FAB - Surface",
+        "FAB - Tertiary",
+        "FAB - Size - Large",
+        "FAB - Size - Medium",
+        "FAB - Size - Small",
+        "FAB - Color - Tonal primary",
+        "FAB - Color - Tonal secondary",
+        "FAB - Color - Tonal tertiary",
+        "FAB - Size - Baseline"
+      ]
+    }
+  }
+]

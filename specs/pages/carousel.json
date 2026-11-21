@@ -1,0 +1,171 @@
+[
+  {
+    "footer": "<ol><li id=\"isPasted\">Container</li><li>Large carousel item</li><li>Medium carousel item</li><li>Small carousel item</li></ol>",
+    "altText": "4 elements of a carousel.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flyr7cydt-1.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2>"
+  },
+  {
+    "htmlValue": "<p>Browse the component elements, attributes, tokens, and their values.</p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/43a124d2adc8a2ef",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Color</h2><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview/\" id=\"isPasted\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p>Carousel color roles used for light and dark schemes:</p><ol><li>Container</li><li>Surface</li></ol>",
+    "altText": "2 color roles of a carousel.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flyr7dtgs-2.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>States</h2><p><app-froala-tooltip-element description=\"States show the interaction status of a component or UI element.\" link-label=\"More on states\" link-url=\"/m3/pages/interaction-states/overview\" should-open-link-in-new-tab=\"true\">States</app-froala-tooltip-element> are visual representations used to communicate the status of a component or interactive element. <a id=\"isPasted\" href=\"/m3/pages/interaction-states/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about interaction states</a></p>"
+  },
+  {
+    "footer": "<ol><li>Enabled</li><li>Hovered</li><li>Focused</li><li>Pressed</li><li>Disabled</li></ol>",
+    "altText": "5 states of a carousel in light and dark schemes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm8tafq6c-3.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Carousel item dynamic widths</h2>"
+  },
+  {
+    "htmlValue": "<p>All kinds of carousel items dynamically adapt to the width of the container.</p><p>Large items have a customizable maximum width that's used to optimally fit carousel items into the available space.</p><p>Small carousel items have a minimum width of 40dp and a maximum width of 56dp.</p><p>Items change size as they move through the carousel layout.</p>"
+  },
+  {
+    "footer": "<p>Small carousel items have a minimum and maximum width</p>",
+    "altText": "Measurements for a small carousel item.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmi9mff4k-04-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2><span style=\"white-space:pre-wrap\" id=\"isPasted\">Multi-browse</span></h2><p>The <app-froala-tooltip-element description=\"The multi-browse carousel layout shows at least one large, medium, and small carousel item at a time.\" link-label link-url should-open-link-in-new-tab=\"false\">multi-browse layout</app-froala-tooltip-element> shows at least one large, medium, and small carousel item.</p>"
+  },
+  {
+    "footer": "<ol><li id=\"isPasted\">Container</li><li>Large carousel item</li><li>Medium carousel item</li><li>Small carousel item</li></ol>",
+    "altText": "4 elements of a multi-browse carousel layout.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flyr7hu8z-5.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Measurements</h3>"
+  },
+  {
+    "footer": "<p>Multi-browse carousels have padding on both sides of the container</p>",
+    "altText": "Measurements of a multi-browse carousel layout.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmi9meptr-06-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"width:100%\"><thead><tr><th style=\"text-align:center\">Attribute</th><th style=\"text-align:center\">Value</th></tr></thead><tbody><tr><th style=\"width:50%;text-align:center\">Alignment</th><td>Vertically centered</td></tr><tr><th style=\"width:50%;text-align:center\">Leading/trailing padding</th><td>16dp</td></tr><tr><th style=\"width:50%;text-align:center\">Top/bottom padding<br /></th><td>8dp</td></tr><tr><th style=\"width:50%;text-align:center\">Padding between elements<br /></th><td>8dp</td></tr><tr><th style=\"width:50%;text-align:center\">Large item width</th><td><span style=\"white-space:pre-wrap\" id=\"isPasted\">Dynamic, or user-set</span></td></tr><tr><th style=\"width:50%;text-align:center\">Medium item width</th><td><span style=\"white-space:pre-wrap\" id=\"isPasted\">Dynamic</span></td></tr><tr><th style=\"width:50%;text-align:center\">Small item width</th><td>40–56dp, dynamic</td></tr><tr><th style=\"width:50%;text-align:center\">Item corner radius</th><td>28dp</td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Uncontained</h2><p>The <app-froala-tooltip-element description=\"The uncontained carousel layout show items that scroll to the edge of the container.\" link-label link-url should-open-link-in-new-tab=\"false\">uncontained</app-froala-tooltip-element> layout shows items that scroll to the edge of the container.</p>"
+  },
+  {
+    "footer": "<ol><li id=\"isPasted\">Container</li><li>Large carousel item</li></ol>",
+    "altText": "4 elements of an uncontained carousel layout.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flyr7jh4c-7.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Measurements</h3>"
+  },
+  {
+    "footer": "<p>Uncontained carousel items bleed over the padding on each side when scrolling</p>",
+    "altText": "Measurements of an uncontained carousel layout.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmi9mdco2-08-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"width:100%\"><thead><tr><th style=\"text-align:center\">Attribute</th><th style=\"text-align:center\">Value</th></tr></thead><tbody><tr><th style=\"width:50%;text-align:center\" class=\"fr-cell-fixed \">Alignment</th><td>Vertically centered</td></tr><tr><th style=\"width:50%;text-align:center\">Leading padding</th><td>16dp</td></tr><tr><th style=\"width:50%;text-align:center\">Top/bottom padding<br /></th><td>8dp</td></tr><tr><th style=\"width:50%;text-align:center\">Padding between elements<br /></th><td>8dp</td></tr><tr><th style=\"width:50%;text-align:center\" class=\"fr-cell-handler \">Item corner radius</th><td>28dp</td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Uncontained mutli-aspect ratio</h2><p>The uncontained multi-aspect ratio layout shows carousel items of various widths.</p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Container</li><li>Carousel item (16:9)</li><li>Carousel item (9:16)</li><li>Carousel item (1:1)</li><li>Carousel item (3:4)</li></ol>",
+    "altText": "4 elements of an uncontained carousel layout",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmi9lyvnk-09-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Measurements</h3>"
+  },
+  {
+    "footer": "<p>Uncontained multi-aspect ratio carousels only have leading padding, with 8dp of padding between items.</p>",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmi9m4p2v-10-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"width:100%\"><thead><tr><th style=\"text-align:center\">Attribute</th><th style=\"text-align:center\">Value</th></tr></thead><tbody><tr><th style=\"width:50%;text-align:center\" class=\"fr-cell-fixed \">Alignment</th><td>Vertically centered</td></tr><tr><th style=\"width:50%;text-align:center\">Leading padding</th><td>16dp</td></tr><tr><th style=\"width:50%;text-align:center\">Top/bottom padding<br /></th><td>8dp</td></tr><tr><th style=\"width:50%;text-align:center\">Padding between elements<br /></th><td>8dp</td></tr><tr><th style=\"width:50%;text-align:center\" class=\"fr-cell-handler \">Item corner radius</th><td>28dp</td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Hero</h2><p>The <app-froala-tooltip-element description=\"The hero carousel layout shows at least one large and one small item at a time.\" link-label link-url should-open-link-in-new-tab=\"false\">hero layout</app-froala-tooltip-element> shows at least one large item and one small item.</p>"
+  },
+  {
+    "footer": "<ol><li id=\"isPasted\">Container</li><li>Large carousel item</li><li>Small carousel item</li></ol>",
+    "altText": "3 elements of a hero carousel layout.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flyr7l425-9.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Measurements</h3>"
+  },
+  {
+    "footer": "<p>Hero<span style=\"white-space:pre-wrap\"> carousels have padding on both sides of the container</span></p>",
+    "altText": "Measurements of a hero carousel layout.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmi9macpj-12-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"width:100%\"><thead><tr><th style=\"text-align:center\">Attribute</th><th style=\"text-align:center\">Value</th></tr></thead><tbody><tr><th class=\"fr-cell-fixed \" style=\"width:50%;text-align:center\">Alignment</th><td>Vertically centered</td></tr><tr><th style=\"width:50%;text-align:center\">Leading/Trailing padding</th><td>16dp</td></tr><tr><th style=\"width:50%;text-align:center\">Top/bottom padding</th><td>8dp</td></tr><tr><th style=\"width:50%;text-align:center\">Padding between elements</th><td>8dp</td></tr><tr><th style=\"width:50%;text-align:center\">Large item width</th><td>Dynamic</td></tr><tr><th style=\"width:50%;text-align:center\">Small item width</th><td>40-56dp, dynamic</td></tr><tr><th class=\"fr-cell-handler \" style=\"width:50%;text-align:center\">Item corner radius</th><td>28dp</td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Center-aligned hero</h2><p><span style=\"white-space:pre-wrap\" id=\"isPasted\">The center-aligned hero layout shows at least one large item and two small items.</span></p>"
+  },
+  {
+    "footer": "<ol><li id=\"isPasted\">Container</li><li>Large carousel item</li><li>Small carousel item</li></ol>",
+    "altText": "3 elements of a center-aligned hero carousel layout.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flyr7mksj-11.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Measurements</h3>"
+  },
+  {
+    "footer": "<p>Center-aligned hero carousels have padding on both sides of the container</p>",
+    "altText": "Measurements of a center-aligned hero carousel layout.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmi9mb8nd-14-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"width:100%\"><thead><tr><th style=\"text-align:center\">Attribute</th><th style=\"text-align:center\">Value<br /></th></tr></thead><tbody><tr><th style=\"width:50%;text-align:center\">Alignment</th><td>Vertically centered</td></tr><tr><th style=\"width:50%;text-align:center\">Leading/Trailing padding</th><td>16dp</td></tr><tr><th style=\"width:50%;text-align:center\">Top/bottom padding</th><td>8dp</td></tr><tr><th class=\"fr-cell-fixed \" style=\"width:50%;text-align:center\">Padding between elements</th><td>8dp</td></tr><tr><th style=\"width:50%;text-align:center\">Large item width</th><td>Dynamic</td></tr><tr><th style=\"width:50%;text-align:center\">Small item width</th><td>40-56dp, dynamic</td></tr><tr><th class=\"fr-cell-handler \" style=\"width:50%;text-align:center\">Item corner radius</th><td>28dp</td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Full-screen</h2><p>The <app-froala-tooltip-element description=\"The full-screen carousel layout shows one edge-to-edge large item at a time and scrolls vertically.\" link-label link-url should-open-link-in-new-tab=\"false\">full-screen layout</app-froala-tooltip-element> shows one edge-to-edge large item.</p>"
+  },
+  {
+    "footer": "<ol><li id=\"isPasted\">Container</li><li>Large carousel item</li></ol>",
+    "altText": "2 elements of a full-screen carousel layout.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flyr7o850-13.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Measurements</h3>"
+  },
+  {
+    "footer": "<p>Full-screen carousels fill the window edge-to-edge</p>",
+    "altText": "Measurements of a full-screen carousel layout.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmi9mbqt5-16-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"width:100%\"><thead><tr><th style=\"text-align:center\">Attribute</th><th style=\"text-align:center\">Value</th></tr></thead><tbody><tr><th style=\"width:50%;text-align:center\">Alignment</th><td>Centered</td></tr><tr><th style=\"width:50%;text-align:center\">Leading/Trailing padding</th><td>0dp</td></tr><tr><th style=\"width:50%;text-align:center\">Top/bottom padding<br /></th><td>0dp</td></tr><tr><th style=\"width:50%;text-align:center\">Padding between elements<br /></th><td>16dp</td></tr></tbody></table></div>"
+  }
+]

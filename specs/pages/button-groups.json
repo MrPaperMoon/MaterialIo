@@ -1,0 +1,193 @@
+[
+  {
+    "htmlValue": "<h2>Variants</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Standard button group</span></li><li><span style=\"white-space:pre-wrap\">Connected button group</span></li></ol>",
+    "altText": "Various colors and shapes of standard and connected button groups.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6nan75-01-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"width:33.2734%\"><p>Variant</p></th><th style=\"width:33.3333%;text-align:center\"><p>M3  </p></th><th style=\"width:33.3333%;text-align:center\"><p>M3 Expressive</p></th></tr></thead><tbody><tr><td><p>Standard button group</p></td><td><p>--</p></td><td><p>Available</p></td></tr><tr><td><p>Connected button group</p></td><td><p>Available as <app-froala-tooltip-element description=\"Segmented buttons help people select options, switch views, or sort elements. Note: They're deprecated in the expressive update. Use a nav rail instead.\" link-label=\"More on segmented buttons\" link-url=\"/m3/pages/segmented-buttons/overview\" should-open-link-in-new-tab=\"true\">segmented button</app-froala-tooltip-element><br /></p></td><td><p>Available</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Configurations</h2>"
+  },
+  {
+    "footer": "<p>Configurations for both variants of button groups:</p><ol class=\"decimal\"><li><p>Extra small</p></li><li><p>Small</p></li><li><p>Medium</p></li><li><p>Large</p></li><li><p>Extra large</p></li><li><p>Single-select and multi-select</p></li><li><p>Round and square</p></li></ol>",
+    "altText": "Five sizes of button groups and two shapes of button groups.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmae9tpw8-standard.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th><p>Category</p></th><th><p>Configuration</p></th><th><p>M3</p></th><th><p>M3 Expressive</p></th></tr></thead><tbody><tr><td><p>Size</p></td><td><p>XS, S, M, L, XL</p></td><td><p>--</p></td><td><p>Available</p></td></tr><tr><td><p>Default shape</p></td><td><p>Round, square</p></td><td><p>--</p></td><td><p>Available</p></td></tr><tr><td><p>Selection</p></td><td><p>Single-select, multi-select, selection-required</p></td><td><p>Available as <app-froala-tooltip-element description=\"Segmented buttons help people select options, switch views, or sort elements. Note: They're deprecated in the expressive update. Use a nav rail instead.\" link-label=\"More on segmented buttons\" link-url=\"/m3/pages/segmented-buttons/overview\" should-open-link-in-new-tab=\"true\">segmented button</app-froala-tooltip-element><br /></p></td><td><p>Available</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2>"
+  },
+  {
+    "htmlValue": "<p>Standard and connected button group tokens are organized by size. Select the variant and size from the token set menu. Go to the <a href=\"/m3/pages/common-buttons/specs/\" target=\"_self\">button</a> and <a href=\"/m3/pages/icon-buttons/specs/\" target=\"_self\">icon button</a> pages to view their tokens. <a href=\"/m3/pages/design-tokens/overview/\" target=\"_self\">Learn about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/082d7fd6e058b011",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Button group standard - Size - Xsmall",
+        "Button group standard - Size - Small",
+        "Button group standard - Size - Medium",
+        "Button group standard - Size - Large",
+        "Button group standard - Size - Xlarge",
+        "Button group connected - Size - Xsmall",
+        "Button group connected - Size - Small",
+        "Button group connected - Size - Medium",
+        "Button group connected - Size - Large",
+        "Button group connected - Size - Xlarge"
+      ],
+      "tokenSetOrder": [
+        "Button group standard - Size - Xsmall",
+        "Button group standard - Size - Small",
+        "Button group standard - Size - Medium",
+        "Button group standard - Size - Large",
+        "Button group standard - Size - Xlarge",
+        "Button group connected - Size - Xsmall",
+        "Button group connected - Size - Small",
+        "Button group connected - Size - Medium",
+        "Button group connected - Size - Large",
+        "Button group connected - Size - Xlarge"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2>Anatomy</h2>"
+  },
+  {
+    "htmlValue": "<p><span style=\"white-space:pre-wrap\" id=\"isPasted\">Button groups are invisible containers that add padding between buttons and modify button shape. They don’t contain any buttons by default.</span></p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li>Container</li></ol>",
+    "altText": "The container outlined on both variants of button groups.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6nc084-anatomy.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Common layouts</h3><p>Mix and match buttons and icon buttons for different scenarios.</p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Label buttons</span></li><li><span style=\"white-space:pre-wrap\">Label buttons and icon buttons</span></li><li><span style=\"white-space:pre-wrap\">Extra small icon buttons</span></li><li><span style=\"white-space:pre-wrap\">Large icon buttons</span></li></ol>",
+    "altText": "4 common layouts of button groups.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6ncj54-common%20layouts.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Color</h3><p>Button groups have no color properties. They can use the default button or toggle button color styles, like filled, tonal, and outlined. Avoid using standard icon buttons or text buttons, as they have no container treatment.</p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>Filled</p></li><li><p>Tonal</p></li><li><p>Outlined</p></li><li><p>Elevated</p></li></ol>",
+    "altText": "The container outlined on both variants of button groups.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmliwoj5d-05.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Selection &amp; activation</h2>"
+  },
+  {
+    "htmlValue": "<p><span style=\"white-space:pre-wrap\" id=\"isPasted\"><strong>Standard button groups</strong> add interaction between adjacent buttons when a button is selected or activated.<br /><br />This interaction changes the width, shape, and padding of the selected or activated button, which adjusts the width of buttons directly next to it.</span></p>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">A selected button changes shape, and briefly changes the width of itself and adjacent buttons</span></p>",
+    "altText": "A selected button in a standard group bounces against its adjacent button, changing their widths."
+  },
+  {
+    "htmlValue": "<p><span style=\"white-space:pre-wrap\" id=\"isPasted\"><strong>Connected button groups</strong> don’t add any interaction between buttons when selected or activated. </span></p><p><span style=\"white-space:pre-wrap\">They only affect the shape of the button being selected or activated.</span></p>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">A selected button changes shape without affecting adjacent buttons</span></p>",
+    "altText": "A selected button in a connected button group only changes its own shape."
+  },
+  {
+    "htmlValue": "<h2>States</h2>"
+  },
+  {
+    "htmlValue": "<h3>Standard button group</h3>"
+  },
+  {
+    "htmlValue": "<p><span style=\"white-space:pre-wrap\" id=\"isPasted\">When a button is pressed, standard button groups modify the width and shape of that button and adjacent buttons.</span></p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Enabled</span></li><li><span style=\"white-space:pre-wrap\">Disabled</span></li><li><span style=\"white-space:pre-wrap\">Hovered</span></li><li><span style=\"white-space:pre-wrap\">Focused</span></li><li><span style=\"white-space:pre-wrap\">Pressed</span></li></ol>",
+    "altText": "5 states of a standard button group.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmobjzmlh-07-key01-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<p><span style=\"white-space:pre-wrap\" id=\"isPasted\">When a toggle button is selected <span style=\"white-space:pre-wrap\" id=\"isPasted\">in a standard button group</span>, its shape should change between square and round. The color should change according to the </span><span style=\"white-space:pre-wrap\" id=\"isPasted\"><a href=\"/m3/pages/common-buttons/specs\" target=\"_blank\" rel=\"noopener noreferrer\">button specs</a></span><span style=\"white-space:pre-wrap\" id=\"isPasted\">.</span></p><p><br /></p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Enabled</span></li><li><span style=\"white-space:pre-wrap\">Disabled</span></li><li><span style=\"white-space:pre-wrap\">Hovered</span></li><li><span style=\"white-space:pre-wrap\">Focused</span></li><li><span style=\"white-space:pre-wrap\">Pressed</span></li></ol>",
+    "altText": "5 states of a standard button group with toggle buttons.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhsvti2a-08-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Connected button group</h3>"
+  },
+  {
+    "htmlValue": "<p><span style=\"white-space:pre-wrap\" id=\"isPasted\">Connected button groups have different shape changes than standard button groups. Selecting a button does not affect adjacent buttons.</span></p>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Connected button group unselected states:</span></p><ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Enabled</span></li><li><span style=\"white-space:pre-wrap\">Disabled</span></li><li><span style=\"white-space:pre-wrap\">Hovered</span></li><li><span style=\"white-space:pre-wrap\">Focused</span></li><li><span style=\"white-space:pre-wrap\">Pressed</span></li></ol>",
+    "altText": "5 states of a segmented button group.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhsvu5c7-09-3P.png?alt=media"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Connected button group selected states:</span></p><ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Enabled</span></li><li><span style=\"white-space:pre-wrap\">Hovered</span></li><li><span style=\"white-space:pre-wrap\">Focused</span></li><li><span style=\"white-space:pre-wrap\">Pressed</span></li></ol>",
+    "altText": "4 states of a segmented button group with toggle buttons.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhsvuqev-10-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "htmlValue": "<h3>Standard button group</h3>"
+  },
+  {
+    "htmlValue": "<p><span style=\"white-space:pre-wrap\" id=\"isPasted\">Standard groups apply padding between all buttons. The amount of padding changes based on button size to ensure a minimum accessible target size of 48dp. More details on padding: </span><span style=\"white-space:pre-wrap\" id=\"isPasted\"><a href=\"/m3/pages/common-buttons/specs\">Button specs</a></span><span style=\"white-space:pre-wrap\" id=\"isPasted\">, </span><span style=\"white-space:pre-wrap\" id=\"isPasted\"><a href=\"/m3/pages/icon-buttons/specs\">icon button specs</a></span></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Standard button group inner padding:</p><ol class=\"decimal\"><li>XS: 18dp</li><li>S: 12dp</li><li>M: 8dp</li><li>L: 8dp</li><li>XL: 8dp</li></ol>",
+    "altText": "Standard button group padding measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6nhwkj-padding.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Connected button group</h3>"
+  },
+  {
+    "htmlValue": "<p><span style=\"white-space:pre-wrap\" id=\"isPasted\">For all connected button groups, use 2dp padding. This provides visual consistency at scale. </span></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Round connected button group inner padding is 2dp at every size. The outer shape is fully round, and the inner shape remains square with the following corner sizes:</p><ol class=\"decimal\"><li>XS: 4dp</li><li>S: 8dp</li><li>M: 8dp</li><li>L: 16dp</li><li>XL: 20dp</li></ol><p><br /></p>",
+    "altText": "Connected button group padding and corner radius measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6nj8kr-connected%20padding.png?alt=media"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Square connected button group inner padding is 2dp at every size. The outer shape has the following corner sizes:</p><ol class=\"decimal\"><li>XS: 4dp</li><li>S: 8dp</li><li>M: 8dp</li><li>L: 16dp</li><li>XL: 20dp</li></ol>",
+    "altText": "Connected button group padding and corner radius measurements for square buttons.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6njl4y-connected.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Minimum widths</h3>"
+  },
+  {
+    "htmlValue": "<p><span style=\"white-space:pre-wrap\" id=\"isPasted\">Extra small and small connected button groups have 48dp target areas and a minimum width of 48dp.</span></p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Extra small</span></li><li><span style=\"white-space:pre-wrap\">Small</span></li></ol>",
+    "altText": "48x48dp accessible target areas on the XS and S connected button groups.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6nk25f-mind%20width.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Density</h2><p>Button groups adapt to density of the buttons inside. <a href=\"/m3/pages/grids-spacing/density\" target=\"_blank\">More on density</a></p>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Button groups adapt to the height of the buttons inside, including when density is applied</span></p>",
+    "altText": "Connected button groups at 0, -1, -2, and -3 density.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6nkg98-density.png?alt=media"
+  }
+]

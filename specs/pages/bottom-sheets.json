@@ -1,0 +1,50 @@
+[
+  {
+    "htmlValue": "<p><app-froala-tooltip-element description=\"Modal bottom sheets appear in front of app content, disabling all other app functionality when they appear, and remaining on screen until confirmed, dismissed, or a required action has been taken.\" link-label link-url should-open-link-in-new-tab=\"false\">Modal bottom sheets</app-froala-tooltip-element> are above a scrim while <app-froala-tooltip-element description=\"Standard bottom sheets display supplementary content without blocking access to the screen’s primary content, such as an audio player at the bottom of a music app.\" link-label link-url should-open-link-in-new-tab=\"false\">standard bottom sheets</app-froala-tooltip-element> don't have a scrim. Besides this, both variants of bottom sheets have the same specs.</p>"
+  },
+  {
+    "footer": "<ol><li>Container</li><li>Drag handle (optional)</li><li>Scrim</li></ol>",
+    "altText": "Diagram of container, drag handle, scrim",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flvutved1-1.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Tokens and specs</h2><p>Browse the component elements, attributes, tokens, and their values. <a href=\"/m3/pages/design-tokens/overview\" target=\"_self\"><u>Learn more about design tokens</u></a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/75e530a1014802b3",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Color</h2><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\" id=\"isPasted\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p>Bottom sheet color roles used for both light and dark schemes:</p><ol class=\"decimal\"><li><p>Scrim*</p></li><li><p>On surface variant</p></li><li><p>Surface container low</p></li></ol><p>*On Android platforms, the scrim color and opacity is automatically handled by the system UI.</p>",
+    "altText": "Two diagrams featuring color opposites of scrim, container, drag handle",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flvutweax-2.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "footer": "<p>Bottom sheet padding and size measurements</p>",
+    "altText": "Bottom sheet on larger device with 56dp top and 56dp side margins",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flvutx4kk-3.png?alt=media"
+  },
+  {
+    "htmlValue": "<p id=\"isPasted\">Bottom sheets span the full window width up to 640dp. When the window width exceeds 640dp, bottom sheets adjust to have a top margin of 56dp and side margins of 56dp. </p><div align=\"left\" dir=\"ltr\"><div class=\"table-wrapper\"><table style=\"border:none;border-collapse:collapse;margin-right:calc(0%);width:100%\"><thead><tr><th style=\"width:51.7743%\">Attribute</th><th style=\"width:48.1358%\">Value</th></tr></thead><tbody><tr><th style=\"width:51.7743%\"><p>Drag handle alignment (horizontal)</p></th><td><p>Center</p></td></tr><tr><th style=\"width:51.7743%\"><p>Drag handle padding top/bottom</p></th><td><p>22dp</p></td></tr><tr><th style=\"width:51.7743%\"><p>Top margin</p></th><td><p>72dp</p></td></tr><tr><th style=\"width:51.7743%\">Top margin (window width &gt; 640dp)</th><td>56dp</td></tr><tr><th style=\"width:51.7743%\"><p>Start/end margin (window width &gt; 640dp)</p></th><td><p>56dp</p></td></tr><tr><th style=\"width:51.7743%\"><p>Width</p></th><td><p>Full width, up to max-width 640dp</p></td></tr><tr><th style=\"width:51.7743%\">Height</th><td>Variable</td></tr></tbody></table></div></div>"
+  }
+]

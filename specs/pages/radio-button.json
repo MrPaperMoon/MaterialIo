@@ -1,0 +1,69 @@
+[
+  {
+    "footer": "<ol><li>Radio button icon</li></ol>",
+    "altText": "Diagram of enabled radio button.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmd8jp5v6-01-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2><p><a href=\"/m3/pages/design-tokens/overview\" id=\"isPasted\" style=\"box-sizing:border-box;text-decoration:underline;color:rgb(26, 115, 232)\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/6acb269a58d5f93f",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Color</h2>"
+  },
+  {
+    "htmlValue": "<p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Radio button color roles used for light and dark themes:</p><ol><li>Primary</li><li>On surface variant</li></ol><p><br /></p>",
+    "altText": "Diagram of selected and unselected radio button colors.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmd8jpn14-02-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Adjacent text label color</h3><p>Use the <app-froala-tooltip-element description=\"Color roles are assigned to UI elements based on emphasis, container type, and relationship with other elements. This ensures proper contrast and usage in any color scheme.\" link-label=\"More on color roles\" link-url should-open-link-in-new-tab=\"true\">color role</app-froala-tooltip-element> <strong>on surface</strong> for adjacent text labels. This remains the same even if interacting with the label or component.</p>"
+  },
+  {
+    "footer": "<p>The text color remains the same regardless if the button is selected or not</p>",
+    "altText": "Radio buttons with labels. The labels are the same color for both selected and unselected radio buttons.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmd8jq2c4-03-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>States</h2><p><app-froala-tooltip-element description=\"States show the interaction status of a component or UI element.\" link-label=\"More on states\" link-url=\"/m3/pages/interaction-states/overview\" should-open-link-in-new-tab=\"true\">States</app-froala-tooltip-element> are visual representations used to communicate the status of a component or interactive element. <a href=\"/m3/pages/interaction-states/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about interaction states</a></p>"
+  },
+  {
+    "footer": "<ol><li>Enabled </li><li>Hover </li><li>Focus </li><li>Pressed</li><li>Disabled</li></ol>",
+    "altText": "Diagram of radio button states including enabled, hover, focus, pressed, and disabled.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmd8jqfvs-04-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<p><a href=\"/m3/pages/radio-button/specs#3eef19a6-cdcb-4ecf-b1af-2b8095d485ac\">State specs are in the token module above</a></p>"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "footer": "<p>Radio button size measurements</p>",
+    "altText": "Diagram of radio button layout values.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmd8juo16-05-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"margin-right:calc(0%);width:100%\" class=\"fr-table-selection-hover\"><thead><tr><th style=\"text-align:center;width:69.6591%\">Attribute<br /></th><th style=\"text-align:center;width:30.2273%\">Value<br /></th></tr></thead><tbody><tr><th style=\"width:69.6591%\">Icon size<br /></th><td>20dp</td></tr><tr><th style=\"width:69.6591%\">State layer size<br /></th><td>40dp</td></tr><tr><th style=\"width:69.6591%\">Target size<br /></th><td>48dp</td></tr></tbody></table></div>"
+  }
+]

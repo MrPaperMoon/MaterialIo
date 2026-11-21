@@ -1,0 +1,93 @@
+[
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2>"
+  },
+  {
+    "htmlValue": "<p>Select a component variant below to see its attributes, tokens, and values.</p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/37697297db0555a6",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Tooltip - Plain",
+        "Tooltip - Rich"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Static",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2>Plain tooltip</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Supporting text</li><li>Container</li></ol>",
+    "altText": "2 elements of a plain tooltip.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg6beegk-01-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Plain tooltip colors</h3><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Plain tooltip color roles used for light and dark themes:</p><ol class=\"decimal\"><li>Inverse on surface</li><li>Inverse surface</li></ol>",
+    "altText": "2 color roles of a plain tooltip.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg6bfggt-02-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Plain tooltip measurements</h3>"
+  },
+  {
+    "footer": "<p>Plain tooltip padding and size measurements</p>",
+    "altText": "Measurements of a plain tooltip.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg6bgjww-03-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"text-align:center\"><p>Attribute</p></th><th style=\"text-align:center\"><p>Value</p></th></tr></thead><tbody><tr><th style=\"width:50%\"><p>Container height</p></th><td><p>24dp</p></td></tr><tr><th style=\"width:50%\"><p>Padding</p></th><td><p>8dp</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Rich tooltip</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Subhead</li><li>Container</li><li>Supporting text</li><li>Text button</li></ol>",
+    "altText": "4 elements of a rich tooltip.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg6bgxay-04-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Rich tooltip colors</h3><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Rich tooltip color roles used for light and dark themes:</p><ol><li>On surface variant </li><li>Surface container</li><li>On surface variant </li><li>Primary</li></ol>",
+    "altText": "4 color roles of a rich tooltip.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg6bi2oc-05-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Rich tooltip measurements</h3>"
+  },
+  {
+    "footer": "<p>Rich tooltip padding and size measurements</p>",
+    "altText": "Measurements of a rich tooltip.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg6big7s-06-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"width:100%\"><thead><tr><th style=\"text-align:center\">Attribute</th><th style=\"text-align:center\">Value</th></tr></thead><tbody><tr><th style=\"width:50.0000%\">Top padding</th><td>12dp</td></tr><tr><th style=\"width:50.0000%\">Bottom padding</th><td>8dp</td></tr><tr><th style=\"width:50.0000%\">Left and right padding</th><td>16dp</td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h3>Rich tooltip configurations</h3><p><app-froala-tooltip-element description=\"Rich tooltips provide additional context about a UI element. They can optionally contain a subhead, buttons, and hyperlinks.\" link-label link-url should-open-link-in-new-tab=\"true\">Rich tooltips</app-froala-tooltip-element> can have a headline, body, and up to two <app-froala-tooltip-element description=\"Buttons let people take action and make choices with one tap.\" link-label=\"More on buttons\" link-url=\"/m3/pages/common-buttons/overview\" should-open-link-in-new-tab=\"true\">buttons</app-froala-tooltip-element>. The headline and number of buttons can be configured.</p>"
+  },
+  {
+    "footer": "<ol><li id=\"isPasted\">Subhead, supporting text, and two buttons</li><li>Subhead, supporting text, and one button</li><li>Subhead and supporting text</li><li>Supporting text and one button</li><li>Supporting text and two buttons</li></ol>",
+    "altText": "5 common configurations of a rich tooltip.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg6biuoq-07-3P.png?alt=media"
+  }
+]

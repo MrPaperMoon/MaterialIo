@@ -1,0 +1,94 @@
+[
+  {
+    "footer": "<ol><li>Track </li><li>Handle (formerly \"thumb\")</li><li>Icon</li></ol>",
+    "altText": "3 elements of a switch.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg66415n-01-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2>"
+  },
+  {
+    "htmlValue": "<p>Browse the component elements, attributes, tokens, and their values. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\">Learn more about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/33b1b2925d9ff561",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2>Color</h2><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview/\" target=\"_blank\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Switch color roles used for light and dark themes:</p><ol><li>Surface container highest</li><li>Outline</li><li>Outline</li><li>Primary</li><li>On primary</li><li>On primary container</li></ol>",
+    "altText": "6 color roles of a switch in light and dark themes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg66ckmz-02-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Adjacent text label color</h3><p>Use the <app-froala-tooltip-element description=\"Color roles are assigned to UI elements based on emphasis, container type, and relationship with other elements. This ensures proper contrast and usage in any color scheme.\" link-label=\"More on color roles\" link-url=\"/m3/pages/color-roles\" should-open-link-in-new-tab=\"true\">color role</app-froala-tooltip-element> <strong>on surface</strong> for adjacent text labels. This remains the same even if interacting with the label or component.</p>"
+  },
+  {
+    "footer": "<p>The text label uses <strong>on surface</strong>. Supporting text may use <strong>on surface variant</strong>.</p>",
+    "altText": "The large body text adjacent to switches uses \"on surface\" color and the body text uses \"on surface variant.\"",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg66fz7u-03-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>States</h2><p><app-froala-tooltip-element description=\"States show the interaction status of a component or UI element.\" link-label=\"More on states\" link-url=\"/m3/pages/interaction-states/overview\" should-open-link-in-new-tab=\"true\">States</app-froala-tooltip-element> are visual representations used to communicate the status of a component or interactive element. <a href=\"/m3/pages/interaction-states\" target=\"_blank\">Learn more about interaction states</a></p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>Enabled </p></li><li><p>Hovered </p></li><li><p>Focused </p></li><li><p>Pressed </p></li><li><p>Disabled</p></li></ol>",
+    "altText": "5 states of a switch shown in light and dark themes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg66iwsh-04-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<p><a href=\"/m3/pages/switch/specs#3708644e-b4d7-4237-bb0a-7afeeae4a9b0\" target=\"_self\">State specs are in the token module above</a></p>"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "footer": "<p>Switches without icons</p>",
+    "altText": "Measurements of switches without icons.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg66jzjg-05-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Pressed switches without icons</p>",
+    "altText": "Measurements of pressed switches without icons.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg66kbil-06-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Switches with icons</p>",
+    "altText": "Measurements of switches with icons.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg66mxl5-07-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Pressed switches with icons</p>",
+    "altText": "Measurements of pressed switches with icons.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg66nbzr-08-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\"><thead><tr><th style=\"text-align:center\"><p>Element</p></th><th style=\"text-align:center\"><p>Attribute</p></th><th style=\"text-align:center\"><p>Value</p></th></tr></thead><tbody><tr><th rowspan=\"4\"><p>Track</p></th><td><p>Height</p></td><td><p>32dp</p></td></tr><tr><td><p>Width</p></td><td><p>52dp</p></td></tr><tr><td><p>Outline width</p></td><td><p>2dp</p></td></tr><tr><td><p>Shape</p></td><td><p><a href=\"/m3/pages/shape/corner-radius-scale#56e2bfb5-4bec-49bd-b3a3-bd822c8ab88e\" target=\"_blank\">md.sys.shape.corner.full</a></p></td></tr><tr><th rowspan=\"9\"><p>Handle</p></th><td><p>Height (unselected)</p></td><td><p>16dp</p></td></tr><tr><td><p>Height - with icon</p></td><td><p>24dp</p></td></tr><tr><td><p>Height (selected)</p></td><td><p>24dp</p></td></tr><tr><td><p>Height (pressed)</p></td><td><p>28dp</p></td></tr><tr><td><p>Width (unselected)</p></td><td><p>16dp</p></td></tr><tr><td><p>Width - with icon</p></td><td><p>24dp</p></td></tr><tr><td><p>Width (selected)</p></td><td><p>24dp</p></td></tr><tr><td><p>Width (pressed)</p></td><td><p>28dp</p></td></tr><tr><td><p>Shape</p></td><td><p><a href=\"/m3/pages/shape/corner-radius-scale#56e2bfb5-4bec-49bd-b3a3-bd822c8ab88e\" target=\"_blank\">md.sys.shape.corner.full</a></p></td></tr><tr><th rowspan=\"2\"><p>State layer</p></th><td><p>Size</p></td><td><p>40dp</p></td></tr><tr><td><p>Shape</p></td><td><p><a href=\"/m3/pages/shape/corner-radius-scale#56e2bfb5-4bec-49bd-b3a3-bd822c8ab88e\" target=\"_blank\">md.sys.shape.corner.full</a></p></td></tr><tr><th><p>Target</p></th><td><p>Size</p></td><td><p>48dp</p></td></tr><tr><th><p>Icon</p></th><td><p>Size (selected)</p></td><td><p>16dp</p></td></tr><tr><th><p>Icon</p></th><td><p>Size (unselected)</p></td><td><p>16dp</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Configurations</h2>"
+  },
+  {
+    "htmlValue": "<ol id=\"isPasted\"><li>Without icons</li><li>Icon on selected switch</li><li>Icon on selected and unselected switch</li></ol>"
+  },
+  {
+    "altText": "3 example switches with and without icons in on and off states. ",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg66of2m-09-3P.png?alt=media"
+  }
+]

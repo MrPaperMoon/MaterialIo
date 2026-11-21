@@ -1,0 +1,183 @@
+[
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2><p>Select a component variant below to see its elements, attributes, <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">tokens</app-froala-tooltip-element>, and their values.</p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/01c5310367774eb8",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Date picker - Docked",
+        "Date picker - Modal",
+        "Date picker - Modal input"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Static",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "tokenSetOrder": [
+        "Date picker - Docked",
+        "Date picker - Modal",
+        "Date picker - Modal input"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2>Docked date picker</h2>"
+  },
+  {
+    "footer": "<ol><li>Outlined text field</li><li>Menu button: Month selection</li><li>Menu button: Year selection</li><li>Icon button</li><li>Weekdays label text</li><li>Unselected date</li><li>Today’s date</li><li>Outside month date</li><li>Text buttons</li><li>Selected date</li><li>Container</li></ol>",
+    "altText": "Diagram indicating the 11 elements of a docked date picker.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fme6vnbm5-01-3P.png?alt=media"
+  },
+  {
+    "footer": "<ol><li>Outlined text field</li><li>Menu button: Month selection (pressed)</li><li>Menu button: Year selection (disabled)</li><li>Header</li><li>Menu</li><li>Selected list item</li><li>Unselected menu list item</li><li>Container</li></ol>",
+    "altText": "Diagram indicating 8 elements of a docked date picker with an open dropdown menu showing the months May to November.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fme6vo1av-02-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\"><span style=\"white-space:pre-wrap\">Docked date picker color</span></h3><p>Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview/\" id=\"isPasted\" target=\"_self\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p>Docked date picker color roles used for light and dark themes:</p><ol class=\"decimal\"><li id=\"isPasted\">Primary</li><li id=\"isPasted\">On surface variant</li><li id=\"isPasted\">On surface variant</li><li id=\"isPasted\">On surface</li><li id=\"isPasted\">On surface</li><li id=\"isPasted\">Primary</li><li id=\"isPasted\">On surface variant</li><li id=\"isPasted\">Primary</li><li id=\"isPasted\">Surface container high</li><li id=\"isPasted\">Primary</li><li id=\"isPasted\">On primary</li></ol>",
+    "altText": "11 color roles of a docked date picker in light and dark themes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fme6vofa8-03-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Docked date picker menu color roles used for light and dark themes:</p><ol class=\"decimal\"><li id=\"isPasted\">Primary</li><li id=\"isPasted\">On surface variant</li><li id=\"isPasted\">On surface</li><li id=\"isPasted\">Outline variant</li><li id=\"isPasted\">Surface container high</li><li id=\"isPasted\">Surface variant</li><li id=\"isPasted\">On surface</li></ol>",
+    "altText": "7 color roles of a docked date picker menu in light and dark themes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fme6vovcl-04-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\"><span style=\"white-space:pre-wrap\">Docked date picker measurements</span></h3>"
+  },
+  {
+    "footer": "<p>Docked date picker padding and size measurements</p>",
+    "altText": "Diagram of padding, size, and layout measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmel11ou5-05-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Docked date picker month menu padding and size measurements</p>",
+    "altText": "Diagram of padding, size, and layout measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmel12gcl-06-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\"><span style=\"white-space:pre-wrap\">Docked date picker configurations</span></h3>"
+  },
+  {
+    "footer": "<ol><li>Day selection</li><li>Month selection</li><li>Year selection</li></ol>",
+    "altText": "3 configurations of docked date picker.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fme6vrc28-07-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\"><span style=\"white-space:pre-wrap\">Modal date picker</span></h2>"
+  },
+  {
+    "footer": "<ol><li>Headline</li><li>Supporting text</li><li>Header</li><li>Container</li><li>Icon button</li><li>Icon buttons</li><li>Weekdays</li><li>Today’s date</li><li>Unselected date</li><li>Text buttons</li><li>Selected date</li><li>Menu button</li><li>Divider</li></ol>",
+    "altText": "Diagram indicating the 13 elements of a modal date picker in the day selection view.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fme6vsstf-08-3P.png?alt=media"
+  },
+  {
+    "footer": "<ol><li id=\"isPasted\">Headline</li><li id=\"isPasted\">Supporting text </li><li id=\"isPasted\">Header</li><li id=\"isPasted\">Container</li><li id=\"isPasted\">Icon button</li><li id=\"isPasted\">Unselected year</li><li id=\"isPasted\">Selected year</li><li id=\"isPasted\">Text buttons</li><li id=\"isPasted\">Divider</li><li id=\"isPasted\">Menu button</li></ol>",
+    "altText": "10 elements of a modal date picker menu.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fme6vtc2f-09-3P.png?alt=media"
+  },
+  {
+    "footer": "<ol><li>Headline</li><li>Supporting text</li><li>Icon button</li><li>Header</li><li>Text button</li><li>Icon button</li><li>Weekdays label text</li><li>Container</li><li>Today’s date </li><li>Unselected date</li><li>In-range active indicator</li><li>In-range date</li><li>Month subhead</li><li>Selected date</li><li>Divider</li></ol>",
+    "altText": "Diagram indicating the 15 elements of a modal date picker when selecting a range of dates.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fme6vtxo6-10-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\"><span style=\"white-space:pre-wrap\">Modal date picker color</span></h3><p>Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview/\" target=\"_self\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p>Modal date picker color roles used for light and dark themes in a day selection menu:</p><ol class=\"decimal\"><li id=\"isPasted\">On surface</li><li id=\"isPasted\">On surface variant</li><li id=\"isPasted\">Surface container high</li><li id=\"isPasted\">On surface variant</li><li id=\"isPasted\">On surface variant</li><li id=\"isPasted\">On surface</li><li id=\"isPasted\">Primary</li><li id=\"isPasted\">On surface</li><li id=\"isPasted\">Primary</li><li id=\"isPasted\">Primary</li><li id=\"isPasted\">On surface variant</li><li id=\"isPasted\">Outline variant</li></ol>",
+    "altText": "12 color roles of a modal date picker day selection view.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fme6vuima-11-3P.png?alt=media"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Modal date picker color roles used for light and dark themes in a year selection menu:</p><ol class=\"decimal\"><li>On surface</li><li>On surface variant</li><li>Surface container high</li><li>On surface variant</li><li>On surface variant</li><li>Primary</li><li>Primary</li><li>Outline variant</li><li>On surface variant</li></ol>",
+    "altText": "Diagram of 9 color roles of a modal date picker year selection view.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fme6vuwh7-12-3P.png?alt=media"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Modal date picker range selector color roles used for light and dark themes:<br /></span></p><ol class=\"decimal\"><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">On surface<br /></span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">On surface variant<br /></span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">On surface variant<br /></span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">Surface container high<br /></span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">Primary<br /></span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">On surface variant<br /></span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">On surface<br /></span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">Primary<br /></span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">On surface<br /></span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">Secondary container <br /></span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">On secondary container <br /></span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">Outline variant<br /></span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">On surface variant<br /></span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">Primary</span></li></ol>",
+    "altText": "Diagram of 14 color roles of a modal date picker when selecting a range of dates.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fme6vv9ft-13-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\"><span style=\"white-space:pre-wrap\">Modal date picker measurements</span></h3>"
+  },
+  {
+    "footer": "<p>Modal date picker padding and size measurements</p>",
+    "altText": "Diagram of size and padding measurements in day selection view.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmel16bx5-14-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Modal date picker year selector padding and size measurements</p>",
+    "altText": "Diagram of size and padding measurements in year selection view.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmel16puv-15-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Modal date picker date range selector padding and size measurements</p>",
+    "altText": "Diagram of size and padding measurements when selecting a range of dates.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmel175wp-16-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\"><span style=\"white-space:pre-wrap\">Modal date picker configurations</span></h3>"
+  },
+  {
+    "footer": "<ol><li>Single date selection</li><li id=\"isPasted\">Date range selection</li><li>Year selection</li></ol>",
+    "altText": "3 configurations of a modal date picker shown in dark mode.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fme6vxg0z-17-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\"><span style=\"white-space:pre-wrap\">Modal date input</span></h2>"
+  },
+  {
+    "footer": "<ol><li>Headline</li><li>Supporting text</li><li>Header</li><li>Container</li><li>Icon button</li><li>Outlined text field</li><li>Text buttons</li><li>Divider</li></ol>",
+    "altText": "Diagram indicating the 8 elements of a modal date input.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fme6vxz7r-18-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\"><span style=\"white-space:pre-wrap\">Modal date input color</span></h3><p>Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview/\" target=\"_self\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p>Modal date input color roles used for light and dark themes:</p><ol class=\"decimal\"><li id=\"isPasted\">On surface</li><li id=\"isPasted\">On surface variant</li><li id=\"isPasted\">Surface container high</li><li id=\"isPasted\">On surface variant</li><li id=\"isPasted\">Primary</li><li id=\"isPasted\">Primary</li><li id=\"isPasted\">Outline variant</li></ol>",
+    "altText": "Diagram indicating the 7 color roles of a modal date input.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fme6vyfrl-19-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\"><span style=\"white-space:pre-wrap\">Modal date input measurements</span></h3>"
+  },
+  {
+    "footer": "<p>Modal date input padding and size measurements</p>",
+    "altText": "Diagram of the padding and size measurements of a modal date input.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fme6vyzk0-20-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\"><span style=\"white-space:pre-wrap\">Modal date input configurations</span></h3>"
+  },
+  {
+    "footer": "<ol><li>Single date input</li><li>Date range input</li></ol>",
+    "altText": "2 configurations of modal date input.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fme6vzozd-21-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Element states</h2>"
+  },
+  {
+    "footer": "<p>States for date and year selection: </p><ol class=\"decimal\"><li>Default (enabled) </li><li>Disabled </li><li>Hovered </li><li>Focused </li><li>Pressed (ripple)</li></ol>",
+    "altText": "Diagram of 5 various states for date and year elements within date pickers.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fme6w02sb-22b-3P.png?alt=media"
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "htmlValue": "<h2>Variants</h2>"
+  },
+  {
+    "footer": "<p>There’s one variant of FAB menu</p>",
+    "altText": "The FAB menu in its single variant.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3q0apv-01-3p.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"width:23.1076%\"><p>Variant</p></th><th style=\"width:43.5291%;text-align:center\"><p> M3</p></th><th style=\"text-align:center\"><p>M3 Expressive</p></th></tr></thead><tbody><tr><td><p>FAB menu</p></td><td><p>--</p></td><td><p>Available</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Configurations</h2>"
+  },
+  {
+    "footer": "<p>Three color sets:</p><ol class=\"decimal\"><li><p>Primary</p></li><li><p>Secondary</p></li><li><p>Tertiary</p></li></ol>",
+    "altText": "3 color configurations of FAB menus.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3q1bvc-02-3p.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"width:16.3642%\"><p>Category</p></th><th style=\"width:21.8155%\"><p>Configuration</p></th><th style=\"width:31.7729%;text-align:center\"><p> M3</p></th><th style=\"width:30.0976%;text-align:center\"><p>M3 Expressive</p></th></tr></thead><tbody><tr><td><p>Color</p></td><td><p>Primary set, secondary set, tertiary set</p></td><td><p>--</p></td><td><p>Available</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2>"
+  },
+  {
+    "htmlValue": "<p>Use the table's menu to switch token sets. The FAB menu has a common token set and six color sets, three for each element (close button and menu item). <a href=\"/m3/pages/design-tokens/overview/\" target=\"_blank\" rel=\"noopener noreferrer\">Learn about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/1a076cec8bc202c2",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "FAB menu - Common",
+        "FAB menu close button - Color - Primary",
+        "FAB menu close button - Color - Secondary",
+        "FAB menu close button - Color - Tertiary",
+        "FAB menu list items - Color - Primary",
+        "FAB menu list items - Color - Secondary",
+        "FAB menu list items - Color - Tertiary"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "tokenSetOrder": [
+        "FAB menu - Common",
+        "FAB menu close button - Color - Primary",
+        "FAB menu close button - Color - Secondary",
+        "FAB menu close button - Color - Tertiary",
+        "FAB menu list items - Color - Primary",
+        "FAB menu list items - Color - Secondary",
+        "FAB menu list items - Color - Tertiary"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2>Anatomy</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Close button</li><li>Menu item</li></ol>",
+    "altText": "2 elements of a FAB menu.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3q41o4-03-3p.png?alt=media"
+  },
+  {
+    "footer": "<p>The FAB menu can have up to six items</p>",
+    "altText": "5 FAB menus showing the range of 2–6 items.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3q4pvy-04-3p.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Color</h2><p>Color values are implemented through design tokens. For designers, this means working with color values that correspond with tokens. In implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">On primary container</li><li>Primary container</li><li>On primary</li><li>Primary</li><li>On secondary container</li><li>Secondary container</li><li>On secondary</li><li>Secondary</li><li>On tertiary container</li><li>Tertiary container</li><li>On tertiary</li><li>Tertiary</li></ol>",
+    "altText": "12 colors of the FAB menu.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3q6ipd-05-3p.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>States</h2><p>States are visual representations used to communicate the status of a component or interactive element. <a href=\"/m3/pages/interaction-states\">Learn more about interaction states</a></p>"
+  },
+  {
+    "htmlValue": "<h3>Close button</h3>"
+  },
+  {
+    "footer": "<p>Close button states in light and dark themes: </p><ol class=\"decimal\"><li><p>Enabled</p></li><li><p>Hovered</p></li><li><p>Focused</p></li><li><p>Pressed</p></li></ol>",
+    "altText": "4 states of the FAB menu close button.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3q7h0v-06-3p.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Menu item</h3>"
+  },
+  {
+    "footer": "<p>Menu item states in light and dark themes:</p><ol class=\"decimal\"><li><p>Enabled</p></li><li><p>Hovered</p></li><li><p>Focused</p></li><li><p>Pressed</p></li></ol>",
+    "altText": "4 states of the FAB menu items.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3q8bqk-07-3p.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "htmlValue": "<p>FAB menu items share the same measurements as the medium <app-froala-tooltip-element description=\"Buttons let people take action and make choices with one tap.\" link-label=\"More on buttons\" link-url=\"/m3/pages/common-buttons/overview\" should-open-link-in-new-tab=\"true\">button</app-froala-tooltip-element> specs. </p><p>The close button should always be 56dp.</p>"
+  },
+  {
+    "footer": "<p>FAB menu size measurements</p>",
+    "altText": "FAB menu size measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3qcpur-08-3p.png?alt=media"
+  },
+  {
+    "htmlValue": "<p>The FAB menu animates from the top trailing edge of the FAB to ensure a smooth animation.</p>"
+  },
+  {
+    "footer": "<p>The FAB should always have 16dp margins</p>",
+    "altText": "FAB on a mobile screen with 16dp margins annotated.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3qf9rm-08-3p.png?alt=media"
+  },
+  {
+    "footer": "<p>The close button and FAB share the top trailing corner as an anchor and appear in the same place</p>",
+    "altText": "FAB menu opened from a FAB has matching margins of 16dp.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3qfqs9-10-3p.png?alt=media"
+  },
+  {
+    "htmlValue": "<p>Larger FABs will place the FAB menu slightly higher, with larger margins underneath.</p>"
+  },
+  {
+    "footer": "<p>The medium FAB placement has 16dp margins</p>",
+    "altText": "Medium FAB on a mobile screen with 16dp margins annotated.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3qhher-11-3p.png?alt=media"
+  },
+  {
+    "footer": "<p>The close button is placed higher to align with the top of the medium FAB</p>",
+    "altText": "FAB menu opened from the medium FAB has a 40dp margin from bottom of screen.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3qhtwe-12-3p.png?alt=media"
+  },
+  {
+    "htmlValue": "<p> </p>"
+  },
+  {
+    "footer": "<p>The large FAB placement has 16dp margins</p>",
+    "altText": "Large FAB on a mobile screen with 16dp margins annotated.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3qj0c0-13-3p.png?alt=media"
+  },
+  {
+    "footer": "<p>The close button is placed higher to align with the top of the large FAB</p>",
+    "altText": "FAB menu opened from the large FAB has a 56dp margin from bottom of screen.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3qjff7-14-3p.png?alt=media"
+  },
+  {
+    "htmlValue": "<p>On web, the FAB menu opens from the FAB, and inherits its states and specs from the baseline <app-froala-tooltip-element description=\"Menus display a list of choices on a temporary surface.\" link-label=\"More on menus\" link-url=\"/m3/pages/menus/overview/\" should-open-link-in-new-tab=\"true\">menu</app-froala-tooltip-element> component. </p><p>The gap between the FAB and menu can vary, but 4dp is recommended.</p>"
+  },
+  {
+    "footer": "<p>Spacing and interaction on FAB menu for web:</p><ol class=\"decimal\"><li><p>Enabled</p></li><li><p>Hovered</p></li><li><p>Selected</p></li></ol>",
+    "altText": "FAB menu on web states and specifications.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmn7ox1xs-04-3P.png?alt=media"
+  }
+]

@@ -1,0 +1,367 @@
+[
+  {
+    "htmlValue": "<h2>Variants</h2>"
+  },
+  {
+    "htmlValue": "<h3>Expressive lists</h3><p>Use the expressive list variant for more flexible styling, highlighted selection states, and customizable slots. </p>"
+  },
+  {
+    "footer": "<p>An <strong>expressive list</strong> has a segmented style and round corners </p>",
+    "altText": "2 expressive lists: a photos list on a tablet, and a song list on mobile.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmio97lfj-01-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Baseline lists</h3><p><app-froala-tooltip-element description=\"Baseline variants are the original M3 component designs. They may not have the latest features introduced in M3 Expressive, like updated motion, shapes, type, and styles.\" link-label=\"More on M3 Expressive\" link-url=\"https://m3.material.io/blog/building-with-m3-expressive \" should-open-link-in-new-tab=\"true\">Baseline</app-froala-tooltip-element> lists are still available to use, but don’t have the latest visual style, selection treatment, and slot functionality.<br /><br />On web, expressive lists are built on top of baseline lists.</p><p><a href=\"/m3/pages/lists/specs#94cf7f4d-fe29-4fab-9aae-a99e9b754329\" target=\"_self\">See baseline list specs</a></p>"
+  },
+  {
+    "footer": "<p><strong>Baseline list items</strong> have square corners and standard colors</p>",
+    "altText": "3 baseline list items with square corners.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmio98r05-02-3P-VQA.png?alt=media"
+  },
+  {
+    "htmlValue": "<table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"width:37.6011%\"><p style=\"text-align:center\"><strong>Variants</strong></p></th><th style=\"width:30.5654%\"><p style=\"text-align:center\"><strong>M3</strong></p></th><th style=\"width:31.7629%\"><p style=\"text-align:center\"><strong>M3 Expressive</strong></p></th></tr></thead><tbody><tr><td><p style=\"text-align:left\">Lists (expressive)</p></td><td><p style=\"text-align:center\">--</p></td><td><p style=\"text-align:center\">Available</p></td></tr><tr><td><p style=\"text-align:left\">Lists (baseline)</p></td><td><p style=\"text-align:center\">Available</p></td><td style=\"width:31.7629%\"><p style=\"text-align:center\">Not recommended.  </p><p style=\"text-align:center\">Use expressive lists instead.</p></td></tr></tbody></table>"
+  },
+  {
+    "htmlValue": "<h2>Configurations</h2>"
+  },
+  {
+    "htmlValue": "<h3>Styles</h3><p>The standard and segmented styles are a visual choice, and don’t affect a list’s behavior.</p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>Standard</p></li><li><p>Segmented</p></li></ol>",
+    "altText": "A standard list and segmented list in dark mode.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmio99zjp-03-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>List selection</h3><p>A list can have only one selection mode at a time. For example, a single-action list can change to a multi-select list, but can’t be both at once.</p>"
+  },
+  {
+    "footer": "<p>In a <strong>single-action list</strong>, each item is a single tappable area</p>",
+    "altText": "A single-action list with 4 items and no additional actions.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmio9bca0-04-3P-singleaction.png?alt=media"
+  },
+  {
+    "footer": "<p><strong>Multi-action list</strong> items include a primary action, and one or more secondary actions</p>",
+    "altText": "A list with 4 items. Each item has 2 trailing icons for additional actions.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmio9ecsb-05-3P-multiaction.png?alt=media"
+  },
+  {
+    "footer": "<p>A <strong>single-select list</strong> </p>",
+    "altText": "A list with 1 item selected.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmio9x63z-06-3P-singleselect.png?alt=media"
+  },
+  {
+    "footer": "<p>A <strong>multi-select list</strong></p>",
+    "altText": "A list with 2 items selected.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmio9xiam-07-3P-multiselect.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>List interactions</h3>"
+  },
+  {
+    "htmlValue": "<p>Lists can:</p><ul type=\"disc\" style=\"list-style-type:disc\"><li><p><a href=\"/m3/pages/lists/guidelines#90a236ee-b587-4361-8911-34006f25a6f1\" target=\"_blank\">Expand and collapse</a></p></li><li><p><a href=\"/m3/pages/lists/guidelines#01204f7d-ce32-4739-aece-e95db24858c9\" target=\"_blank\">Swipe to reveal</a>*</p></li></ul><p><a href=\"/m3/pages/lists/accessibility#a6f937f5-3e1f-4db4-ba35-ac6dd9fef140\" target=\"_blank\">More on list interaction accessibility</a></p>"
+  },
+  {
+    "footer": "<p>A list can <strong>expand</strong> to include multiple items</p>",
+    "altText": "1 list item expands into a list with 6 items, then collapses."
+  },
+  {
+    "footer": "<p>A list item can be <strong>swiped</strong> to reveal more actions</p>",
+    "altText": "A list item is swiped, and reveals 3 more actions.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmshrgh4t-09-key02-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"width:23.7089%;text-align:left\"><p style=\"text-align:center\"><strong>Category</strong></p></th><th style=\"width:28.3242%;text-align:left\"><p style=\"text-align:center\"><strong>Configuration</strong></p></th><th style=\"width:24.0276%\"><p style=\"text-align:center\"><strong>M3</strong></p></th><th style=\"width:23.8688%\"><p style=\"text-align:center\"><strong>M3 Expressive</strong></p></th></tr></thead><tbody><tr><td rowspan=\"2\" style=\"width:23.7089%\"><p>Styles</p></td><td><p>Standard</p></td><td><p style=\"text-align:left\">Available</p></td><td><p style=\"text-align:left\">Available</p></td></tr><tr><td><p>Segmented</p></td><td><p style=\"text-align:left\">--</p></td><td><p style=\"text-align:left\">Available</p></td></tr><tr><td><p>Selection modes</p></td><td><p>Single-action, multi-action,</p><p>single-select, multi-select</p></td><td><p style=\"text-align:left\">Available</p></td><td><p style=\"text-align:left\">Available</p></td></tr><tr><td><p>Interactions</p></td><td><p>Expand, swipe*</p></td><td><p>Available</p></td><td><p>Available</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<p>* Swipe-to-reveal interactions are only available on Android Views</p>"
+  },
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2><p>Use the table's menu to select a token set. The <strong>common</strong> set combines baseline tokens with new expressive shapes and sizes. The <strong>expand</strong> set has tokens for the expand interaction. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\">Learn about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/6c818a16475113bd",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "List - Common",
+        "List - Expand"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Static",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "tokenSetOrder": [
+        "List - Common",
+        "List - Expand",
+        "List - Reorder",
+        "List - Reveal"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2>Anatomy</h2>"
+  },
+  {
+    "footer": "<p>Container and label text are required. All other elements are optional:</p><ol class=\"decimal\"><li><p>Container</p></li><li><p>Overline</p></li><li><p>Label text</p></li><li><p>Trailing text</p></li><li><p>Supporting text</p></li><li><p>Trailing icon</p></li><li><p>Divider</p></li><li><p>Leading avatar</p></li><li><p>Leading icon</p></li><li><p>Leading media - image or video</p></li></ol>",
+    "altText": "Diagram with 10 elements that can be included in lists.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmioasn71-11-3P-VQA.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Flexibility &amp; slots</h3><p>The <a href=\"https://www.figma.com/community/file/1035203688168086460\" target=\"_blank\">M3 Design Kit</a> includes lists with custom slots for designing flexible item layouts. Think of a custom list as a container with three different slots: leading, content, and trailing. Each slot can hold a different element.</p><h4><strong>Slot accessibility</strong></h4><p>Slots are not accessible by default. Consider the following:</p><ul><li><p>Elements must follow the rules, structure, and interaction patterns for lists</p></li><li><p>Use standard list item padding</p></li><li><p>Target size must be at least 48x48dp</p></li><li><p>Don't add interactive elements that make the list item difficult to navigate, especially for people using screen readers</p></li></ul><p><a href=\"/m3/pages/lists/accessibility#538f23f7-689c-4516-bfc8-5f6933a43f5e\" target=\"_blank\">More on required accessibility guidelines</a></p>"
+  },
+  {
+    "footer": "<p>Reserve the use of slots for use cases that maintain the list’s accessibility and functionality</p><ol class=\"decimal\"><li><p>Leading slot</p></li><li><p>Content slot </p></li><li><p>Trailing slot</p></li></ol>",
+    "altText": "A diagram with leading, content, and trailing slots.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmioecnyy-12-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"fr-banner caution\"><div class=\"fr-banner-icon\">warning</div><div class=\"fr-banner-content caution\"><div class=\"fr-banner-label\">Caution:</div><div class=\"fr-banner-description\">Slots require custom code implementation that you must create and maintain</div></div></div>"
+  },
+  {
+    "htmlValue": "<p>The <strong>leading</strong> and <strong>trailing</strong> slot positions must be a smaller width than the <strong>content</strong> section.</p><p>1. <strong>Leading slots</strong> can contain:</p><ul><li><p>Visual elements: Avatar, icon, image, or video thumbnail</p></li><li><p><app-froala-tooltip-element description=\"Selection lets users choose specific items to act on.\" link-label=\"More on selection\" link-url=\"/m3/pages/selection\" should-open-link-in-new-tab=\"true\">Selection</app-froala-tooltip-element> controls: Checkbox, radio button, or switch</p></li><li><p>Customizations: Badge or larger image</p></li></ul><p>2. <strong>Content slots</strong> must be the largest-width slot and can contain:</p><ul><li><p>Default content: Label text, supporting text</p></li><li><p>Optional add-ons: Badge, icon, in-line label, or more text elements</p></li><li><p>Avoid long lines of text to preserve readability</p></li></ul><p><br />3. <strong>Trailing slots</strong> can contain:</p><ul><li><p>Action elements or text: Icon, icon button, or trailing text</p></li><li><p>Selection controls: Checkbox, radio button, or switch</p></li></ul>"
+  },
+  {
+    "footer": "<p>The content slot must be the largest section, placed in the middle of the list item</p>",
+    "altText": "Slot diagram showing slot placement in the middle of the list.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmioefhsu-13-3P-VQA.png?alt=media"
+  },
+  {
+    "htmlValue": "<h4>Selection lists</h4><p>For selection lists, use only one selection interaction per list item.</p>"
+  },
+  {
+    "footer": "<p>Use only one selection interaction per list item</p>",
+    "altText": "A selected list item with a checkmark in the leading slot.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmioehno9-14-do-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Don't use multiple selection interactions in one item</p>",
+    "altText": "A selected list item with both a checkmark in the leading slot and a bookmark in the trailing slot.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmioek6y5-15-dont-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Color</h2>"
+  },
+  {
+    "htmlValue": "<p>Color values are implemented through design tokens. For designers, this means working with color values that correspond with tokens. In implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p>List color roles used for light and dark themes:</p><ol class=\"decimal\"><li><p>Surface   </p></li><li><p>On surface variant</p></li><li><p>On surface  </p></li><li><p>On surface variant</p></li><li><p>On surface variant </p></li><li><p>On surface variant</p></li><li><p>Outline variant</p></li><li><p>Primary container</p></li><li><p>On primary container</p></li><li><p>On surface variant</p></li></ol>",
+    "altText": "10 list element color roles in light mode and dark mode.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmion9qya-16-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>States</h2>"
+  },
+  {
+    "htmlValue": "<p>States are visual representations used to communicate the status of a component or an interactive element. <a href=\"/google-material-3/pages/interaction-states/overview\" target=\"_blank\">Learn more about interaction states<br /><br /></a><a href=\"/m3/pages/lists/accessibility#f7e067e1-722f-40c5-a95a-63929869bf3e\" target=\"_blank\">More on list focus</a></p>"
+  },
+  {
+    "htmlValue": "<h3>Default list items</h3>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>Enabled </p></li><li><p>Disabled</p></li><li><p>Hovered</p></li><li><p>Focused</p></li><li><p>Pressed</p></li><li><p>Dragged</p></li></ol>",
+    "altText": "6 default list states in light and dark mode.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmionai1i-17-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Selected list items</h3>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>Enabled </p></li><li><p>Disabled</p></li><li><p>Hovered</p></li><li><p>Focused</p></li><li><p>Pressed</p></li><li><p>Dragged</p></li></ol>",
+    "altText": "6 selected list states in light and dark mode.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmioncezo-18-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "footer": "<p>List item alignment, padding, and size measurements. The icon button height is dynamic, and automatically adjusts to fill the list item height.</p>",
+    "altText": "Size and padding measurements for list items.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmiondj5y-19-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Shape morphing</h3><p>When a list item is selected, the corner shape changes to highlight the active item:</p><ul type=\"disc\" style=\"list-style-type:disc\"><li><p>Unselected corner radius: 4dp inner, 16dp outer</p></li><li><p>Selected corner radius: 16dp</p></li></ul><p></p>"
+  },
+  {
+    "footer": "<p>Unselected list items have a 4dp inner corner radius, and 16dp outer corner radius</p>",
+    "altText": "A 3-item list. The middle item is unselected, with a 4dp corner radius.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmsghyywm-20-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Selected list items have a 16dp corner radius all around</p>",
+    "altText": "A 3-item list. The middle item is selected, with a 16dp corner radius.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmsgi2yv8-21-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>List (baseline)</h2>"
+  },
+  {
+    "htmlValue": "<p>The <app-froala-tooltip-element description=\"Baseline variants are the original M3 component designs. They may not have the latest features introduced in M3 Expressive, like updated motion, shapes, type, and styles.\" link-label=\"More on M3 Expressive\" link-url=\"https://m3.material.io/blog/building-with-m3-expressive\" should-open-link-in-new-tab=\"true\">baseline</app-froala-tooltip-element> list variant is available and continues to work in existing products. However, the <a href=\"/m3/pages/lists/specs#ebf87f58-d5bf-4cb5-a856-d2bb104eec4d\" target=\"_self\">expressive list</a> variant is recommended for new designs.</p>"
+  },
+  {
+    "htmlValue": "<h3>Tokens &amp; specs</h3><p>Baseline list <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">tokens</app-froala-tooltip-element> are in the <strong>common</strong> token set. Note: This set also includes several expressive tokens.</p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/6c818a16475113bd",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "List - Common"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Static",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "tokenSetOrder": [
+        "List - Common",
+        "List - Expand",
+        "List - Reorder",
+        "List - Reveal"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h3>Color</h3><p>Color values are implemented through design tokens. For designers, this means working with color values that correspond with tokens. In implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p>List color roles used for light and dark themes:</p><ol class=\"decimal\"><li><p>Surface</p></li><li><p>On surface</p></li><li><p>On surface variant</p></li><li><p>On surface variant</p></li><li><p>On surface variant</p></li><li><p>Outline variant</p></li><li><p>Primary container</p></li><li><p>On primary container</p></li><li><p>On surface variant</p></li></ol>",
+    "altText": "9 baseline list element color roles in light and dark mode.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmiq3n8p4-20-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>States</h3><p>States are visual representations used to communicate the status of a component or interactive element.</p>"
+  },
+  {
+    "footer": "<p>1. Enabled</p><p>2. Disabled</p><p>3. Hovered</p><p>4. Focused</p><p>5. Pressed</p><p>6. Dragged</p>",
+    "altText": "6 baseline list states in light and dark mode.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmiq3rr3p-21-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Layout</h3><h4>One-line lists</h4>"
+  },
+  {
+    "footer": "<p>Baseline one-line list alignment, padding, and size measurements</p>",
+    "altText": "Alignment, padding, and size specifications for baseline list items with 1 line of text.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmiofu0i1-22-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Baseline list item measurements and padding</p>",
+    "altText": "Measurements for a 3-item list with 1 line each.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmiogaa9o-23-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h4>Two-line lists</h4>"
+  },
+  {
+    "footer": "<p>Baseline two-line list alignment, padding, and size measurements</p>",
+    "altText": "Alignment, padding, and size specifications for baseline list items with 2 lines of text.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmiogazt3-24-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Baseline list item measurements and padding</p>",
+    "altText": "Measurements for a 3-item list with 2 lines each.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmiogcld0-25-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h4>Three-line lists</h4>"
+  },
+  {
+    "footer": "<p>Baseline three-line list alignment, padding, and size measurements</p>",
+    "altText": "Alignment, padding, and size specifications for baseline list items with 3 lines of text.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmiogdayj-26-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Baseline list item measurements and padding</p>",
+    "altText": "Measurements for a 3-item list with 3 lines each.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmiogduex-27-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"border:none;border-collapse:collapse;margin-right:calc(0%);width:100%\"><thead><tr><th style=\"text-align:center;width:51.9542%\">Attribute</th><th style=\"text-align:center;width:47.9559%\">Value</th></tr></thead><tbody><tr><th style=\"width:51.9542%\"><p>Label alignment</p></th><td><p>Center</p></td></tr><tr><th style=\"width:51.9542%\"><p>Label alignment when height is 88dp or taller</p></th><td><p>Top</p></td></tr><tr><th style=\"width:51.9542%\"><p>Label left padding</p></th><td><p>16dp</p></td></tr><tr><th style=\"width:51.9542%\"><p>Leading element alignment (vertical)</p></th><td><p>Center</p></td></tr><tr><th style=\"width:51.9542%\"><p>Leading element alignment (vertical) when height is 88dp or taller</p></th><td><p>Top</p></td></tr><tr><th style=\"width:51.9542%\"><p>Leading element left padding</p></th><td><p>16dp</p></td></tr><tr><th style=\"width:51.9542%\"><p>Leading icon alignment (vertical)</p></th><td><p>Top</p></td></tr><tr><th style=\"width:51.9542%\"><p>Leading icon top padding</p></th><td><p>8dp</p></td></tr><tr><th style=\"width:51.9542%\"><p>Leading icon top padding when height is 88dp or taller</p></th><td><p>12dp</p></td></tr><tr><th style=\"width:51.9542%\"><p>Trailing element alignment (vertical)</p></th><td><p>Center</p></td></tr><tr><th style=\"width:51.9542%\"><p>Trailing element alignment (vertical) when height is 88dp or taller</p></th><td><p>Top</p></td></tr><tr><th style=\"width:51.9542%\"><p>Trailing element left padding</p></th><td><p>16dp</p></td></tr><tr><th style=\"width:51.9542%\"><p>Trailing element right padding</p></th><td><p>24dp</p></td></tr><tr><th style=\"width:51.9542%\"><p>Padding above/below divider</p></th><td><p>0dp</p></td></tr><tr><th style=\"width:51.9542%\"><p>Targets</p></th><td><p>48dp</p></td></tr><tr><th style=\"width:51.9542%\"><p>Divider full-width</p></th><td><p>100%</p></td></tr><tr><th style=\"width:51.9542%\"><p>Divider inset left padding</p></th><td><p>16dp</p></td></tr><tr><th style=\"width:51.9542%\"><p>Divider inset right padding</p></th><td><p dir=\"ltr\" style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt\">24dp</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h3>Configurations</h3>"
+  },
+  {
+    "htmlValue": "<h4>Leading avatar</h4>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>With leading avatar</p></li><li><p>With leading avatar and trailing checkbox</p></li></ol>",
+    "altText": "1, 2, and 3-line list items with and without a leading avatar and trailing checkbox, in dark mode.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmioh5e7e-28-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h4>Leading image or thumbnail</h4>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>With leading image</p></li><li><p>With leading image and trailing checkbox</p></li></ol>",
+    "altText": "1, 2, and 3-line list items with and without a leading image and trailing checkbox, in dark mode.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmioh5246-29-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h4>Leading video</h4>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>With leading video</p></li><li><p>With leading video and trailing checkbox</p></li></ol>",
+    "altText": "1, 2, and 3-line list items with and without a leading video and trailing checkbox, in dark mode.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmioh4nys-30-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h4>Leading icon</h4>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>With leading icon</p></li><li><p>With leading icon and trailing checkbox</p></li></ol>",
+    "altText": "1, 2, and 3-line list items with and without a leading icon and trailing checkbox, in dark mode.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmioh3zha-31-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h4>Text-only</h4>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>With text only</p></li><li><p>With text and trailing checkbox</p></li></ol>",
+    "altText": "1, 2, and 3-line text only list items with and without a trailing checkbox, in dark mode.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmioh3lil-32-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h4>Leading checkbox</h4>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>With leading checkbox</p></li><li><p>With leading checkbox and trailing text</p></li></ol>",
+    "altText": "1, 2, and 3-line list items with and without a leading checkbox and trailing text, in dark mode.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmioh2vwf-33-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h4>Leading radio button</h4>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>With leading radio button</p></li><li><p>With leading radio button and trailing text</p></li></ol>",
+    "altText": "1, 2, and 3-line list items with and without a leading radio button and trailing text, in dark mode.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmioh2gxb-34-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h4>Trailing switch</h4>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>With trailing switch</p></li><li><p>With leading icon and trailing switch</p></li></ol>",
+    "altText": "1, 2, and 3-line list items with and without a leading icon and trailing switch, in dark mode.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmioh0mgk-35-3P.png?alt=media"
+  }
+]

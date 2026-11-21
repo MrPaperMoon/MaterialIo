@@ -1,0 +1,50 @@
+[
+  {
+    "footer": "<ol><li>Divider</li></ol>",
+    "altText": "Diagram of divider set on horizontal line",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flvdgvb10-1.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Tokens and specs</h2><p>Browse the component elements, attributes, tokens, and their values.</p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/77f7657eb270e53d",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Color</h2>"
+  },
+  {
+    "htmlValue": "<p>Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview/825906c9-6eed-47d1-8812-450910c1356e\" id=\"isPasted\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Divider color roles used for light and dark schemes:</p><ol><li>Outline variant</li></ol>",
+    "altText": "Divider on light background and dark background.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flvdgvshh-2.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "footer": "Measurements",
+    "altText": "Divider's measurement.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flvdgwerz-3.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"border:none;border-collapse:collapse;margin-right:calc(0%);width:100%\"><thead><tr><th style=\"text-align:center;width:51.7419%\">Attribute</th><th style=\"text-align:center;width:48.1682%\">Value</th></tr></thead><tbody><tr><th style=\"width:51.7419%\">Divider full-width<br /></th><td>100%</td></tr><tr><th style=\"width:51.7419%\">Divider inset left margin<br /></th><td>16dp</td></tr><tr><th style=\"width:51.7419%\">Divider inset right margin<br /></th><td>0dp</td></tr><tr><th style=\"width:51.7419%\">Divider middle-inset left margin<br /></th><td>16dp</td></tr><tr><th style=\"width:51.7419%\">Divider middle-inset right margin<br /></th><td>16dp</td></tr><tr><th style=\"width:51.7419%\">Space between divider &amp; supporting-text<br /></th><td>4dp</td></tr><tr><th style=\"width:51.7419%\">Divider right margin<br /></th><td>8dp</td></tr><tr><th style=\"width:51.7419%\">Divider bottom margin</th><td>8dp</td></tr></tbody></table></div>"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2><p>Browse the component elements, attributes, tokens, and their values. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\">Learn more about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/06c2c925cf96adca",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Static",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2>Standard side sheet</h2>"
+  },
+  {
+    "footer": "<ol><li>Divider (optional)</li><li>Headline</li><li>Container</li><li>Close icon button</li></ol>",
+    "altText": "4 elements of a standard side sheet.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmgam1q2e-01-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Standard side sheet color</h3><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview/\" target=\"_self\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Side sheet color roles used for light and dark themes:</p><ol><li>Outline variant</li><li>On surface variant</li><li>Surface</li><li>On surface variant</li></ol>",
+    "altText": "4 color roles applied to a side sheet in light and dark themes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmgam3xno-02-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Standard side sheet measurements</h3>"
+  },
+  {
+    "footer": "<p>Side sheet padding and size measurements</p>",
+    "altText": "Standard side sheet padding and size measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmgam4wao-03-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"width:100%\"><thead><tr><th style=\"text-align:center\">Attribute<br /></th><th style=\"text-align:center\">Value<br /></th></tr></thead><tbody><tr><th style=\"width:50%;text-align:center\">Start/end padding<br /></th><td>24dp</td></tr><tr><th style=\"width:50%;text-align:center\">Padding between top elements<br /></th><td>12dp</td></tr><tr><th style=\"width:50%;text-align:center\">Bottom actions height<br /></th><td>72dp</td></tr><tr><th style=\"width:50%;text-align:center\">Bottom actions top padding<br /></th><td>16dp</td></tr><tr><th style=\"width:50%;text-align:center\">Bottom actions bottom padding<br /></th><td>24dp</td></tr><tr><th style=\"width:50%;text-align:center\">Bottom actions alignment (horizontal)<br /></th><td>Left</td></tr><tr><th style=\"width:50%;text-align:center\">Max-width<br /></th><td>400dp</td></tr><tr><th style=\"width:50%;text-align:center\">Margins (when detached)<br /></th><td>16dp</td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Modal side sheet</h2>"
+  },
+  {
+    "footer": "<ol><li>Back icon button (optional)</li><li>Headline</li><li>Container</li><li>Close icon button</li><li>Divider (optional)</li><li>Action buttons (optional)</li><li>Scrim</li></ol>",
+    "altText": "7 elements of a modal side sheet.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmgam6adp-04-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Modal side sheet color</h3><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview/\" id=\"isPasted\">Learn more about design tokens</a>.</p>"
+  },
+  {
+    "footer": "<p>Side sheet color roles used for light and dark themes:</p><ol class=\"decimal\"><li><p>On surface variant</p></li><li><p>On surface variant</p></li><li><p>Surface container low</p></li><li><p>On surface variant</p></li></ol>",
+    "altText": "4 color roles applied to a modal side sheet in light and dark themes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmgam8seo-05-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Modal side sheet measurements</h3>"
+  },
+  {
+    "footer": "<p>Modal side sheet padding and size measurements</p>",
+    "altText": "Modal side sheet padding and size measurements",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmgamb5rx-06-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<p><br /></p><div class=\"table-wrapper\"><table><thead><tr><th style=\"text-align:center\">Attribute<br /></th><th style=\"text-align:center\">Value<br /></th></tr></thead><tbody><tr><th>Start/end padding<br /></th><td>24dp</td></tr><tr><th>Start padding with icon</th><td>16dp</td></tr><tr><th>Padding between top elements</th><td>12dp</td></tr><tr><th>Bottom actions height<br /></th><td>72dp</td></tr><tr><th>Bottom actions top padding<br /></th><td>16dp</td></tr><tr><th>Bottom actions bottom padding</th><td>24dp</td></tr><tr><th>Bottom actions alignment (horizontal)<br /></th><td>Left</td></tr><tr><th>Max-width<br /></th><td>400dp</td></tr><tr><th>Margins (when detached)<br /></th><td>16dp</td></tr></tbody></table></div><p><br /></p>"
+  }
+]

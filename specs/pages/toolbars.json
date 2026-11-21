@@ -1,0 +1,218 @@
+[
+  {
+    "htmlValue": "<h2>Variants</h2>"
+  },
+  {
+    "footer": "<ol><li><span style=\"white-space:pre-wrap\">Docked toolbar</span></li><li><span style=\"white-space:pre-wrap\">Floating toolbar</span></li></ol>",
+    "altText": "2 variants of toolbars.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma23ultc-01-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Baseline variant</h3>"
+  },
+  {
+    "htmlValue": "<p>The baseline bottom app bar is no longer recommended. It should be replaced with the docked toolbar, which is very similar and more flexible.</p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li>Bottom app bar (not recommended)</li></ol>",
+    "altText": "Baseline bottom app bar, which looks like the docked toolbar, but is not recommended.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma24egim-1-deprecated.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th><p>Variant</p></th><th style=\"text-align:center\"><p>M3</p></th><th style=\"text-align:center\"><p>M3 Expressive</p></th></tr></thead><tbody><tr><td><p>Docked toolbar</p></td><td><p>--</p></td><td><p>Available</p></td></tr><tr><td><p>Floating toolbar</p></td><td><p>--</p></td><td><p>Available</p></td></tr><tr><td><p>Bottom app bar</p></td><td><p>Available</p></td><td><p>Not recommended.  </p><p>Use <strong>docked toolbar</strong>.</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<div class=\"fr-banner note\"><div class=\"fr-banner-icon\" contenteditable=\"false\">star</div><div class=\"fr-banner-content note\"><div class=\"fr-banner-label\" contenteditable=\"false\">Note:</div><div class=\"fr-banner-description\">Implementation differs per platform. On Jetpack Compose, the floating toolbar is a separate component from the docked toolbar and bottom app bar.</div></div></div>"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\"><span style=\"white-space:pre-wrap\" id=\"isPasted\">Configurations</span></h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">Standard and vibrant toolbars</span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">Vertical floating toolbar</span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">Floating toolbar with FAB</span></li></ol>",
+    "altText": "Color configuration of toolbars.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma24i061-02-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"width:20.6949%\"><p>Category<br /></p></th><th style=\"width:23.175%\"><p>Configuration<br /></p></th><th style=\"width:25.5999%;text-align:center\"><p> M3<br /></p></th><th style=\"width:30.4648%;text-align:center\"><p>M3 Expressive<br /></p></th></tr></thead><tbody><tr><td rowspan=\"2\" style=\"width:20.6949%\"><p>Color<br /></p></td><td><p>Standard (default)<br /></p></td><td><p>Available as bottom app bar<br /></p></td><td><p>Available<br /></p></td></tr><tr><td><p>Vibrant<br /></p></td><td><p>--</p></td><td><p>Available<br /></p></td></tr><tr><td rowspan=\"2\" style=\"width:20.6949%\"><p>Floating toolbar layout<br /></p></td><td><p>Horizontal (default)<br /></p></td><td><p>--</p></td><td><p>Available<br /></p></td></tr><tr><td><p>Vertical<br /></p></td><td><p>--</p></td><td><p>Available<br /></p></td></tr><tr><td><p>Other elements</p></td><td><p>With FAB</p></td><td><p>Available as bottom app bar</p></td><td><p>Available*</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<div class=\"fr-banner note\"><div class=\"fr-banner-icon\" contenteditable=\"false\">star</div><div class=\"fr-banner-content note\"><div class=\"fr-banner-label\" contenteditable=\"false\">Note:</div><div class=\"fr-banner-description\">*Implementation differs per platform. On Jetpack Compose, floating toolbar with FAB is <a href=\"https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#HorizontalFloatingToolbar(kotlin.Boolean,androidx.compose.ui.Modifier,androidx.compose.material3.FloatingToolbarColors,androidx.compose.foundation.layout.PaddingValues,androidx.compose.material3.FloatingToolbarScrollBehavior,androidx.compose.ui.graphics.Shape,kotlin.Function1,kotlin.Function1,androidx.compose.ui.unit.Dp,androidx.compose.ui.unit.Dp,kotlin.Function1)\" target=\"_blank\" rel=\"noopener noreferrer\">fully supported</a>. On other platforms, each component needs to be added separately. </div></div></div>"
+  },
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2><p>Browse the component elements, attributes, tokens, and their values. <a href=\"/m3/pages/toolbars/specs#ad142675-3e3b-43b8-ba53-12c1f0b7138d\" target=\"_blank\">Jump to baseline bottom app bar specs</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/2956a7939bf0879c",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Toolbar - Color - Standard",
+        "Toolbar - Color - Vibrant",
+        "Toolbar - Docked",
+        "Toolbar - Floating",
+        "Toolbar - Floating - FAB"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "tokenSetOrder": [
+        "[Deprecated] App bar - Bottom",
+        "Toolbar - Color - Standard",
+        "Toolbar - Color - Vibrant",
+        "Toolbar - Docked",
+        "Toolbar - Floating",
+        "Toolbar - Floating - FAB"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2><span style=\"white-space:pre-wrap\" id=\"isPasted\">Anatomy</span></h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Container</span></li><li><span style=\"white-space:pre-wrap\">Placed components</span></li></ol>",
+    "altText": "2 elements of a toolbar.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma24poz2-03-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\"><span style=\"white-space:pre-wrap\" id=\"isPasted\">Flexibility &amp; slots</span></h3>"
+  },
+  {
+    "htmlValue": "<p id=\"isPasted\">When configuring a toolbar, think of it as a container with several slots. </p><p>Each slot can be a different element. The most common elements are <app-froala-tooltip-element description=\"When configuring a toolbar, think of it as a container with several slots.  Each slot can be a different element. The most common elements are icon buttons, buttons, and text fields.\" link-label=\"More on icon buttons\" link-url=\"/m3/pages/icon-buttons/specs\" should-open-link-in-new-tab=\"true\">icon buttons</app-froala-tooltip-element>, <app-froala-tooltip-element description=\"Buttons let people take action and make choices with one tap.\" link-label=\"More on buttons\" link-url=\"/m3/pages/common-buttons/specs\" should-open-link-in-new-tab=\"true\">buttons</app-froala-tooltip-element>, and <app-froala-tooltip-element description=\"Text fields let users enter text into a UI.\" link-label=\"More on text fields\" link-url=\"/m3/pages/text-fields/overview\" should-open-link-in-new-tab=\"true\">text fields</app-froala-tooltip-element>.</p>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">A toolbar is essentially a container with configurable slots</span></p>",
+    "altText": "A toolbar with 5 slots, conceptual spaces for UI elements, next to each other.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma25cmf1-04-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2><span style=\"white-space:pre-wrap\" id=\"isPasted\">Color</span></h2>"
+  },
+  {
+    "htmlValue": "<p>Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about design tokens</a></p>"
+  },
+  {
+    "htmlValue": "<h3><span style=\"white-space:pre-wrap\" id=\"isPasted\">Standard</span></h3>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Standard color schemes and icon button types:</span></p><ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Surface container</span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\"><span style=\"white-space:pre-wrap\">Filled button (Primary, On primary)</span><br /></span></li><li><span style=\"white-space:pre-wrap\">Toggle tonal button (Secondary container, On </span><span style=\"white-space:pre-wrap\">secondary container)</span></li><li><span style=\"white-space:pre-wrap\">Standard button (Primary)</span></li></ol>",
+    "altText": "4 color roles in the standard color scheme  of the floating toolbar in light and dark scheme.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma25fg6c-05-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3><span style=\"white-space:pre-wrap\" id=\"isPasted\">Vibrant</span></h3>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Vibrant color scheme and icon button types:</span></p><ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Primary container</span></li><li><span style=\"white-space:pre-wrap\">Filled button (Primary, On primary)</span></li><li><span style=\"white-space:pre-wrap\">Toggle tonal button: (Surface container, On surface)</span></li><li><span style=\"white-space:pre-wrap\">Standard button (On primary container)</span></li></ol>",
+    "altText": "4 color roles in the vibrant color scheme of the floating toolbar in light and dark scheme.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma25hban-06-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2><span style=\"white-space:pre-wrap\" id=\"isPasted\">Measurements</span></h2>"
+  },
+  {
+    "htmlValue": "<p><span style=\"white-space:pre-wrap\" id=\"isPasted\">By default all toolbars are 64dp high, center-aligned, have equal padding between items, and have a minimum outside padding of 16dp.</span></p>"
+  },
+  {
+    "htmlValue": "<h3><span style=\"white-space:pre-wrap\" id=\"isPasted\">Docked toolbar</span></h3>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li>Default margins and padding</li><li>Margins and padding with leading, middle, and trailing content</li></ol>",
+    "altText": "Default internal padding of a docked toolbar.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma25j41t-07-3P.png?alt=media"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Alignment and padding can be configured to create unique layouts:</span></p><ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Left and right alignment</span></li><li><span style=\"white-space:pre-wrap\">Center-aligned, 8dp padding between items</span></li></ol>",
+    "altText": "2 docked toolbars with different margins and alignment.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma25jqfl-08-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3><span style=\"white-space:pre-wrap\" id=\"isPasted\">Floating toolbar</span></h3>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Default padding of floating toolbar</span></p>",
+    "altText": "Diagram noting margin around edge of floating toolbar.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma25l6kh-09-3P.png?alt=media"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Floating toolbar size and padding measurements</span></p>",
+    "altText": "Diagram noting layout measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma25numd-10-3P.png?alt=media"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Floating toolbar margins</span></p>",
+    "altText": "Diagram noting layout margins.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma25or07-11-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<hr /><h2>Bottom app bar (baseline)</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Container</span></li></ol>",
+    "altText": "Diagram of bottom app bar indicating the container.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma25qmnu-12-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Tokens &amp; specs</h3>"
+  },
+  {
+    "htmlValue": "<p>Bottom app bar tokens are in one token set.</p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/2956a7939bf0879c",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Bottom app bar (baseline)",
+        "Toolbar - Docked",
+        "Toolbar - Floating",
+        "Toolbar - Color - Standard",
+        "Toolbar - Color - Vibrant",
+        "Toolbar - Floating - FAB"
+      ],
+      "tokenSetOrder": [
+        "Bottom app bar (baseline)",
+        "Toolbar - Docked",
+        "Toolbar - Floating",
+        "Toolbar - Color - Standard",
+        "Toolbar - Color - Vibrant",
+        "Toolbar - Floating - FAB"
+      ]
+    }
+  },
+  {
+    "htmlValue": "<h3>Color</h3>"
+  },
+  {
+    "htmlValue": "<p>Color values are implemented through design tokens. For designers, this means working with color values that correspond with tokens. In implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\">Learn more about design tokens</a><br /></p>"
+  },
+  {
+    "footer": "<p>Bottom app bar color role used for light and dark themes:</p><ol class=\"decimal\"><li><p>Surface container</p></li></ol>",
+    "altText": "Diagram of bottom app bar indicating its color mappings.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma25vwtc-13-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Measurements</h3>"
+  },
+  {
+    "footer": "<p>Bottom app bar padding and size measurements</p>",
+    "altText": "Diagram showing layout values and paddings for bottom app bar.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma25wn0p-14-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Common layouts</h3>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Icon buttons and FAB</li><li>Icon buttons and no FAB</li></ol>",
+    "altText": "Side by side view of bottom app bars in different configurations.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma25xkg5-15-3P.png?alt=media"
+  }
+]

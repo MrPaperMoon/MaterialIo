@@ -1,0 +1,213 @@
+[
+  {
+    "htmlValue": "<h2>Variants</h2>"
+  },
+  {
+    "footer": "<p>When a person executes a <strong>search</strong>, results appear in a list below the search bar</p>",
+    "altText": "Typing “Ping” into a search bar reveals a list of email results."
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"width:29.8517%\"><p>Variant</p></th><th style=\"width:30.1227%\"><p style=\"text-align:center\">M3</p></th><th style=\"width:39.955%;text-align:center\"><p>M3 Expressive</p></th></tr></thead><tbody><tr><td><p>Search</p></td><td><p style=\"text-align:center\">Available</p></td><td><p>Available</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Configurations</h2>"
+  },
+  {
+    "htmlValue": "<h3>Style</h3>"
+  },
+  {
+    "htmlValue": "<p>Search comes in two styles:</p><ul><li><p>Contained: Has an <app-froala-tooltip-element description=\"M3 Expressive is a major update to Material 3, adding visually stunning features, components, and variants, plus updates to the shape, motion, and typography systems.\" link-label=\"More on M3 expressive\" link-url=\"https://m3.material.io/blog/building-with-m3-expressive\" should-open-link-in-new-tab=\"true\">expressive</app-froala-tooltip-element> look and feel. It uses a filled container to separate a search bar from a <app-froala-tooltip-element description=\"Lists are continuous, vertical indexes of text and images.\" link-label=\"More on lists\" link-url=\"/google-material-3/pages/lists/overview\" should-open-link-in-new-tab=\"true\">list</app-froala-tooltip-element> of suggestions or results</p></li><li><p>Divided (<app-froala-tooltip-element description=\"Baseline variants and styles are the original M3 component designs. They may not have the latest features introduced in M3 Expressive, like updated motion, shapes, type, and styles. \" link-label link-url should-open-link-in-new-tab=\"false\">baseline</app-froala-tooltip-element>): Doesn’t have the latest visual style, motion, or flexibility</p></li></ul>"
+  },
+  {
+    "footer": "<p>The contained style has a persistent, filled container, expressive motion, and rounded shape</p>",
+    "altText": "An email inbox search bar in a contained style.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17d95o-02-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>The divided (baseline) style uses a divider to separate the search bar from suggestions and results</p>",
+    "altText": "An email inbox search bar in a divided style.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17dfzg-03-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Layout</h3>"
+  },
+  {
+    "htmlValue": "<p>Search suggestions and results appear in customizable lists, with two layout options: full-screen and docked. <a href=\"/m3/pages/search/guidelines#4f6c921c-795f-4e06-9b12-27ae7d502adb\" target=\"_blank\">More on search layouts</a></p>"
+  },
+  {
+    "footer": "<p>Full-screen layout in the contained style</p>",
+    "altText": "Full-screen search results with a search bar in the contained style.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17dsh8-04-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Docked layout in the contained style</p>",
+    "altText": "Docked search results with a search bar in the contained style.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17e01j-05-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Full-screen layout in the divided style</p>",
+    "altText": "Full-screen search results with a search bar in the divided style.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17e8r8-06-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Docked layout in the divided style</p>",
+    "altText": "Docked search results with a search bar in the divided style.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17efaq-07-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th><p>Category</p></th><th><p>Configuration</p></th><th><p>M3</p></th><th><p>M3 Expressive</p></th></tr></thead><tbody><tr><td><p>Style</p></td><td><p>Contained</p></td><td><p>--</p></td><td><p>Available</p></td></tr><tr><td></td><td><p>Divided</p></td><td><p>Available</p></td><td><p>Not recommended. Use contained.</p></td></tr><tr><td><p>Layout</p></td><td><p>Docked, full-screen</p></td><td><p>Available</p></td><td><p>Available</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2><p>Use the table's menu to select a token set. The <strong>search bar</strong> set only contains tokens for the unfocused search bar. The <strong>search view</strong> set contains all other tokens when interacting with search, including all styles and layouts. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\">Learn more about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/07341534518f78d0",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Static",
+        "Compose",
+        "3P",
+        "Web",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2>Anatomy</h2>"
+  },
+  {
+    "htmlValue": "<p>Search includes a search bar and a container for suggestions and results. The container is empty by default. Use the <app-froala-tooltip-element description=\"Lists are continuous, vertical indexes of text and images.\" link-label=\"More on lists\" link-url=\"/m3/pages/lists/overview\" should-open-link-in-new-tab=\"true\">list</app-froala-tooltip-element> component to add content. In the divided (baseline) style, a divider separates the search bar and results.</p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>Search bar container</p></li><li><p>Leading icon</p></li><li><p>Supporting text</p></li><li><p>Trailing icon and avatar (optional)</p></li><li><p>Input text</p></li><li><p>Container for search suggestions or results</p></li></ol>",
+    "altText": "6 elements of search.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17eoxh-08-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Examples</h3><ol class=\"decimal\"><li><p>With avatar</p></li><li><p>With one trailing <app-froala-tooltip-element description=\"Icon buttons help people take minor actions with one tap.\" link-label=\"More on icon buttons\" link-url=\"/m3/pages/icon-buttons/overview\" should-open-link-in-new-tab=\"true\">icon button</app-froala-tooltip-element></p></li><li><p>With two trailing icon buttons</p></li><li><p>With trailing icon button and avatar</p></li></ol>"
+  },
+  {
+    "altText": "4 search bars with different trailing elements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17exdj-10-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Color</h2>"
+  },
+  {
+    "htmlValue": "<p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For designers, this means working with color values that correspond with tokens. In implementation, a color value will be a token that references a value.</p>"
+  },
+  {
+    "htmlValue": "<h3>Full-screen layout</h3>"
+  },
+  {
+    "footer": "<p>Full-screen search color roles used in light and dark themes:</p><ol class=\"decimal\"><li><p>Surface container low</p></li><li><p>On surface variant</p></li><li><p>On surface variant</p></li><li><p>Surface container high</p></li><li><p>On surface variant</p></li><li><p>On surface</p></li></ol>",
+    "altText": "6 full-screen search color roles in light and dark themes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17f6n2-12-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Docked layout</h3>"
+  },
+  {
+    "footer": "<p>Docked search color roles used in light and dark themes:</p><ol class=\"decimal\"><li><p>Surface container high </p></li><li><p>On surface variant</p></li><li><p>On surface variant</p></li><li><p>Surface container high</p></li><li><p>On surface variant</p></li><li><p>On surface</p></li></ol>",
+    "altText": "6 docked search color roles in light and dark themes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17g3kb-13.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>States</h2>"
+  },
+  {
+    "htmlValue": "<p>States are visual representations used to communicate the status of a component or an interactive element. In <a href=\"/m3/pages/search/guidelines#a9b2df31-8561-4326-82cd-41ed6532b765\" target=\"_blank\">focused search</a>, individual elements maintain their own interaction states. <a href=\"/m3/pages/interaction-states/overview\" target=\"_blank\">Learn more about interaction states</a></p>"
+  },
+  {
+    "htmlValue": "<h3>Search bar</h3>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>Enabled</p></li><li><p>Hovered</p></li><li><p>Focused</p></li><li><p>Pressed (ripple)</p></li></ol>",
+    "altText": "4 search bar states in light and dark mode.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17mvvh-14-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Search suggestions &amp; results</h3>"
+  },
+  {
+    "htmlValue": "<p>Search includes a container for suggestions and results. The container is empty by default. Use the list component to add content. </p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>Enabled</p></li><li><p>Hovered</p></li><li><p>Focused</p></li><li><p>Pressed (ripple)</p></li></ol>",
+    "altText": "4 search result states in light and dark mode.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17n640-15-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "htmlValue": "<h3>Search bar</h3>"
+  },
+  {
+    "footer": "<p>Unfocused search bar with leading and trailing icon measurements</p>",
+    "altText": "Search bar with leading and trailing icon size and padding measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17ne69-16.png?alt=media"
+  },
+  {
+    "footer": "<p>Unfocused search bar with avatar measurements</p>",
+    "altText": "Search bar with trailing avatar size and padding measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17njuh-17.png?alt=media"
+  },
+  {
+    "htmlValue": "<p>In M3 Expressive, the search bar expands when focused. The margins change from 24dp to 12dp.</p>"
+  },
+  {
+    "footer": "<p>Unfocused search bar margin measurements</p>",
+    "altText": "Unfocused search bar margins of 24dp.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17o030-18.png?alt=media"
+  },
+  {
+    "footer": "<p>Focused search bar margin measurements</p>",
+    "altText": "Focused search bar margins of 12dp.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17o810-19.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\"><thead><tr><th style=\"text-align:center\"><p>Element</p></th><th style=\"text-align:center\"><p>Attribute</p></th><th style=\"text-align:center\"><p>Value</p></th></tr></thead><tbody><tr><th rowspan=\"7\" style=\"width:14.4499%\"><p>Container</p></th><td><p>Width</p></td><td><p>Min: 360dp, max: 720dp</p></td></tr><tr><td><p>Height</p></td><td><p>56dp</p></td></tr><tr><td><p>Label alignment</p></td><td><p>Start-aligned</p></td></tr><tr><td><p>Leading padding</p></td><td><p>Unfocused: 24dp, focused: 12dp</p></td></tr><tr><td><p>Trailing padding</p></td><td><p>Unfocused: 24dp, focused: 12dp</p></td></tr><tr><td><p>Leading icon and label padding (from tap target)</p></td><td><p>4dp</p></td></tr><tr><td><p>Label and trailing icon padding (from tap target)</p></td><td><p>4dp</p></td></tr><tr><th><p>Avatar</p></th><td><p>Size</p></td><td><p>30dp</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h3>Focused search</h3>"
+  },
+  {
+    "htmlValue": "<h4>Contained style</h4>"
+  },
+  {
+    "footer": "<p>Full-screen search padding and size measurements for contained style</p>",
+    "altText": "Full-screen layout size and padding measurements in contained style.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17on8b-20.png?alt=media"
+  },
+  {
+    "footer": "<p>Docked search padding and size measurements for contained style</p>",
+    "altText": "Docked layout size and padding measurements in contained style.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17oub1-21.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th><p>Element</p></th><th><p>Attribute</p></th><th><p>Value</p></th></tr></thead><tbody><tr><th rowspan=\"2\"><p>Full-screen container</p></th><td><p>Width</p></td><td><p>Full width</p></td></tr><tr><td><p>Height</p></td><td><p>Full height</p></td></tr><tr><th rowspan=\"2\"><p>Docked container</p></th><td><p>Width</p></td><td><p>Min: 360dp, max: 720dp</p></td></tr><tr><td><p>Height</p></td><td><p>Min: 240dp, max: 2/3 of screen height</p></td></tr><tr><th rowspan=\"6\"><p>Search bar container</p></th><td><p>Height</p></td><td><p>56dp</p></td></tr><tr><td><p>Label alignment</p></td><td><p>Start-aligned</p></td></tr><tr><td><p>Leading padding</p></td><td><p>16dp</p></td></tr><tr><td><p>Trailing padding</p></td><td><p>16dp</p></td></tr><tr><td><p>Leading icon and label padding (from tap target)</p></td><td><p>4dp</p></td></tr><tr><td><p>Leading icon and label padding (from tap target)</p></td><td><p>4dp</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h4>Divided style</h4>"
+  },
+  {
+    "footer": "<p>Full-screen search padding and size measurements for divided style</p>",
+    "altText": "Full-screen layout size and padding measurements in divided style.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17p24v-22-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Docked search padding and size measurements for divided style</p>",
+    "altText": "Docked layout size and padding measurements in divided style.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm17p7ru-23-3P.png?alt=media"
+  }
+]

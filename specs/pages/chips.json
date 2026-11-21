@@ -1,0 +1,176 @@
+[
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2><p>Select a component variant below to see its elements, attributes, tokens, and values.</p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/484a63be03b01a17",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Chip - Assist",
+        "Chip - Filter",
+        "Chip - Input",
+        "Chip - Suggestion"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Static",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "tokenSetOrder": [
+        "Chip - Assist",
+        "Chip - Filter",
+        "Chip - Input",
+        "Chip - Suggestion"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Assist chip</h2>"
+  },
+  {
+    "footer": "<ol><li>Container </li><li>Label text </li><li>Leading icon</li></ol>",
+    "altText": "Assist chip diagram numbering 3 elements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm01dv1nz-1.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Assist chip color</h3><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p>Assist chip color roles used for light and dark themes:</p><ol><li>Surface container low (optional)</li><li>On surface</li><li>Outline</li><li>Primary</li></ol>",
+    "altText": "Assist chip diagram numbering 4 color elements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm01dv6ou-2.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Assist chip states</h3><p><app-froala-tooltip-element description=\"States show the interaction status of a component or UI element.\" link-label=\"More on states\" link-url=\"/m3/pages/interaction-states/overview\" should-open-link-in-new-tab=\"true\">States</app-froala-tooltip-element> are visual representations used to communicate the status of a component or interactive element. <a href=\"/m3/pages/interaction-states/overview\">Learn more about interaction states</a></p>"
+  },
+  {
+    "footer": "<p>Selected and unselected assist chip states:</p><ol><li>Enabled </li><li>Disabled </li><li>Hovered </li><li>Focused </li><li>Pressed </li><li>Dragged</li></ol>",
+    "altText": "36 assist chips illustrating combinations of styles, selection and non-selection, and 6 interaction states.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm8sg1d2r-03-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Assist chip measurements</h3>"
+  },
+  {
+    "footer": "<p>Assist chip padding and size measurements</p>",
+    "altText": "3 assist chips with measurements shown for variants with and without a leading icon.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm01dvj22-4.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table><thead><tr><th style=\"text-align:center\">Attribute<br /></th><th style=\"text-align:center\">Value<br /></th></tr></thead><tbody><tr><th>Height<br /></th><td>32dp</td></tr><tr><th>Shape<br /></th><td>8dp corner radius</td></tr><tr><th>Icon size<br /></th><td>18dp</td></tr><tr><th>Vertical label text alignment<br /></th><td>Center-aligned</td></tr><tr><th>Horizontal label text alignment<br /></th><td>Start-aligned</td></tr><tr><th>Left/right padding<br /></th><td>16dp</td></tr><tr><th>Left/right padding with icon<br /></th><td>8dp</td></tr><tr><th>Padding between elements<br /></th><td>8dp</td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Filter chip</h2>"
+  },
+  {
+    "footer": "<ol><li>Container </li><li>Label text </li><li>Leading icon</li><li>Trailing icon</li></ol>",
+    "altText": "Filter chip diagram numbering 4 elements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm01dvpzm-5.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 dir=\"ltr\" id=\"isPasted\">Filter chip color</h3><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p>Filter chip color roles used for light and dark themes:</p><ol class=\"decimal\"><li><p>On surface variant</p></li><li><p>On secondary container</p></li><li><p>Secondary container</p></li><li><p>Outline variant</p></li><li><p>Surface container low (optional)</p></li></ol>",
+    "altText": "Filter chip diagram numbering 4 color elements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmp8q5ab-06-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 dir=\"ltr\" id=\"isPasted\">Filter chip states</h3><p dir=\"ltr\"><app-froala-tooltip-element description=\"States show the interaction status of a component or UI element.\" link-label=\"More on states\" link-url=\"/m3/pages/interaction-states/overview\" should-open-link-in-new-tab=\"true\">States</app-froala-tooltip-element> are visual representations used to communicate the status of a component or interactive element. <a href=\"/m3/pages/interaction-states/overview\" id=\"isPasted\">Learn more about interaction states</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Selected and unselected filter chip states:</p><ol><li>Enabled </li><li>Disabled </li><li>Hovered </li><li>Focused </li><li>Pressed </li><li>Dragged</li></ol>",
+    "altText": "24 filter chips showing combinations of elevated, non-elevated, selected, and non-selected styles, and 6 interaction states.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm8sg2d2t-07-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Filter chip measurements</h3>"
+  },
+  {
+    "footer": "<p>Filter chip padding and size measurements</p>",
+    "altText": "3 filter chips with measurements shown for types with and without a leading icon and trailing icon.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm01dwqif-8.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table><thead><tr><th style=\"text-align:center\">Attribute<br /></th><th style=\"text-align:center\">Value<br /></th></tr></thead><tbody><tr><th>Container height<br /></th><td>32dp</td></tr><tr><th>Container shape<br /></th><td>8dp corner radius</td></tr><tr><th>Icon size<br /></th><td>18dp</td></tr><tr><th>Vertical label text alignment<br /></th><td>Center-aligned</td></tr><tr><th>Horizontal label text alignment<br /></th><td>Start-aligned</td></tr><tr><th>Left/right padding<br /></th><td>16dp</td></tr><tr><th>Left/right padding with icon<br /></th><td>8dp</td></tr><tr><th>Padding between elements<br /></th><td>8dp</td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Input chip</h2>"
+  },
+  {
+    "footer": "<ol><li>Container </li><li>Label text </li><li>Trailing icon </li><li>Leading icon</li></ol>",
+    "altText": "Input chip diagram numbering 4 elements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm01dwxct-9.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 dir=\"ltr\" id=\"isPasted\">Input chip color</h3><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Input chip color roles used for light and dark themes:</p><ol><li>On surface variant</li><li>Surface container low (optional)</li><li>On surface variant</li><li>On surface variant</li><li>Outline variant</li><li>Primary</li><li>Secondary container</li><li>On secondary container</li><li>On secondary container</li></ol>",
+    "altText": "Input chip diagram numbering 5 color elements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm02q3wit-10-3p.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 dir=\"ltr\" id=\"isPasted\">Input chip states</h3><p dir=\"ltr\"><app-froala-tooltip-element description=\"States show the interaction status of a component or UI element.\" link-label=\"More on states\" link-url=\"/m3/pages/interaction-states/overview\" should-open-link-in-new-tab=\"true\">States</app-froala-tooltip-element> are visual representations used to communicate the status of a component or interactive element. <a href=\"/m3/pages/interaction-states/overview\" id=\"isPasted\">Learn more about interaction states</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Selected and unselected input chip states:</p><ol><li>Enabled </li><li>Disabled </li><li>Hovered </li><li>Focused </li><li>Pressed </li><li>Dragged</li></ol>",
+    "altText": "33 input chips illustrating combinations of styles, selection and non-selection, and 6 interaction states.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm8sg4m8e-11-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Input chip measurements</h3>"
+  },
+  {
+    "footer": "Input chip padding and size measurements",
+    "altText": "2 input chips with measurements: 1 with a trailing icon only; 1 with an avatar as a leading icon and a trailing icon.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm34ufke8-12-3p.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table><thead><tr><th style=\"text-align:center\">Attribute<br /></th><th style=\"text-align:center\">Value<br /></th></tr></thead><tbody><tr><th>Container height<br /></th><td>32dp</td></tr><tr><th>Container shape<br /></th><td>8dp corner radius</td></tr><tr><th>Icon size<br /></th><td>18dp</td></tr><tr><th>Avatar shape<br /></th><td>12dp corner radius</td></tr><tr><th>Avatar size<br /></th><td>24dp</td></tr><tr><th>Vertical label text alignment<br /></th><td>Center-aligned</td></tr><tr><th>Horizontal label text alignment<br /></th><td>Start-aligned</td></tr><tr><th>Left padding for avatar<br /></th><td>4dp</td></tr><tr><th>Right padding for avatar<br /></th><td>8dp</td></tr><tr><th>Left/right padding for icon<br /></th><td>8dp</td></tr><tr><th>Padding between elements<br /></th><td>8dp</td></tr><tr><th>Target size for close icon<br /></th><td>Min 48dp</td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Suggestion chip</h2>"
+  },
+  {
+    "footer": "<ol><li>Container </li><li>Label text</li></ol>",
+    "altText": "Suggestion chip diagram numbering 2 elements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm01dxq8p-13.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 dir=\"ltr\" id=\"isPasted\">Suggestion chip color</h3><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Suggestion chip color roles used for light and dark themes:</p><ol><li>Outline</li><li>Surface container low (optional)</li><li>On surface variant</li></ol>",
+    "altText": "Suggestion chip diagram numbering 3 color elements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm01dxxwr-14.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 dir=\"ltr\" id=\"isPasted\">Suggestion chip states</h3><p dir=\"ltr\"><app-froala-tooltip-element description=\"States show the interaction status of a component or UI element.\" link-label=\"More on states\" link-url=\"/m3/pages/interaction-states/overview\" should-open-link-in-new-tab=\"true\">States</app-froala-tooltip-element> are visual representations used to communicate the status of a component or interactive element. <a href=\"/m3/pages/interaction-states/overview\" id=\"isPasted\">Learn more about interaction states</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Selected and unselected suggestion chip states:</p><ol><li>Enabled</li><li>Disabled</li><li>Hovered</li><li>Focused</li><li>Pressed</li><li>Dragged</li></ol>",
+    "altText": "24 suggestion chips illustrating combinations of styles across 6 interaction states.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm8sg5r6a-15-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Suggestion chip measurements</h3>"
+  },
+  {
+    "footer": "<p>Suggestion chip padding and size measurements</p>",
+    "altText": "2 suggestion chips with measurements shown for variants with and without a leading icon.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm01dybi0-16.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table><thead><tr><th style=\"text-align:center\">Attribute<br /></th><th style=\"text-align:center\">Value<br /></th></tr></thead><tbody><tr><th>Container height<br /></th><td>32dp</td></tr><tr><th>Container shape<br /></th><td>8dp corner radius</td></tr><tr><th>Icon size<br /></th><td>18dp</td></tr><tr><th>Vertical label text alignment<br /></th><td>Center-aligned</td></tr><tr><th>Horizontal label text alignment<br /></th><td>Start-aligned</td></tr><tr><th>Left/right padding without icon<br /></th><td>16dp</td></tr><tr><th>Left/right padding with icon<br /></th><td>8dp</td></tr><tr><th>Padding between elements<br /></th><td>8dp</td></tr></tbody></table></div>"
+  }
+]

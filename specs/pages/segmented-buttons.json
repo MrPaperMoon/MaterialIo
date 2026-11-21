@@ -1,0 +1,81 @@
+[
+  {
+    "htmlValue": "<div class=\"fr-banner note\"><div class=\"fr-banner-icon\">star</div><div class=\"fr-banner-content note\"><div class=\"fr-banner-label\">Note:</div><div class=\"fr-banner-description\"> Segmented buttons are no longer recommended in the Material 3 expressive update. For those who have updated, use the <a href=\"/m3/pages/button-groups/overview/\" target=\"_blank\">connected button group</a> instead, which has mostly the same functionality but with an updated visual design.</div></div></div>"
+  },
+  {
+    "footer": "<ol><li>Container</li><li>Icon (optional for unselected state) </li><li>Label text</li></ol>",
+    "altText": "Diagram of segmented button indicating 3 parts of its anatomy.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6l9syf-1.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Tokens and specs</h2>"
+  },
+  {
+    "htmlValue": "<p>Browse the component elements, attributes, tokens, and their values. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\">Learn more about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/67e2613d87ca6f98",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Static",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Color</h2><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\" id=\"isPasted\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p>Segmented button color roles used for light and dark schemes:</p><ol><li>On surface</li><li>Outline</li><li>Secondary container</li><li>On secondary container</li></ol>",
+    "altText": "Diagram of segmented button indicating its color mappings",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6lafzx-2.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>States</h2><p><app-froala-tooltip-element description=\"States show the interaction status of a component or UI element.\" link-label=\"More on states\" link-url=\"/m3/pages/interaction-states/overview\" should-open-link-in-new-tab=\"true\">States</app-froala-tooltip-element> are visual representations used to communicate the status of a component or interactive element.  <a href=\"/m3/pages/interaction-states/overview\" id=\"isPasted\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about interaction states</a></p>"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Unselected</h3>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Unselected button states:</p><ol><li>Enabled </li><li>Disabled </li><li>Hovered </li><li>Focused </li><li>Pressed</li></ol><p><br /></p>",
+    "altText": "Side by side view of segmented buttons with 5 unselected states.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6law70-3b.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Selected</h3>"
+  },
+  {
+    "footer": "<p>Selected button states:</p><ol><li>Selected </li><li>Hovered on selected</li><li>Focused on selected</li><li>Pressed on selected</li></ol>",
+    "altText": "Side by side view of segmented buttons with 4 selected states.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6lbdzb-4b.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "footer": "<ol><li>Padding and container size </li><li>Target size</li></ol>",
+    "altText": "Diagram indicating layout values, paddings, and target size for segmented buttons",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmp8rn0c-5-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" dir=\"ltr\" style=\"margin-right:calc(0%);width:100%\"><thead><tr><th style=\"text-align:center\">Attribute</th><th style=\"text-align:center\">Value</th></tr></thead><tbody><tr><th>Container width<br /></th><td>Dynamic based on labels</td></tr><tr><th>Segment width</th><td>Container width / total segments (Example: 1/3)</td></tr><tr><th>Height<br /></th><td>40dp</td></tr><tr><th>Outline width</th><td>1dp</td></tr><tr><th>Label alignment<br /></th><td>Center</td></tr><tr><th>Left/right padding<br /></th><td>Min 12dp</td></tr><tr><th>Padding between elements<br /></th><td>8dp</td></tr><tr><th>Target size</th><td>48dp</td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h3>Density</h3><p>Density can be used in denser UIs where space is limited. Density is only applied to the height. </p>"
+  },
+  {
+    "footer": "<p>Each step down in density removes 4dp from the height</p>",
+    "altText": "Side by side view of segmented buttons with 4 different density heights",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6lc5hl-6.png?alt=media"
+  }
+]

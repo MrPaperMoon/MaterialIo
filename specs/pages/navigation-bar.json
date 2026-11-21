@@ -1,0 +1,199 @@
+[
+  {
+    "htmlValue": "<h2>Variants</h2>"
+  },
+  {
+    "footer": "<ol><li><span style=\"white-space:pre-wrap\">Flexible navigation bar</span></li></ol>",
+    "altText": "The recommended flexible navigation bar.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3onczd-01.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Baseline variants</h3>"
+  },
+  {
+    "htmlValue": "<p>The baseline nav bar is no longer recommended, and should be replaced by the flexible nav bar, which is shorter and supports horizontal navigation items in medium windows. <a href=\"/m3/pages/navigation-bar/specs#46dc2521-acf0-44e3-bbc0-78dc225b9749\" target=\"_blank\">View baseline nav bar specs</a></p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>Navigation bar (not recommended)</p></li></ol>",
+    "altText": "1 baseline navigation bar.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkq5ef63-02-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th><p>Variant</p></th><th style=\"text-align:center\"><p>M3</p></th><th style=\"text-align:center\"><p>M3 Expressive</p></th></tr></thead><tbody><tr><td><p>Flexible navigation bar</p></td><td><p>--</p></td><td><p>Available</p></td></tr><tr><td><p>Navigation bar</p></td><td><p>Available</p></td><td><p>Not recommended.</p><p>Use <strong>flexible navigation bar</strong>.</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2><span style=\"white-space:pre-wrap\" id=\"isPasted\">Configurations</span></h2>"
+  },
+  {
+    "htmlValue": "<p>In compact windows, navigation bars use vertical items. In medium windows, navigation bars should use horizontal items.</p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Vertical navigation items<br /></span></li><li><span style=\"white-space:pre-wrap\">Horizontal navigation items</span></li></ol>",
+    "altText": "Two size configurations for navigation bar and items.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3oovxg-7.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th><p>Category<br /></p></th><th><p>Configuration<br /></p></th><th style=\"text-align:center\"><p>M3<br /></p></th><th style=\"text-align:center\"><p>M3 Expressive<br /></p></th></tr></thead><tbody><tr><td rowspan=\"2\" style=\"width:25%\"><p>Navigation item layout<br /></p></td><td><p>Vertical (default)<br /></p></td><td><p>Available<br /></p></td><td><p>Available<br /></p></td></tr><tr><td><p>Horizontal<br /></p></td><td><p>--<br /></p></td><td><p>Available<br /></p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2>"
+  },
+  {
+    "htmlValue": "<p>Use the table's menu to switch between token sets for the navigation bar and the nav items. <a href=\"/m3/pages/navigation-bar/specs#3425f33a-0b11-492a-ae5a-40d63f939384\" target=\"_blank\" rel=\"noopener noreferrer\"></a><a href=\"/m3/pages/design-tokens/overview/\" target=\"_blank\" rel=\"noopener noreferrer\">Learn about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/52865380210a9b69",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Nav bar - Common",
+        "Nav bar - Item - Vertical",
+        "Nav bar - Item - Horizontal"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2><span style=\"white-space:pre-wrap\" id=\"isPasted\">Anatomy</span></h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Container<br /></span></li><li><span style=\"white-space:pre-wrap\">Icon<br /></span></li><li><span style=\"white-space:pre-wrap\">Label text<br /></span></li><li><span style=\"white-space:pre-wrap\">Active indicator<br /></span></li><li><span style=\"white-space:pre-wrap\">Small badge (optional)<br /></span></li><li><span style=\"white-space:pre-wrap\">Large badge (optional)<br /></span></li><li><span style=\"white-space:pre-wrap\">Large badge label </span></li></ol>",
+    "altText": "Seven elements of the navigation bar.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3opmda-1.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Color</h2><p><span style=\"white-space:pre-wrap\" id=\"isPasted\">Color values are implemented through design tokens. For designers, this means working with color values that correspond with tokens; in implementation, a color value will be a token that references a value. </span><span style=\"white-space:pre-wrap\" id=\"isPasted\"><a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about design tokens</a></span></p>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Navigation bar color roles used for light and dark schemes:<br /></span></p><ol class=\"decimal\"><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">Surface container<br /></span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">On-secondary container<br /></span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">Secondary<br /></span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">Secondary container<br /></span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">On-surface variant<br /></span></li><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">On-surface variant</span></li></ol>",
+    "altText": "Six color roles of the navigation bar.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3oqa88-05.png?alt=media"
+  },
+  {
+    "htmlValue": "<p>For badge color roles, go to <a href=\"/m3/pages/badges/specs\" target=\"_blank\" rel=\"noopener noreferrer\">badge specs</a>.</p>"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">States</h2><p>States are visual representations used to communicate the status of a component or an interactive element.</p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Enabled<br /></span></li><li><span style=\"white-space:pre-wrap\">Hovered (8% state layer)<br /></span></li><li><span style=\"white-space:pre-wrap\">Focused (10% state layer)<br /></span></li><li><span style=\"white-space:pre-wrap\">Pressed (10% state layer)</span></li></ol>",
+    "altText": "Four states of the navigation bar items.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmah8b097-3.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "htmlValue": "<p>The navigation bar stretches the full window width.</p>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Navigation bar padding and size measurements</span></p>",
+    "altText": "Navigation bar padding and size measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3ovtkk-5.png?alt=media"
+  },
+  {
+    "htmlValue": "<p>Vertical navigation items dynamically change width to equally fit the container. Horizontal navigation items have a fixed width, so extra space is added to the ends of the navigation bar instead.</p>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Navigation bar width and margins for compact and medium windows.<br /></span></p><ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Vertical navigation item<br /></span></li><li><span style=\"white-space:pre-wrap\">Margin from window edge</span></li><li><span style=\"white-space:pre-wrap\">Horizontal navigation item</span></li></ol>",
+    "altText": "Navigation bar and item widths.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3owffv-6.png?alt=media"
+  },
+  {
+    "htmlValue": "<hr /><p><br /></p>"
+  },
+  {
+    "htmlValue": "<h2>Baseline navigation bar</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Container<br /></span></li><li><span style=\"white-space:pre-wrap\">Icon<br /></span></li><li><span style=\"white-space:pre-wrap\">Label text<br /></span></li><li><span style=\"white-space:pre-wrap\">Active indicator<br /></span></li><li><span style=\"white-space:pre-wrap\">Small badge<br /></span></li><li><span style=\"white-space:pre-wrap\">Large badge<br /></span></li><li><span style=\"white-space:pre-wrap\">Large badge label</span></li></ol>",
+    "altText": "7 elements of baseline navigation bar.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3ox4jl-3p_nav-bar_anatomy.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Tokens &amp; specs</h3>"
+  },
+  {
+    "htmlValue": "<p>These tokens are for the baseline navigation bar.</p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/52865380210a9b69",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Navigation bar (baseline)",
+        "Nav bar - Common",
+        "Nav bar - Item - Vertical",
+        "Nav bar - Item - Horizontal"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Static",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "tokenSetOrder": [
+        "Navigation bar (baseline)",
+        "Nav bar - Common",
+        "Nav bar - Item - Vertical",
+        "Nav bar - Item - Horizontal"
+      ]
+    }
+  },
+  {
+    "htmlValue": "<h3><span style=\"white-space:pre-wrap\" id=\"isPasted\">Color</span></h3><p>Color values are implemented through design tokens. For designers, this means working with color values that correspond with tokens; in implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Navigation bar color roles used for light and dark schemes:<br /></span></p><ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Surface<br /></span></li><li><span style=\"white-space:pre-wrap\">On secondary container<br /></span></li><li><span style=\"white-space:pre-wrap\">On surface<br /></span></li><li><span style=\"white-space:pre-wrap\">Secondary container<br /></span></li><li><span style=\"white-space:pre-wrap\">On surface variant<br /></span></li><li><span style=\"white-space:pre-wrap\">On surface variant</span></li></ol>",
+    "altText": "6 color roles of baseline navigation bar.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3oxof4-3p_nav-bar_color.png?alt=media"
+  },
+  {
+    "htmlValue": "<p>For badge color roles, go to <a href=\"/m3/pages/badges/specs\" target=\"_blank\" rel=\"noopener noreferrer\">badge specs</a>.</p>"
+  },
+  {
+    "htmlValue": "<h3><span style=\"white-space:pre-wrap\" id=\"isPasted\">States</span></h3><p><span id=\"isPasted\"><span style=\"white-space:pre-wrap\" id=\"isPasted\">States are visual representations used to communicate the status of a component or an interactive element.</span></span></p>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Navigation bar states: <br /></span></p><ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Enabled <br /></span></li><li><span style=\"white-space:pre-wrap\">Hovered <br /></span></li><li><span style=\"white-space:pre-wrap\">Focused <br /></span></li><li><span style=\"white-space:pre-wrap\">Pressed</span></li></ol>",
+    "altText": "4 states of baseline navigation bar.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmamkex4k-11-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Navigation bar padding and size measurements</span></p>",
+    "altText": "Baseline navigation bar padding and size measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmamkf93e-12-3P.png?alt=media"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Navigation bar target size and margins</span></p>",
+    "altText": "Baseline navigation bar target size and margins.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmamkhglx-13-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Configurations</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">3 destinations<br /></span></li><li><span style=\"white-space:pre-wrap\">4 destinations<br /></span></li><li><span style=\"white-space:pre-wrap\">5 destinations</span></li></ol>",
+    "altText": "3 configurations of the baseline navigation bar.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3ozytu-3p_nav-bar_config.png?alt=media"
+  }
+]

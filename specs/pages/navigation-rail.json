@@ -1,0 +1,206 @@
+[
+  {
+    "htmlValue": "<h2>Variants</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>Collapsed navigation rail</p></li><li><p>Expanded navigation rail</p></li></ol>",
+    "altText": "2 variants of navigation rails.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal9f2lt-01-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Baseline variants</h3>"
+  },
+  {
+    "htmlValue": "<p>The baseline navigation rail is no longer recommended, and should be replaced by the collapsed navigation rail. <a href=\"/m3/pages/navigation-rail/specs#d4d97764-20ec-496f-a6f3-0d423940ec5a\" target=\"_self\">View baseline tokens</a></p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><p>The baseline navigation rail is no longer recommended</p></li></ol>",
+    "altText": "Baseline navigation rail.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkvenn9g-02-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"width:33.2734%\"><p>Variant</p></th><th style=\"width:33.3333%;text-align:center\"><p>M3</p></th><th style=\"width:33.3333%;text-align:center\"><p>M3 Expressive</p></th></tr></thead><tbody><tr><td><p>Collapsed navigation rail<br /></p></td><td><p>--</p></td><td><p>Available</p></td></tr><tr><td><p>Expanded navigation rail <br /></p></td><td><p>--</p></td><td><p>Available</p></td></tr><tr><td><p>Navigation rail (baseline)<br /></p></td><td><p>Available</p></td><td><p>Not recommended.</p><p>Use <strong>collapsed navigation rail</strong>.<br /></p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Configurations</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Expanded layout: standard</span></li><li><span style=\"white-space:pre-wrap\">Expanded layout: modal</span></li></ol>",
+    "altText": "Standard and modal layouts of navigation rail.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal9fbzs-03-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th><p>Category</p></th><th style=\"text-align:center\"><p>Configuration</p></th><th style=\"text-align:center\"><p>M3</p></th><th style=\"text-align:center\"><p>      M3 Expressive</p></th></tr></thead><tbody><tr><td rowspan=\"2\" style=\"width:21.223%\"><p>Expanded layout</p></td><td><p>Standard (default)</p></td><td><p>Available as <app-froala-tooltip-element description=\"Navigation drawers let people switch between UI views on larger devices. In the expressive update, use an expanded navigation rail.\" link-label=\"More on navigation drawers\" link-url=\"/m3/pages/navigation-drawer/overview\" should-open-link-in-new-tab=\"true\">navigation drawer</app-froala-tooltip-element><br /></p></td><td><p>Available</p></td></tr><tr><td><p>Modal</p></td><td><p>Available as <app-froala-tooltip-element description=\"Navigation drawers let people switch between UI views on larger devices. In the expressive update, use an expanded navigation rail.\" link-label=\"More on navigation drawers\" link-url=\"/m3/pages/navigation-drawer/overview\" should-open-link-in-new-tab=\"true\">navigation drawer</app-froala-tooltip-element><br /></p></td><td><p>Available</p></td></tr><tr><td><p>Expanded behavior</p></td><td><p>Hide when collapsed</p></td><td><p>--</p></td><td><p>Available</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2>"
+  },
+  {
+    "htmlValue": "<p>Browse the component elements, attributes, tokens, and their values. <a href=\"/m3/pages/design-tokens/overview/\" target=\"_blank\">Learn about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/5b55bd7cc1ea6e29",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Nav rail - Common",
+        "Nav rail - Collapsed",
+        "Nav rail - Expanded",
+        "Nav rail item - Common",
+        "Nav rail item - Vertical",
+        "Nav rail item - Horizontal"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "tokenSetOrder": [
+        "Navigation rail (baseline)",
+        "Nav rail - Common",
+        "Nav rail - Collapsed",
+        "Nav rail - Expanded",
+        "Nav rail item - Common",
+        "Nav rail item - Vertical",
+        "Nav rail item - Horizontal"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2>Anatomy</h2>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Collapsed and expanded navigation rail elements:</span></p><ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Container</span></li><li><span style=\"white-space:pre-wrap\">Menu (optional)</span></li><li><span style=\"white-space:pre-wrap\">FAB or Extended FAB (optional)</span></li><li><span style=\"white-space:pre-wrap\">Icon</span></li><li><span style=\"white-space:pre-wrap\">Active indicator</span></li><li><span style=\"white-space:pre-wrap\">Label text</span></li><li><span style=\"white-space:pre-wrap\">Large badge (optional)</span></li><li><span style=\"white-space:pre-wrap\">Large badge label (optional)</span></li><li><span style=\"white-space:pre-wrap\">Small badge (optional)</span></li></ol>",
+    "altText": "9 elements of collapsed and expanded navigation rails.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg0uznol-04-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Color</h2><p><span style=\"white-space:pre-wrap\" id=\"isPasted\">Color values are implemented through design tokens. For designers, this means working with color values that correspond with tokens; in implementation, a color value will be a token that references a value. </span><span style=\"white-space:pre-wrap\" id=\"isPasted\"><a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about design tokens</a></span></p>"
+  },
+  {
+    "footer": "<p>Navigation rail color roles used for light and dark schemes:</p><ol class=\"decimal\"><li><p>Surface container (optional)</p></li><li><p>On secondary container</p></li><li><p>Secondary container</p></li><li><p>Secondary (vertical), On secondary container (horizontal)</p></li><li><p>On surface variant</p></li><li><p>On surface variant</p></li><li><p>Error</p></li><li><p>On error</p></li><li><p>Error</p></li></ol>",
+    "altText": "Color roles of 9 elements of collapsed and expanded navigation rails in light and dark color schemes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmyzgq71-05-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">States</h2><p><app-froala-tooltip-element description=\"States show the interaction status of a component or UI element.\" link-label=\"More on states\" link-url=\"/m3/pages/interaction-states/overview\" should-open-link-in-new-tab=\"true\">States</app-froala-tooltip-element> are visual representations used to communicate the status of a component or an interactive element.<span style=\"white-space:pre-wrap\" id=\"isPasted\"><br /><br />The navigation item’s target area always spans the full width of the nav rail, even if the item container hugs its contents.</span></p>"
+  },
+  {
+    "footer": "<p></p>",
+    "altText": "4 states of collapsed navigation rails.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal9s5f0-06-3P.png?alt=media"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Enabled</li><li>Hovered</li><li>Focused</li><li>Pressed</li></ol>",
+    "altText": "4 states of expanded navigation rails.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal9sbiq-07-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "footer": "<p>Navigation rail padding and size measurements</p>",
+    "altText": "Padding and measurements for expanded and collapsed navigation rails.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal9t1mb-08-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Common layouts</h2>"
+  },
+  {
+    "altText": "4 common layouts of collapsed navigation rail.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal9twwq-09-3P.png?alt=media"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Three navigation items </span></li><li><span style=\"white-space:pre-wrap\">Three navigation items with a menu</span></li><li><span style=\"white-space:pre-wrap\">Three navigation items with a FAB</span></li><li><span style=\"white-space:pre-wrap\">Three navigation items with a menu and FAB</span></li></ol>",
+    "altText": "4 common layouts of expanded navigation rail.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal9u2w3-10-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<hr /><p><br /></p>"
+  },
+  {
+    "htmlValue": "<h2>Baseline navigation rail</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Container</span></li><li><span style=\"white-space:pre-wrap\">Menu icon (optional)</span></li><li><span style=\"white-space:pre-wrap\">Icon</span></li><li><span style=\"white-space:pre-wrap\">Active indicator</span></li><li><span style=\"white-space:pre-wrap\">Label text</span></li><li><span style=\"white-space:pre-wrap\">Large badge label (optional)</span></li><li><span style=\"white-space:pre-wrap\">Large badge (optional)</span></li><li><span style=\"white-space:pre-wrap\">Badge (optional)</span></li></ol>",
+    "altText": "8 elements of baseline navigation rail.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal9uv1q-11-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Tokens &amp; specs</h3>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/5b55bd7cc1ea6e29",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Navigation rail (baseline)",
+        "Nav rail item - Horizontal",
+        "Nav rail item - Common",
+        "Nav rail - Common",
+        "Nav rail - Collapsed",
+        "Nav rail - Expanded",
+        "Nav rail item - Vertical"
+      ],
+      "tokenSetOrder": [
+        "Navigation rail (baseline)",
+        "Nav rail item - Horizontal",
+        "Nav rail item - Common",
+        "Nav rail - Common",
+        "Nav rail - Collapsed",
+        "Nav rail - Expanded",
+        "Nav rail item - Vertical"
+      ]
+    }
+  },
+  {
+    "htmlValue": "<h3>Color</h3>"
+  },
+  {
+    "htmlValue": "<p><span style=\"white-space:pre-wrap\" id=\"isPasted\">Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. </span><span style=\"white-space:pre-wrap\" id=\"isPasted\"><a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about design tokens</a></span></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Navigation rail color roles used for light and dark themes:</p><ol class=\"decimal\"><li>On secondary container</li><li>Secondary container</li><li>On surface</li><li>On surface variant</li><li>On surface variant</li><li>Error</li><li>On error</li><li>Error</li></ol>",
+    "altText": "8 color roles of baseline navigation rail.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal9vzs8-12-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>States</h3>"
+  },
+  {
+    "htmlValue": "<p><span style=\"white-space:pre-wrap\" id=\"isPasted\">States are visual representations used to communicate the status of a component or interactive element.</span></p>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Navigation rail states:</span></p><ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Enabled (on active destination)</span></li><li><span style=\"white-space:pre-wrap\">Hovered (on active destination)</span></li><li><span style=\"white-space:pre-wrap\">Focused (on active destination)</span></li><li><span style=\"white-space:pre-wrap\">Pressed (on active destination)</span></li><li><span style=\"white-space:pre-wrap\">Enabled (on inactive destination)</span></li><li><span style=\"white-space:pre-wrap\">Hovered (on inactive destination)</span></li><li><span style=\"white-space:pre-wrap\">Focused (on inactive destination)</span></li><li><span style=\"white-space:pre-wrap\">Pressed (on inactive destination)</span></li></ol>",
+    "altText": "8 states of baseline navigation rail.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal9x9ol-13-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Measurements</h3>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Navigation rail size measurements</span></p>",
+    "altText": "Baseline nav rail size measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal9xiu7-14-3P.png?alt=media"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Navigation rail padding and margin measurements</span></p>",
+    "altText": "Baseline nav rail padding and margin measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal9xyxt-15-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Configurations</h3><p><span style=\"white-space:pre-wrap\" id=\"isPasted\">Common arrangements of elements within a navigation rail.</span></p>"
+  },
+  {
+    "footer": "<ol><li><span style=\"white-space:pre-wrap\">With a menu</span></li><li><span style=\"white-space:pre-wrap\">With a FAB</span></li><li><span style=\"white-space:pre-wrap\">With menu and FAB, without labels</span></li><li><span style=\"white-space:pre-wrap\">All destinations with text labels</span></li><li><span style=\"white-space:pre-wrap\">With menu, FAB, and label text for all destinations</span></li></ol>",
+    "altText": "5 configurations of the baseline navigation rail.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal9yote-16-3P.png?alt=media"
+  }
+]

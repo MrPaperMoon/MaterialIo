@@ -1,0 +1,234 @@
+[
+  {
+    "htmlValue": "<h2>Variants</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Small extended FAB</li><li>Medium extended FAB</li><li>Large extended FAB</li></ol>",
+    "altText": "3 variants of extended FABs.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3rfc55-01-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Baseline variants</h3>"
+  },
+  {
+    "htmlValue": "<p>The baseline extended FAB is no longer recommended in the M3 expressive update. Use a small extended FAB; the type style was updated from <strong>label large</strong> to <strong>title medium</strong>, and the inner padding was reduced. <a href=\"/m3/pages/extended-fab/specs#01e114e6-8c3d-4d39-9376-65aa5c10e01b\" target=\"_blank\">View baseline extended FAB specs</a></p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li>Extended FAB</li></ol>",
+    "altText": "1 baseline extended FAB.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3rfwo5-02-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"width:33.3333%\"><p>Variant</p></th><th style=\"width:33.3334%;text-align:center\"><p>M3</p></th><th style=\"text-align:center\"><p>M3 Expressive</p></th></tr></thead><tbody><tr><td><p>Small extended FAB</p></td><td><p>--</p></td><td><p>Available</p></td></tr><tr><td><p>Medium extended FAB</p></td><td><p>--</p></td><td><p>Available</p></td></tr><tr><td><p>Large extended FAB</p></td><td><p>--</p></td><td><p>Available</p></td></tr><tr><td><p>Extended FAB (baseline) </p></td><td><p>Available</p></td><td><p>Not recommended.<br />Use <strong>small extended FAB.</strong><br /></p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Tokens &amp; specs</h2>"
+  },
+  {
+    "htmlValue": "<p>Use the table's menu to select a token set. Extended FAB tokens are organized by size and color.</p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/36500f77b86d20a5",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Extended FAB - Size - Small",
+        "Extended FAB - Size - Medium",
+        "Extended FAB - Size - Large",
+        "Extended FAB - Color - Tonal primary",
+        "Extended FAB - Color - Tonal secondary",
+        "Extended FAB - Color - Tonal tertiary",
+        "Extended FAB - Color - Primary",
+        "Extended FAB - Color - Secondary",
+        "Extended FAB - Color - Tertiary"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "tokenSetOrder": [
+        "Extended FAB - Color - Branded",
+        "Extended FAB - Color - Surface",
+        "Extended FAB - Size - Baseline",
+        "Extended FAB - Size - Small",
+        "Extended FAB - Size - Medium",
+        "Extended FAB - Size - Large",
+        "Extended FAB - Color - Tonal primary",
+        "Extended FAB - Color - Tonal secondary",
+        "Extended FAB - Color - Tonal tertiary",
+        "Extended FAB - Color - Primary",
+        "Extended FAB - Color - Secondary",
+        "Extended FAB - Color - Tertiary"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2>Anatomy</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Container</li><li>Label text</li><li>Icon</li></ol>",
+    "altText": "3 elements of extended FABs.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3rgmo9-03-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Color</h2>"
+  },
+  {
+    "htmlValue": "<p>Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview/\" id=\"isPasted\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about design tokens</a> </p>"
+  },
+  {
+    "htmlValue": "<h3>Color styles</h3><p>Extended FABs can use several combinations of <strong>color</strong> and <strong>on color</strong> styles, such as <strong>primary</strong> and <strong>on primary</strong>. The following color mappings provide the same level of contrast and functionality, so choose a color mapping based on visual preference.</p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Extended FAB color roles used for light and dark schemes:</p><ol class=\"decimal\"><li>Primary container &amp; on primary container (default)</li><li>Secondary container &amp; on secondary container</li><li>Tertiary container &amp; on tertiary container</li><li>Primary &amp; on primary</li><li>Secondary &amp; on secondary</li><li>Tertiary &amp; on tertiary</li></ol>",
+    "altText": "6 extended FAB color styles.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3rha4a-04-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Baseline color styles</h3>"
+  },
+  {
+    "htmlValue": "<p>Extended FABs should no longer use surface color styles. They’re still available, but not recommended.</p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Surface container FAB</li></ol>",
+    "altText": "1 baseline extended FAB color style.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3ri2r1-05-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>States</h2>"
+  },
+  {
+    "htmlValue": "<p>States are visual representations used to communicate the status of a component or interactive element. <a href=\"/m3/pages/interaction-states/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about interaction states</a></p>"
+  },
+  {
+    "htmlValue": "<p>When using a non-default color mapping for extended FABs, make sure the state layer color is the same as the icon color. For example, the state layer color for primary mapping should be md.sys.color.primary.</p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Enabled </li><li>Hovered - elevation 4</li><li>Focused </li><li>Pressed</li></ol>",
+    "altText": "4 states of extended FABs.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmaljqck5-06-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "footer": "<p>Size and padding measurements of the small, medium, and large extended FABs</p>",
+    "altText": "Extended FAB padding and size measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3rj563-07-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Extended FABs should have margins of 16dp</p>",
+    "altText": "Extended FAB margin measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3rjn8g-08-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Baseline extended FAB</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Container</li><li>Label text</li><li>Icon</li></ol>",
+    "altText": "3 elements of baseline extended FAB.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3rm9q3-10-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Baseline configurations </h3>"
+  },
+  {
+    "footer": "<p>With icon</p>",
+    "altText": "Baseline extended FAB with icon.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fml9o6q6p-15-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Without icon</p>",
+    "altText": "Baseline extended FAB without icon.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fml9o6v12-16-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Baseline tokens</h3>"
+  },
+  {
+    "htmlValue": "<p>Use the table's menu to select a token set. The baseline extended FAB token sets are organized by common tokens, then by surface and branded color styles. Other color styles like primary, secondary, and tertiary are still used by the latest extended FABs.</p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/36500f77b86d20a5",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Extended FAB - Color - Tonal primary",
+        "Extended FAB - Color - Primary",
+        "Extended FAB - Size - Large",
+        "Extended FAB - Size - Medium",
+        "Extended FAB - Color - Tonal secondary",
+        "Extended FAB - Color - Tonal tertiary",
+        "Extended FAB - Size - Small",
+        "Extended FAB - Size - Baseline",
+        "Extended FAB - Color - Tertiary",
+        "Extended FAB - Color - Surface",
+        "Extended FAB - Color - Secondary",
+        "Extended FAB - Color - Branded"
+      ],
+      "tokenSetOrder": [
+        "Extended FAB - Color - Tonal primary",
+        "Extended FAB - Color - Primary",
+        "Extended FAB - Size - Large",
+        "Extended FAB - Size - Medium",
+        "Extended FAB - Color - Tonal secondary",
+        "Extended FAB - Color - Tonal tertiary",
+        "Extended FAB - Size - Small",
+        "Extended FAB - Size - Baseline",
+        "Extended FAB - Color - Tertiary",
+        "Extended FAB - Color - Surface",
+        "Extended FAB - Color - Secondary",
+        "Extended FAB - Color - Branded"
+      ]
+    }
+  },
+  {
+    "htmlValue": "<h3>Baseline colors</h3><p>Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview/\" target=\"_blank\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Extended FAB color roles used for light and dark schemes:</p><ol class=\"decimal\"><li>Primary container + shadow</li><li>On primary container</li><li>On primary container</li></ol>",
+    "altText": "3 baseline extended FAB color roles.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3rmvmo-11-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h4 id=\"isPasted\">Additional color mappings</h4><p>Extended FABs can use other combinations of container and icon colors. The color mappings below provide the same legibility and functionality as the default, so the color mapping you use depends on style alone.</p>"
+  },
+  {
+    "footer": "<p>Extended FABs can use different combinations of container and icon colors</p>",
+    "altText": "3 deprecated extended FABs with different container and icon colors.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3rnofz-12-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Baseline states</h3><p>States are visual representations used to communicate the status of a component or interactive element. <a href=\"/m3/pages/interaction-states\" target=\"_blank\">Learn more about interaction states</a></p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Enabled </li><li>Hovered </li><li>Focused </li><li>Pressed</li></ol>",
+    "altText": "4 states of baseline extended FAB.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmaljrky7-13-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Baseline measurements</h3>"
+  },
+  {
+    "footer": "<p>Extended FABs have a padding of 16dp</p>",
+    "altText": "Margins of baseline extended FAB.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmaebvm3w-14-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Extended FAB height, width, and icon size</p>",
+    "altText": "Size of baseline extended FAB while on screen.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmaebvv3o-15-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"border:none;border-collapse:collapse;margin-right:calc(0%);width:100%\"><thead><tr><th style=\"text-align:center\">Attribute</th><th style=\"text-align:center\">Value</th></tr></thead><tbody><tr><th><p>Container height</p></th><td><p>56dp</p></td></tr><tr><th><p>Container width</p></th><td><p>Dynamic, 80dp min</p></td></tr><tr><th><p>Container shape</p></th><td><p>16dp corner radius</p></td></tr><tr><th><p>Icon size</p></th><td><p>24dp</p></td></tr><tr><th><p>Padding</p></th><td><p dir=\"ltr\">16dp</p></td></tr></tbody></table></div>"
+  }
+]

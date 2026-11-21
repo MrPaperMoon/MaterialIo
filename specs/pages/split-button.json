@@ -1,0 +1,171 @@
+[
+  {
+    "htmlValue": "<h2>Variants</h2>"
+  },
+  {
+    "footer": "<p><br /></p>",
+    "altText": "1 type of split button.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3o4mdr-1-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"width:23.1076%\"><p>Variant</p></th><th style=\"width:43.5291%;text-align:center\"><p> M3</p></th><th style=\"text-align:center\"><p>M3 Expressive</p></th></tr></thead><tbody><tr><td><p>Split button<br /></p></td><td><p>--</p></td><td><p>Available</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Configurations</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Color configurations: Elevated, filled, tonal, outlined<br /></span></li><li><span style=\"white-space:pre-wrap\">Size configurations: XS, S, M, L, XL</span></li></ol>",
+    "altText": "4 colors and 5 sizes of split buttons.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3o55u8-2-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"width:18.8933%\"><p>Category</p></th><th style=\"width:28.1628%\"><p>Configuration</p></th><th style=\"width:26.2004%;text-align:center\"><p> M3</p></th><th style=\"width:26.6381%;text-align:center\"><p>M3 Expressive</p></th></tr></thead><tbody><tr><td><p>Size<br /></p></td><td><p>XS, S, M, L, XL<br /></p></td><td><p>--</p></td><td><p>Available</p></td></tr><tr><td><p>Color<br /></p></td><td><p>Elevated, filled, tonal, outlined<br /></p></td><td><p>--</p></td><td><p>Available<br /></p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2><span style=\"white-space:pre-wrap\">Tokens &amp; specs</span></h2>"
+  },
+  {
+    "htmlValue": "<p>Use the table's menu to select a token set. Split button token sets are organized by size. <a href=\"/m3/pages/design-tokens/overview/\" target=\"_blank\" rel=\"noopener noreferrer\">Learn about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/624e8f2da4007fc8",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Split button - Size - Xsmall",
+        "Split button - Size - Small",
+        "Split button - Size - Medium",
+        "Split button - Size - Large",
+        "Split button - Size - Xlarge"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Compose",
+        "3P",
+        "Web",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "tokenSetOrder": [
+        "Button - Color - Elevated",
+        "Button - Color - Filled",
+        "Button - Color - Tonal",
+        "Button - Color - Outlined",
+        "Split button - Size - Xsmall",
+        "Split button - Size - Small",
+        "Split button - Size - Medium",
+        "Split button - Size - Large",
+        "Split button - Size - Xlarge"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2><span style=\"white-space:pre-wrap\" id=\"isPasted\">Anatomy</span></h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Leading button<br /></span></li><li><span style=\"white-space:pre-wrap\">Icon<br /></span></li><li><span style=\"white-space:pre-wrap\">Label text<br /></span></li><li><span style=\"white-space:pre-wrap\">Trailing button</span></li></ol>",
+    "altText": "4 elements of a split button.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3o642r-3-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<p>The leading button in split buttons can have an icon, label text, or both. The trailing button should always have a menu icon.</p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Label + icon<br /></span></li><li><span style=\"white-space:pre-wrap\">Label<br /></span></li><li><span style=\"white-space:pre-wrap\">Icon</span></li></ol>",
+    "altText": "3 customizations of the leading button in the split button.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3o6fum-4-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Color</h2>"
+  },
+  {
+    "htmlValue": "<p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\" id=\"isPasted\">design tokens</app-froala-tooltip-element>. For designers, this means working with color values that correspond with tokens; in implementation, a color value will be a token that references a value.</p>"
+  },
+  {
+    "htmlValue": "<p>Split buttons use the same color schemes as standard <app-froala-tooltip-element description=\"Buttons let people take action and make choices with one tap.\" link-label=\"More on buttons\" link-url=\"/m3/pages/common-buttons/overview\" should-open-link-in-new-tab=\"true\">buttons</app-froala-tooltip-element>. However, unlike toggle buttons, the split button color doesn’t change when selected—only a state layer is applied.</p><p>Split buttons use the same colors and state layers as buttons, shown in the following token module. <a href=\"/m3/pages/common-buttons/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Go to buttons</a> for more details.</p>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">A: Unselected, B: Selected trailing icon<br /></span></p><ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Elevated<br /></span></li><li><span style=\"white-space:pre-wrap\">Filled<br /></span></li><li><span style=\"white-space:pre-wrap\">Tonal<br /></span></li><li><span style=\"white-space:pre-wrap\">Outlined</span></li></ol>",
+    "altText": "4 color roles of the split button when unselected and selected in light and dark theme.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3oa90h-5-3P.png?alt=media"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/624e8f2da4007fc8",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Button - Color - Elevated",
+        "Button - Color - Filled",
+        "Button - Color - Tonal",
+        "Button - Color - Outlined"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "tokenSetOrder": [
+        "Split button - Size - Xlarge",
+        "Split button - Size - Large",
+        "Split button - Size - Medium",
+        "Split button - Size - Small",
+        "Split button - Size - Xsmall",
+        "Button - Color - Elevated",
+        "Button - Color - Filled",
+        "Button - Color - Tonal",
+        "Button - Color - Outlined"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2>States</h2><p id=\"isPasted\"><app-froala-tooltip-element description=\"States show the interaction status of a component or UI element.\" link-label=\"More on states\" link-url=\"/m3/pages/interaction-states/overview\" should-open-link-in-new-tab=\"true\">States</app-froala-tooltip-element> are visual representations used to communicate the status of a component or an interactive element. </p><p>Split button states use the same colors and state layers as <app-froala-tooltip-element description=\"Buttons let people take action and make choices with one tap.\" link-label=\"More on buttons\" link-url=\"/m3/pages/common-buttons/specs\" should-open-link-in-new-tab=\"true\">buttons</app-froala-tooltip-element> and <app-froala-tooltip-element description=\"Icon buttons help people take minor actions with one tap.\" link-label=\"More on icon buttons\" link-url=\"/m3/pages/icon-buttons/specs\" should-open-link-in-new-tab=\"true\">icon buttons</app-froala-tooltip-element>. Go to those specs for details. </p>"
+  },
+  {
+    "htmlValue": "<h3>Leading button shape</h3><p>The inner corners change shape for hovered, focused, and pressed states. </p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Enabled<br /></span></li><li><span style=\"white-space:pre-wrap\">Disabled<br /></span></li><li><span style=\"white-space:pre-wrap\">Hovered<br /></span></li><li><span style=\"white-space:pre-wrap\">Focused<br /></span></li><li><span style=\"white-space:pre-wrap\">Pressed, pressed with focus</span></li></ol>",
+    "altText": "5 states of the leading button in the split button.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3oaphp-6-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Trailing button shape</h3><p>The inner corners change shape for hovered, focused, and pressed states, and the icon becomes centered when selected. </p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Enabled<br /></span></li><li><span style=\"white-space:pre-wrap\">Disabled<br /></span></li><li><span style=\"white-space:pre-wrap\">Hovered<br /></span></li><li><span style=\"white-space:pre-wrap\">Focused<br /></span></li><li><span style=\"white-space:pre-wrap\">Pressed, pressed with focus<br /></span></li><li><span style=\"white-space:pre-wrap\">Selected, selected with focus</span></li></ol>",
+    "altText": "6 states of the trailing menu button in the split button.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3ob3p2-7-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2><span style=\"white-space:pre-wrap\" id=\"isPasted\">Measurements</span></h2>"
+  },
+  {
+    "htmlValue": "<p>Text and icons are optically centered when the buttons are asymmetrical. They’re centered normally when symmetrical.</p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Menu icon offset when unselected:</p><ol class=\"decimal\"><li>XS: -1dp from center</li><li>S: -1dp from center</li><li>M: -2dp from center</li><li>L: -3dp from center</li><li>XL: -6dp from center</li></ol>",
+    "altText": "Padding and size measurements of the split button.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma5hz28q-8-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<p><span style=\"white-space:pre-wrap\" id=\"isPasted\">The inner corner radius changes depending on button sizing. The space should always be 2dp.</span></p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Extra small 4dp<br /></span></li><li><span style=\"white-space:pre-wrap\">Small 4dp<br /></span></li><li><span style=\"white-space:pre-wrap\">Medium 4dp<br /></span></li><li><span style=\"white-space:pre-wrap\">Large 8dp<br /></span></li><li><span style=\"white-space:pre-wrap\">Extra large 12dp</span></li></ol>",
+    "altText": "Inner padding and inner corner measurements of the split button.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma3ocky0-9-3P.png?alt=media"
+  }
+]

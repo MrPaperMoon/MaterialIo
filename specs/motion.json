@@ -1,0 +1,51 @@
+{
+  "url": "https://m3.material.io/_dsm/data/dsdb-m3/2026-11-19_06-20-01/TOKEN_TYPE_UNSPECIFIED.20543ce18892f7d9.json",
+  "tokens": [
+    {
+      "name": "md.sys.motion.spring.fast.spatial.damping",
+      "variants": [
+        {
+          "contexts": [
+            "Android",
+            "Expressive"
+          ],
+          "value": {
+            "numeric": 0.6
+          }
+        },
+        {
+          "contexts": [
+            "Android",
+            "Standard"
+          ],
+          "value": {
+            "numeric": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "name": "md.sys.motion.spring.fast.spatial.stiffness",
+      "variants": [
+        {
+          "contexts": [
+            "Android",
+            "Expressive"
+          ],
+          "value": {
+            "numeric": 800
+          }
+        },
+        {
+          "contexts": [
+            "Android",
+            "Standard"
+          ],
+          "value": {
+            "numeric": 1400
+          }
+        }
+      ]
+    }
+  ]
+}

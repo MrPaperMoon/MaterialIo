@@ -1,0 +1,86 @@
+[
+  {
+    "htmlValue": "<h2>Variants</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Loading indicator</span></li></ol>",
+    "altText": "2 elements of a loading indicator.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6gd1jj-1-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"width:33.4519%\"><p>Variant<br /></p></th><th style=\"width:33.0575%;text-align:center\"><p>M3<br /></p></th><th style=\"text-align:center\"><p>M3 Expressive<br /></p></th></tr></thead><tbody><tr><td><p>Loading indicator<br /></p></td><td><p>--<br /></p></td><td><p>Available<br /></p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2><span style=\"white-space:pre-wrap\" id=\"isPasted\">Configurations</span></h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Default<br /></span></li><li><span style=\"white-space:pre-wrap\">Contained</span></li></ol>",
+    "altText": "2 configurations of loading indicators.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6gdew8-2-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"width:24.6462%\"><p>Category<br /></p></th><th style=\"width:25.3538%\"><p>Configuration<br /></p></th><th style=\"text-align:center\"><p>M3<br /></p></th><th style=\"text-align:center\"><p>M3 Expressive<br /></p></th></tr></thead><tbody><tr><td rowspan=\"2\" style=\"width:24.6462%\"><p>Containment<br /></p></td><td><p>Default<br /></p></td><td><p>--<br /></p></td><td><p>Available<br /></p></td></tr><tr><td><p>Contained<br /></p></td><td><p>--<br /></p></td><td><p>Available<br /></p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2><span style=\"white-space:pre-wrap\">Tokens &amp; specs</span></h2>"
+  },
+  {
+    "htmlValue": "<p><span style=\"white-space:pre-wrap\" id=\"isPasted\">Loading indicators have a single token set.</span></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/68895be451a51c31",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2><span style=\"white-space:pre-wrap\" id=\"isPasted\">Anatomy</span></h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Active indicator<br /></span></li><li><span style=\"white-space:pre-wrap\">Container<br /></span></li></ol>",
+    "altText": "2 elements of a loading indicator.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6ge8q8-3-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Color</h2>"
+  },
+  {
+    "htmlValue": "<h3><span style=\"white-space:pre-wrap\" id=\"isPasted\">Default</span></h3>"
+  },
+  {
+    "htmlValue": "<p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For designers, this means working with color values that correspond with tokens; in implementation, a color value will be a token that references a value.</p>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Loading indicator color roles used for light and dark schemes:<br /></span></p><ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Primary</span></li></ol>",
+    "altText": "2 color roles of a loading progress indicator in light and dark themes.: the active indicator is primary and the container is secondary container.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6geonn-4-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3><span style=\"white-space:pre-wrap\" id=\"isPasted\">Contained</span></h3>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">Contained loading indicator color roles used for light and dark schemes:<br /></span></p><ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">On primary container<br /></span></li><li><span style=\"white-space:pre-wrap\">Primary container</span></li></ol>",
+    "altText": "2 color roles of a loading progress indicator in light and dark themes. The active indicator is primary and the container is secondary container.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6gf51h-5-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2><span style=\"white-space:pre-wrap\" id=\"isPasted\">Measurements</span></h2>"
+  },
+  {
+    "footer": "<p>To ensure sufficient margins, the size is 48dp while the shape container is 38dp</p>",
+    "altText": "Loading progress indicator measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6gfgvp-6-3P.png?alt=media"
+  }
+]

@@ -1,0 +1,265 @@
+[
+  {
+    "htmlValue": "<h2>Variants</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li>Default icon button</li><li><span style=\"white-space-collapse:preserve\">Toggle icon button</span></li></ol>",
+    "altText": "Side by side view of default and toggle icon buttons.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmacn9b93-1.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th><p>Variant</p></th><th style=\"text-align:center\"><p> M3<br /></p></th><th style=\"text-align:center\"><p>M3 Expressive<br /></p></th></tr></thead><tbody><tr><td><p>Default<br /></p></td><td><p>Available<br /></p></td><td><p>Available<br /></p></td></tr><tr><td><p>Toggle (selection)<br /></p></td><td><p>Available<br /></p></td><td><p>Available<br /></p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Configurations</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Five sizes<br /></span></li><li><span style=\"white-space:pre-wrap\">Two shapes<br /></span></li><li><span style=\"white-space:pre-wrap\">Four color styles<br /></span></li><li><span style=\"white-space:pre-wrap\">Three widths</span></li></ol>",
+    "altText": "Side by side view of size, shape, color, and width variations.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmacn9wle-2.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"width:14.9764%\"><p>Category</p></th><th style=\"width:36.9104%\"><p>Options<br /></p></th><th style=\"width:23.0542%;text-align:center\"><p>M3<br /></p></th><th style=\"text-align:center\"><p>M3 Expressive<br /></p></th></tr></thead><tbody><tr><td rowspan=\"2\" style=\"width:14.9764%\"><p>Size<br /></p></td><td><p>Small (default)<br /></p></td><td><p>Available<br /></p></td><td><p>Available<br /></p></td></tr><tr><td><p>XS, M, L, XL<br /></p></td><td><p>--<br /></p></td><td><p>Available</p></td></tr><tr><td rowspan=\"2\" style=\"width:14.9764%\"><p>Shape<br /></p></td><td><p>Round (default)<br /></p></td><td><p>Available<br /></p></td><td><p>Available<br /></p></td></tr><tr><td><p>Square<br /></p></td><td><p>--<br /></p></td><td><p>Available<br /></p></td></tr><tr><td><p>Color<br /></p></td><td><p>Filled (default), tonal, outlined, standard<br /></p></td><td><p>Available<br /></p></td><td><p>Available<br /></p></td></tr><tr><td rowspan=\"2\" style=\"width:14.9764%\"><p>Width<br /></p></td><td><p>Default<br /></p></td><td><p>Available<br /></p></td><td><p>Available<br /></p></td></tr><tr><td><p>Narrow, wide<br /></p></td><td><p>--<br /></p></td><td><p>Available</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Tokens &amp; specs</h2><p>Icon button token sets are organized by common tokens, color, and size. Select the token set from the table’s menu. <a href=\"/m3/pages/design-tokens/overview/\" target=\"_blank\" rel=\"noopener noreferrer\">Learn about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/0fe2282006ae098b",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Icon button",
+        "Icon button - Color - Filled",
+        "Icon button - Color - Tonal",
+        "Icon button - Color - Outlined",
+        "Icon button - Color - Standard",
+        "Icon button - Size - Xsmall",
+        "Icon button - Size - Small",
+        "Icon button - Size - Medium",
+        "Icon button - Size - Large",
+        "Icon button - Size - Xlarge"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Standard",
+        "Expressive",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "tokenSetOrder": [
+        "[Deprecated] Icon button - Filled",
+        "Icon button",
+        "[Deprecated] Icon button - Outlined",
+        "[Deprecated] Icon button - Tonal",
+        "Icon button - Color - Filled",
+        "Icon button - Color - Tonal",
+        "Icon button - Color - Outlined",
+        "Icon button - Color - Standard",
+        "Icon button - Size - Xsmall",
+        "Icon button - Size - Small",
+        "Icon button - Size - Medium",
+        "Icon button - Size - Large",
+        "Icon button - Size - Xlarge"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2><span style=\"white-space:pre-wrap\" id=\"isPasted\">Anatomy</span></h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Icon <br /></span></li><li><span style=\"white-space:pre-wrap\">Container</span></li></ol>",
+    "altText": "Diagram indicating anatomy of filled icon button.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmacngrp0-3.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2><span style=\"white-space:pre-wrap\" id=\"isPasted\">Color</span></h2>"
+  },
+  {
+    "htmlValue": "<p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For designers, this means working with color values that correspond with tokens; in implementation, a color value will be a token that references a value.</p><p>There are four built-in color styles: filled, tonal, outlined, and standard. Default and toggle buttons use different color roles per style.</p>"
+  },
+  {
+    "htmlValue": "<div class=\"fr-banner note\"><div class=\"fr-banner-icon\" contenteditable=\"false\">star</div><div class=\"fr-banner-content note\"><div class=\"fr-banner-label\" contenteditable=\"false\">Note:</div><div class=\"fr-banner-description\">These color roles were chosen to create design coherence and familiarity. Other color roles can be used as long as the container and text have a 3:1 contrast ratio. For example, tertiary and on tertiary.</div></div></div>"
+  },
+  {
+    "footer": "<p><span style=\"white-space:pre-wrap\">A: Filled, B: Tonal, C: Outlined, D: Standard<br /></span></p><ol class=\"decimal\"><li><span style=\"white-space:pre-wrap\">Default<br /></span></li><li><span style=\"white-space:pre-wrap\">Toggle, unselected<br /></span></li><li><span style=\"white-space:pre-wrap\">Toggle, selected</span></li></ol>",
+    "altText": "Color roles of default and toggle buttons in 4 visual styles.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmacnmn5n-4.png?alt=media"
+  },
+  {
+    "htmlValue": "<table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th><p></p></th><th><p>1. Default</p></th><th><p>2. Toggle, unselected</p></th><th><p>3. Toggle, selected</p></th></tr></thead><tbody><tr><td><p>Filled container</p><p>Filled icon</p></td><td style=\"width:25%\"><p>Primary </p><p>On primary</p></td><td><p>Surface container</p><p>On surface variant</p></td><td><p>Primary </p><p>On primary</p></td></tr><tr><td><p>Tonal container</p><p>Tonal icon</p></td><td><p>Secondary container</p><p>On secondary container</p></td><td><p>Secondary container</p><p>On secondary container</p></td><td><p>Secondary </p><p>On secondary </p></td></tr><tr><td><p>Outlined container</p><p>Outlined icon</p></td><td><p>Outline variant (outline)</p><p>On surface variant</p></td><td><p>Outline variant (outline)</p><p>On surface variant</p></td><td><p>Inverse surface</p><p>Inverse on surface</p></td></tr><tr><td><p>Standard icon</p></td><td><p>On surface variant</p></td><td><p>On surface variant</p></td><td><p>Primary</p></td></tr></tbody></table>"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\"><span style=\"white-space:pre-wrap\" id=\"isPasted\">States</span></h2>"
+  },
+  {
+    "htmlValue": "<p><app-froala-tooltip-element description=\"States show the interaction status of a component or UI element.\" link-label=\"More on states\" link-url=\"/m3/pages/interaction-states/overview\" should-open-link-in-new-tab=\"true\">States</app-froala-tooltip-element> are visual representations used to communicate the status of a component or interactive element. State layers slightly change button color. Disabled states have different base colors. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\" rel=\"noopener noreferrer\">View tokens for details</a></p>"
+  },
+  {
+    "htmlValue": "<h3>Filled button states</h3><h4>Default</h4>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li>Enabled </li><li>Disabled (10% state layer)</li><li>Hovered (8% state layer)</li><li>Focused (10% state layer)</li><li>Pressed (10% state layer)</li></ol>",
+    "altText": "5 states of filled icon button.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmacny1bg-7.png?alt=media"
+  },
+  {
+    "htmlValue": "<h4><span style=\"white-space:pre-wrap\" id=\"isPasted\">Toggle</span></h4>"
+  },
+  {
+    "footer": "<p>A: Unselected. B: Selected</p><ol class=\"decimal\"><li>Enabled </li><li>Disabled (10% state layer)</li><li>Hovered (8% state layer)</li><li>Focused (10% state layer)</li><li>Pressed (10% state layer)</li></ol>",
+    "altText": "5 states of filled toggle icon button.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmacnyuzs-8.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3><span style=\"white-space:pre-wrap\" id=\"isPasted\">Tonal button states</span></h3><h4>Default</h4>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li>Enabled </li><li>Disabled (10% state layer)</li><li>Hovered (8% state layer)</li><li>Focused (10% state layer)</li><li>Pressed (10% state layer)</li></ol>",
+    "altText": "5 states of tonal icon button.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmaco0ivh-9.png?alt=media"
+  },
+  {
+    "htmlValue": "<h4><span style=\"white-space:pre-wrap\" id=\"isPasted\">Toggle</span></h4>"
+  },
+  {
+    "footer": "<p>A: Unselected. B: Selected</p><ol class=\"decimal\"><li>Enabled </li><li>Disabled (10% state layer)</li><li>Hovered (8% state layer)</li><li>Focused (10% state layer)</li><li>Pressed (10% state layer)</li></ol>",
+    "altText": "5 states of tonal toggle icon button.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmaco1xul-10.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3><span style=\"white-space:pre-wrap\" id=\"isPasted\">Outlined button states</span></h3><h4><span id=\"isPasted\"><span style=\"white-space:pre-wrap\" id=\"isPasted\">Default</span></span></h4>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li>Enabled </li><li>Disabled (10% state layer)</li><li>Hovered (8% state layer)</li><li>Focused (10% state layer)</li><li>Pressed (10% state layer)</li></ol>",
+    "altText": "5 states of outlined icon button.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmaco30ip-11.png?alt=media"
+  },
+  {
+    "htmlValue": "<h4>Toggle</h4>"
+  },
+  {
+    "footer": "<p>A: Unselected. B: Selected</p><ol class=\"decimal\"><li>Enabled </li><li>Disabled (10% state layer)</li><li>Hovered (8% state layer)</li><li>Focused (10% state layer)</li><li>Pressed (10% state layer)</li></ol>",
+    "altText": "5 states of outlined toggle icon button.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmaco3sgl-12.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Standard icon button states</h3>"
+  },
+  {
+    "htmlValue": "<p>The standard icon button’s container is invisible at rest, but visible when the state layer is applied.</p>"
+  },
+  {
+    "htmlValue": "<h4>Default</h4>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li>Enabled </li><li>Disabled (10% state layer)</li><li>Hovered (8% state layer)</li><li>Focused (10% state layer)</li><li>Pressed (10% state layer)</li></ol>",
+    "altText": "5 states of standard icon button.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmaco50jx-13.png?alt=media"
+  },
+  {
+    "htmlValue": "<h4>Toggle</h4>"
+  },
+  {
+    "footer": "<p>A: Unselected. B: Selected</p><ol class=\"decimal\"><li>Enabled </li><li>Disabled (10% state layer)</li><li>Hovered (8% state layer)</li><li>Focused (10% state layer)</li><li>Pressed (10% state layer)</li></ol>",
+    "altText": "5 states of standard toggle icon button.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmaco5p31-14.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Shape morph</h2>"
+  },
+  {
+    "htmlValue": "<h3>Pressed state</h3><p>While pressed, icon buttons can morph to become more square. </p><p>Both round and square icon buttons should have the same pressed shape radius.<br /><br />The corner radius value differs for each button size. <a href=\"/m3/pages/icon-buttons/specs#b3df1f02-d313-44e9-9542-37f7e0e24dc7\" target=\"_blank\" rel=\"noopener noreferrer\">See full icon button corner measurements</a></p>"
+  },
+  {
+    "footer": "<p>A. Round, B. Square</p><ol class=\"decimal\"><li>Enabled</li><li>Hovered</li><li>Pressed</li></ol>",
+    "altText": "Shape changes for round and square icon buttons in 3 states.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal45bxj-15.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>When selected</h3><p>In addition to changing shape when pressed, toggle icon buttons also change the resting shape from round (unselected) to square (selected) by default.<br /><br />If the resting shape is square, the selected shape should be round.</p>"
+  },
+  {
+    "footer": "<p>A. Round, B. Square</p><ol class=\"decimal\"><li>Enabled</li><li>Hovered</li><li>Pressed</li><li>Selected </li></ol>",
+    "altText": "Shape changes for round and square toggle icon buttons in 3 states.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmafeboyy-16.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2><span style=\"white-space:pre-wrap\" id=\"isPasted\">Measurements</span></h2>"
+  },
+  {
+    "footer": "<p>A. Extra small  B. Small  C. Medium  D. Large  E. Extra large</p><ol class=\"decimal\"><li>Icon size</li><li>Default width size </li><li>Narrow width size  </li><li>Wide width size</li></ol>",
+    "altText": "Diagram of 5 sizes of icon buttons in 4 widths.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmacoq4wo-17.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Target sizes</h3><p>Extra small and small icon buttons must have a target size of 48x48dp or larger to be accessible.</p>"
+  },
+  {
+    "footer": "<p>A. Extra small icon button size  B. Small icon button size</p><ol class=\"decimal\"><li>Narrow width </li><li>Default width</li><li>Wide width</li></ol>",
+    "altText": "Diagram of target sizes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmacosw5f-18.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3><span style=\"white-space:pre-wrap\" id=\"isPasted\">Button corner radius</span></h3>"
+  },
+  {
+    "footer": "<p><br /></p>",
+    "altText": "Diagram of icon button corner radius.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmafelwts-19.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"width:100%\"><thead><tr><th style=\"text-align:center\"><br /></th><th style=\"text-align:center\">XS</th><th style=\"text-align:center\">S</th><th style=\"text-align:center\">M</th><th style=\"text-align:center\">L</th><th style=\"text-align:center\">XL</th></tr></thead><tbody><tr><td><span style=\"white-space:pre-wrap\" id=\"isPasted\">A. Round button</span></td><td>Full</td><td>Full</td><td>Full</td><td>Full</td><td>Full</td></tr><tr><td><span style=\"white-space:pre-wrap\" id=\"isPasted\">B. Square button</span></td><td>12dp</td><td>12dp</td><td>16dp</td><td>28dp</td><td>28dp</td></tr><tr><td><span style=\"white-space:pre-wrap\" id=\"isPasted\">C. Pressed state</span></td><td>8dp</td><td>8dp</td><td>12dp</td><td>16dp</td><td>16dp</td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Baseline tokens</h2>"
+  },
+  {
+    "htmlValue": "<p>Use the table's menu to select a token set. Filled, tonal, and outlined icon button tokens are now deprecated in favor of the new token sets. All other tokens are still available in the module at the top of the page.</p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/0fe2282006ae098b",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "[Deprecated] Icon button - Filled",
+        "[Deprecated] Icon button - Tonal",
+        "[Deprecated] Icon button - Outlined"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "tokenSetOrder": [
+        "[Deprecated] Icon button - Filled",
+        "Icon button",
+        "[Deprecated] Icon button - Tonal",
+        "[Deprecated] Icon button - Outlined",
+        "Icon button - Color - Tonal",
+        "Icon button - Color - Standard",
+        "Icon button - Color - Outlined",
+        "Icon button - Size - Xlarge",
+        "Icon button - Size - Large",
+        "Icon button - Size - Medium",
+        "Icon button - Size - Xsmall",
+        "Icon button - Size - Small",
+        "Icon button - Color - Filled"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  }
+]

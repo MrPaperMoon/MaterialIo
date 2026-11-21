@@ -1,0 +1,53 @@
+[
+  {
+    "footer": "<ol class=\"decimal\"><li><p>Container</p></li><li><p>Icon (optional close affordance)</p></li><li><p>Action (optional)</p></li><li><p>Supporting text</p></li></ol>",
+    "altText": "Diagram of snackbar indicating the four parts of its anatomy",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkvpjhzt-01-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Tokens and specs</h2><p>Browse the component elements, attributes, tokens, and their values. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\">Learn more about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/346ae12a744b45dd",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Static",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Color</h2><p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\" id=\"isPasted\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Snackbar color roles used for light and dark schemes:</p><ol><li>Inverse surface</li><li>Inverse on surface</li><li>Inverse primary</li><li>Inverse on surface</li></ol>",
+    "altText": "Diagram of snackbar indicating color and inverse text and labels",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flxlhysf9-2.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "footer": "<p>Snackbar padding and size measurements </p>",
+    "altText": "Diagram of snackbar with action",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm8otc9es-3-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Configurations</h2>"
+  },
+  {
+    "footer": "<ol><li>Single line</li><li>Single line with action</li><li>Two lines</li><li>Two lines with action</li><li>Two lines with longer action</li></ol>",
+    "altText": "5 snackbar configurations.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flxli48dd-5.png?alt=media"
+  }
+]

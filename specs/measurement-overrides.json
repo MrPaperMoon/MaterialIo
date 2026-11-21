@@ -1,0 +1,52 @@
+{
+  "md.comp.app-bar": {
+    "source": "https://m3.material.io/components/app-bars/specs",
+    "properties": {
+      "iconButtonTouchTargetSize": 48
+    }
+  },
+  "md.comp.app-bar.small": {
+    "source": "https://m3.material.io/components/app-bars/specs",
+    "properties": {
+      "titleLeadingSpace": 4,
+      "titleTrailingSpace": 4,
+      "searchLabelLeadingSpaceWithoutIcon": 24
+    }
+  },
+  "md.comp.app-bar.medium-flexible": {
+    "source": "https://m3.material.io/components/app-bars/specs",
+    "properties": {
+      "topSpace": 8,
+      "titleLeadingSpace": 16,
+      "titleBottomSpace": 12
+    }
+  },
+  "md.comp.app-bar.large-flexible": {
+    "source": "https://m3.material.io/components/app-bars/specs",
+    "properties": {
+      "topSpace": 8,
+      "titleLeadingSpace": 16,
+      "titleBottomSpace": 12
+    }
+  },
+  "md.comp.app-bar.medium": {
+    "source": "https://m3.material.io/components/app-bars/specs",
+    "properties": {
+      "topSpace": 20,
+      "titleLeadingSpace": 16,
+      "titleTrailingSpace": 16,
+      "titleBottomSpace": 24,
+      "trailingIconSpace": 24
+    }
+  },
+  "md.comp.app-bar.large": {
+    "source": "https://m3.material.io/components/app-bars/specs",
+    "properties": {
+      "topSpace": 20,
+      "titleLeadingSpace": 16,
+      "titleTrailingSpace": 16,
+      "titleBottomSpace": 28,
+      "trailingIconSpace": 24
+    }
+  }
+}

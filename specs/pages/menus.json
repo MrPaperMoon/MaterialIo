@@ -1,0 +1,230 @@
+[
+  {
+    "htmlValue": "<h2>Variants</h2>"
+  },
+  {
+    "htmlValue": "<h3>Vertical menus</h3>"
+  },
+  {
+    "htmlValue": "<p>Use vertical menus for a more expressive look and feel, including rounded corners, standard and vibrant color styles, more selection states, and submenu motion.</p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Vertical menu with gap</li><li>Vertical menu with divider</li></ol>",
+    "altText": "2 vertical menus use shape and color to indicate selected state.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhp3tuy7-01-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Baseline variant</h3>"
+  },
+  {
+    "htmlValue": "<p>In M3 Expressive, <app-froala-tooltip-element description=\"Baseline variants are the original M3 component designs. They may not have the latest features introduced in M3 Expressive, like updated motion, shapes, type, and styles.\" link-label=\"More on M3 Expressive\" link-url=\"https://m3.material.io/blog/building-with-m3-expressive\" should-open-link-in-new-tab=\"true\">baseline</app-froala-tooltip-element> menu is still available to use, but doesn’t have the latest shapes, color styles, selection states, and motion. <a href=\"/m3/pages/menus/specs#a80df2f9-8610-4ce0-b3a3-b9ee749d5c98\" target=\"_self\">See baseline menu specs</a></p>"
+  },
+  {
+    "footer": "<p>A baseline <strong>menu</strong> has square corners, as compared to a <strong>vertical menu’s</strong> round corners and expressive styling</p>",
+    "altText": "A baseline menu variant with square corners and standard colors.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhp47zoj-02-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table class=\"borderGGrey400\" style=\"width:100%\"><thead><tr><th style=\"text-align:center\"><p><strong>Variant</strong></p></th><th style=\"text-align:center\"><p><strong>M3</strong></p></th><th style=\"text-align:center\"><p><strong>M3 Expressive</strong></p></th></tr></thead><tbody><tr><td><p>Vertical menus</p></td><td><p>--</p></td><td><p>Available</p></td></tr><tr><td><p>Menu (<app-froala-tooltip-element description=\"Baseline variants are the original M3 component designs. They may not have the latest features introduced in M3 Expressive, like updated motion, shapes, type, and styles.\" link-label=\"More on M3 Expressive\" link-url=\"https://m3.material.io/blog/building-with-m3-expressive\" should-open-link-in-new-tab=\"true\">baseline</app-froala-tooltip-element>)</p></td><td><p>Available</p></td><td><p>Available</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Configurations</h2>"
+  },
+  {
+    "htmlValue": "<h3>Vertical menus layout</h3>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Standard</li><li>Grouped</li></ol>",
+    "altText": "2 menus: 1 standard, and 1 with a gap, creating groups.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhp4bydj-03-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"width:100%\"><thead><tr><th style=\"text-align:center;width:22.7376%\"><strong>Category<br /></strong></th><th style=\"text-align:center;width:31.6459%\"><strong>Configuration<br /></strong></th><th style=\"text-align:center;width:20.5317%\"><strong>M3</strong></th><th><div style=\"text-align:center\"><strong>M3 Expressiv</strong><strong>e</strong></div></th></tr></thead><tbody><tr><td rowspan=\"2\" style=\"text-align:center\">Color</td><td>Standard</td><td>Available</td><td>Available</td></tr><tr><td>Vibrant</td><td>--</td><td>Available</td></tr><tr><td rowspan=\"2\" style=\"text-align:center\">Layout</td><td>Standard</td><td>Available</td><td>Available</td></tr><tr><td>Grouped</td><td>--</td><td>Available</td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2>"
+  },
+  {
+    "htmlValue": "<p>Browse the component elements, attributes, tokens, and their values. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\">Learn about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/385a28e5d3bb3dd0",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Menus - Common",
+        "Menus - Color - Vibrant",
+        "Menus - Color - Standard"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Static",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "tokenSetOrder": [
+        "Menu (baseline)",
+        "Menus - Common",
+        "Menus - Color - Vibrant",
+        "Menus - Color - Standard"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2>Anatomy</h2>"
+  },
+  {
+    "htmlValue": "<h3>Vertical menus</h3>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Menu item </li><li>Leading icon (optional)</li><li>Menu item text</li><li>Trailing icon (optional)</li><li>Badge (optional)</li><li>Trailing text (optional)</li><li>Container</li><li>Supporting text (optional)</li><li>Label text (optional)</li><li>Gap (optional)</li><li>Divider (optional)</li></ol><p><br /></p>",
+    "altText": "A diagram of a vertical menu.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhp4i2in-05-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Color</h2>"
+  },
+  {
+    "htmlValue": "<p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For designers, this means working with color values that correspond with tokens. In implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\">Learn more about design tokens</a></p>"
+  },
+  {
+    "htmlValue": "<p id=\"isPasted\">Menus have two color mappings:</p><ul><li>Standard: Surface-based</li><li>Vibrant: Tertiary-based</li></ul><p>These mappings provide options for lower or higher visual emphasis. Vibrant menus are more prominent so should be used sparingly.</p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Standard color scheme</li><li>Vibrant color scheme</li></ol>",
+    "altText": "2 vertical menus: 1 with lower visual emphasis, and 1 vibrant menu with bold shades.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhp4jv7k-07-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Standard colors</h3>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Vertical menus color roles used for light and dark themes:</p><ol class=\"decimal\"><li>On surface variant</li><li>On surface</li><li>On surface (state layer)</li><li>Surface container low</li><li>On surface variant</li><li>On surface variant</li><li>Tertiary container (selected)</li><li>On tertiary container (selected)</li><li>On surface variant</li><li>On surface variant</li><li>On tertiary container (selected)</li></ol><p><br /></p>",
+    "altText": "2 vertical menus with standard color roles mapped to 11 elements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhp4r65m-08-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Vibrant colors</h3>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Vertical menus color roles used for light and dark themes:</p><ol class=\"decimal\"><li>On tertiary container</li><li>On tertiary container</li><li>On tertiary container (state layer)</li><li>Tertiary container</li><li>On tertiary container</li><li>On tertiary container</li><li>Tertiary (selected)</li><li>On tertiary (selected)</li><li>On tertiary container</li><li>On tertiary container</li><li>On tertiary (selected)</li></ol>",
+    "altText": "2 vertical menus with vibrant color roles mapped to 11 elements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhp4scno-10-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">States</h2><p><app-froala-tooltip-element description=\"States show the interaction status of a component or UI element.\" link-label=\"More on states\" link-url=\"/m3/pages/interaction-states/overview\" should-open-link-in-new-tab=\"true\">States</app-froala-tooltip-element> are visual representations used to communicate the status of a component or an interactive element. <a href=\"/m3/pages/interaction-states/overview\" target=\"_blank\" rel=\"noopener noreferrer\">More on interaction states</a><br /><br />Shape morphing in vertical menus creates an expressive active state. As focus moves between submenus, the corner shape changes to highlight the active menu. <a href=\"/m3/pages/menus/guidelines#7cc1d01b-a454-48c7-8306-e60347ffd17f\" target=\"_blank\" rel=\"noopener noreferrer\">More on menu focus</a></p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Enabled</li><li>Disabled</li><li>Hovered</li><li>Focused</li><li>Pressed</li><li>Active (main menu reveals submenu)</li></ol><p><br /></p>",
+    "altText": "6 vertical menu states in light and dark themes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhp4upew-14-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "footer": "<p>Vertical menu padding and size measurements</p>",
+    "altText": "Vertical menu marked with spacing and padding measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmi5nwcqt-17-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Menu (baseline) </h2>"
+  },
+  {
+    "htmlValue": "<p>The <app-froala-tooltip-element description=\"Baseline variants are the original M3 component designs. They may not have the latest features introduced in M3 Expressive, like updated motion, shapes, type, and styles.\" link-label=\"More on M3 Expressive\" link-url=\"https://m3.material.io/blog/building-with-m3-expressive\" should-open-link-in-new-tab=\"true\">baseline</app-froala-tooltip-element> menu variant is available and continues to work in existing products. However, M3 expressive vertical menus are recommended for new designs. </p>"
+  },
+  {
+    "htmlValue": "<h3>Baseline tokens &amp; specs</h3>"
+  },
+  {
+    "htmlValue": "<p>Browse the component elements, attributes, tokens, and their values. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\">Learn about design tokens</a></p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/385a28e5d3bb3dd0",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Menu (baseline)"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Static",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h3>Anatomy</h3>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">List item </li><li>List item leading icon </li><li>List item trailing icon </li><li>Container</li><li>List item trailing text</li><li>Divider</li></ol><p><br /></p>",
+    "altText": "Diagram of 6 elements of a baseline menu.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhp5x7zn-19-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Color</h3>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Baseline menu color roles used for light and dark themes:</p><ol class=\"decimal\"><li>On surface variant</li><li>On surface</li><li>On surface - opacity: 0.08</li><li>Surface container</li><li>On surface variant</li><li>On surface variant</li><li>On surface variant</li><li>Surface container highest</li><li>Outline variant</li></ol>",
+    "altText": "9 color roles of a baseline menu in light and dark themes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhp5xzj4-20-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">States</h3>"
+  },
+  {
+    "htmlValue": "<h4>Default menu items</h4>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li>Enabled</li><li>Disabled</li><li>Hovered</li><li>Focused</li><li>Pressed </li></ol>",
+    "altText": "Diagram numbering the 5 default states of a baseline menu.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhp6035c-21-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h4>Selected menu items</h4>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Enabled</li><li>Disabled</li><li>Hovered</li><li>Focused</li><li>Pressed </li></ol><p><br /></p>",
+    "altText": "5 states of a selected baseline menu item.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhp61n8r-22-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<p><a href=\"/m3/pages/menus/specs#c811d2fa-469a-4e4e-9d9f-0f535c5c9b4c\">State specs are in the token module above</a></p>"
+  },
+  {
+    "htmlValue": "<h3>Measurements</h3>"
+  },
+  {
+    "footer": "<p>Baseline menu padding and size measurements</p>",
+    "altText": "Diagram of a baseline menu’s padding, text alignment, height, and width.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhp6b6dr-23-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"margin-right:calc(0%);width:100%\"><thead><tr><th style=\"text-align:center\">Attribute<br /></th><th style=\"text-align:center\">Value<br /></th></tr></thead><tbody><tr><th>Container width<br /></th><td>112dp min, 280dp max</td></tr><tr><th>Corner radius<br /></th><td>4dp</td></tr><tr><th>Vertical label text alignment<br /></th><td>Center-aligned</td></tr><tr><th>Horizontal label text alignment<br /></th><td>Start-aligned</td></tr><tr><th>Left/right padding<br /></th><td>12dp</td></tr><tr><th>Left/right padding with-icon<br /></th><td>12dp</td></tr><tr><th>List item height<br /></th><td>48dp</td></tr><tr><th>Padding between elements within a list item<br /></th><td>12dp</td></tr><tr><th>Divider top/bottom padding<br /></th><td>8dp</td></tr><tr><th>Divider height<br /></th><td>1dp</td></tr><tr><th>Divider width<br /></th><td>Dynamic</td></tr><tr><th>Leading/trailing icon size<br /></th><td>24dp</td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h3>Configurations</h3>"
+  },
+  {
+    "htmlValue": "<p id=\"isPasted\">A baseline menu appears when a person interacts with a button, action, or other control. </p><p>A few examples:</p><ol class=\"decimal\"><li><app-froala-tooltip-element description=\"Buttons let people take action and make choices with one tap.\" link-label=\"More on buttons\" link-url=\"/m3/pages/common-buttons/overview\" should-open-link-in-new-tab=\"true\">Button</app-froala-tooltip-element></li><li><app-froala-tooltip-element description=\"Text fields let users enter text into a UI.\" link-label=\"More on text fields\" link-url=\"/m3/pages/text-fields/overview\" should-open-link-in-new-tab=\"true\">Text field</app-froala-tooltip-element></li><li><app-froala-tooltip-element description=\"Icon buttons help people take minor actions with one tap.\" link-label=\"More on icon buttons\" link-url=\"/m3/pages/icon-buttons/overview\" should-open-link-in-new-tab=\"true\">Icon button</app-froala-tooltip-element></li><li>Selected text</li></ol>"
+  },
+  {
+    "altText": "Examples of 4 baseline menu inputs.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhp6c83m-24-3P.png?alt=media"
+  }
+]

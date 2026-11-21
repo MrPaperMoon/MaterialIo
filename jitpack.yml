@@ -1,0 +1,6 @@
+jdk:
+  - openjdk21
+before_install:
+  - bash tools/prepare-jitpack.sh
+install:
+  - bash gradlew :material-specs:publishToMavenLocal -PpublicationGroup=com.github.MrPaperMoon.MaterialIo -PpublicationVersion=$VERSION --no-daemon --console=plain

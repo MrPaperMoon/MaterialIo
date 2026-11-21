@@ -1,0 +1,74 @@
+[
+  {
+    "footer": "<p>Navigation bar</p><ol><li id=\"isPasted\">Small badge</li><li>Large badge container</li><li>Large badge label</li><li>Large badge maximum character count container</li><li>Large badge maximum character count label</li></ol>",
+    "altText": "5 aspects of badge anatomy on a navigation bar.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmamlcpos-1-3P.png?alt=media"
+  },
+  {
+    "footer": "<p>Navigation rail</p><ol><li>Small badge</li><li>Large badge container</li><li>Large badge label</li><li>Large badge maximum character count container</li><li>Large badge maximum character count label</li></ol><p><br /></p>",
+    "altText": "5 aspects of badge anatomy on a navigation rail.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmamlee0o-2-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2><p>Browse the component elements, attributes, tokens, and their values.</p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/59a1b3a9a90ca8b3",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "Static",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\"><span style=\"white-space:pre-wrap\">Color</span></h2>"
+  },
+  {
+    "htmlValue": "<p>Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\" id=\"isPasted\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Badge color roles used for light and dark schemes in navigation bar:</p><ol><li>Error</li><li>Error</li><li>On error</li><li>On error</li><li>Error</li></ol>",
+    "altText": "5 applications of badge color on light and dark theme navigation bars.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg0yc68n-03-3P.png?alt=media"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Badge color roles used for light and dark schemes in navigation rail:</p><ol><li>Error</li><li>On error</li><li>Error</li><li>On error</li><li>Error</li></ol><p><br /></p>",
+    "altText": "5 applications of badge color on light and dark theme navigation rails.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flz9ep1tz-4.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "footer": "<p>Badge padding and size measurements</p>",
+    "altText": "Annotation of badge sizes, padding, and measurements from the corner of the icon to the badge opposite corner.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flz9eqf8f-badge_layout-correct.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"width:100%;margin-right:calc(0%)\"><thead><tr><th style=\"text-align:center;width:50.045%\"><p id=\"isPasted\">Attribute</p></th><th style=\"text-align:center;width:49.8651%\"><p id=\"isPasted\">Value</p></th></tr></thead><tbody><tr><td><p id=\"isPasted\">Small badge shape</p></td><td><p id=\"isPasted\">3dp corner radius</p></td></tr><tr><td><p id=\"isPasted\">Small badge size (HxW)</p></td><td><p id=\"isPasted\">6dp</p></td></tr><tr><td><p id=\"isPasted\">Large badge shape</p></td><td><p id=\"isPasted\">8dp corner radius</p></td></tr><tr><td><p id=\"isPasted\">Large badge one digit size (HxW)</p></td><td><p id=\"isPasted\">16dp</p></td></tr><tr><td><p id=\"isPasted\">Large badge max character count size (HxW)</p></td><td><p id=\"isPasted\">16x34dp</p></td></tr><tr><td><p id=\"isPasted\">Small badge: distance from top trailing icon corner to bottom leading badge corner (HxW)</p></td><td><p id=\"isPasted\">6x6dp</p></td></tr><tr><td><p id=\"isPasted\">Large badge: distance from top trailing icon corner to bottom leading badge corner (HxW)</p></td><td><p id=\"isPasted\">14x12dp</p></td></tr><tr><td><p id=\"isPasted\">Large badge padding between badge and text container</p></td><td><p id=\"isPasted\">4dp</p></td></tr></tbody></table></div>"
+  },
+  {
+    "htmlValue": "<h2 id=\"isPasted\">Configuration</h2>"
+  },
+  {
+    "htmlValue": "<p>Different badges are shown on navigation destinations in various <app-froala-tooltip-element description=\"States show the interaction status of a component or UI element.\" link-label=\"More on states\" link-url=\"/m3/pages/interaction-states/overview\" should-open-link-in-new-tab=\"true\">states.</app-froala-tooltip-element></p>"
+  },
+  {
+    "altText": "Diagram of 3 badge variations shown on navigation destinations in various states.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flz9eqsps-6.png?alt=media"
+  },
+  {
+    "htmlValue": "<ol><li id=\"isPasted\"><span style=\"white-space:pre-wrap\">Inactive with label - small badge</span></li><li><span style=\"white-space:pre-wrap\">Inactive with label - large badge</span></li><li><span style=\"white-space:pre-wrap\">Inactive with label - large badge max character count</span></li><li><span style=\"white-space:pre-wrap\">Inactive - small badge</span></li><li><span style=\"white-space:pre-wrap\">Inactive - large badge</span></li><li><span style=\"white-space:pre-wrap\">Inactive - large badge max character count</span></li><li><span style=\"white-space:pre-wrap\">Active with label - small badge</span></li><li><span style=\"white-space:pre-wrap\">Active with label - large badge</span></li><li><span style=\"white-space:pre-wrap\">Active with label - large badge max character count</span></li><li><span style=\"white-space:pre-wrap\">Active nav bar no label - small badge</span></li><li><span style=\"white-space:pre-wrap\">Active nav bar no label - large badge</span></li><li><span style=\"white-space:pre-wrap\">Active nav bar no label - large badge max character count</span></li><li><span style=\"white-space:pre-wrap\">Active nav rail no label - small badge</span></li><li><span style=\"white-space:pre-wrap\">Active nav rail no label - large badge</span></li><li><span style=\"white-space:pre-wrap\">Active nav rail no label - large badge max character count</span></li></ol>"
+  }
+]

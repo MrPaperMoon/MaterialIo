@@ -1,0 +1,385 @@
+{
+  "version": "2026-11-19_06-20-01",
+  "script": "https://m3.material.io/static/angular/main.2bcb6530e93abb29.js",
+  "pages": [
+    {
+      "slug": "components/all-buttons",
+      "title": "All buttons",
+      "url": "https://m3.material.io/components/all-buttons/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/276f1bd7-d048-49fd-8483-f267f2ece13d.json",
+      "tables": [],
+      "hasSpecs": false
+    },
+    {
+      "slug": "components/app-bars",
+      "title": "App bars",
+      "url": "https://m3.material.io/components/app-bars/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/4135ef28-314c-44dc-b829-6e94a36b69f2.json",
+      "tables": [
+        "07341534518f78d0",
+        "3ec622835c7987b5"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/badges",
+      "title": "Badges",
+      "url": "https://m3.material.io/components/badges/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/e18a73ff-b00d-46e7-af20-ab9dd24bf579.json",
+      "tables": [
+        "59a1b3a9a90ca8b3"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/bottom-sheets",
+      "title": "Bottom sheets",
+      "url": "https://m3.material.io/components/bottom-sheets/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/aa6f9af2-d539-4b22-9af5-838e7cfc4a85.json",
+      "tables": [
+        "75e530a1014802b3"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/button-groups",
+      "title": "Button groups",
+      "url": "https://m3.material.io/components/button-groups/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/93a2bf4e-18ac-49a4-8560-8d2a7dffc678.json",
+      "tables": [
+        "082d7fd6e058b011"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/buttons",
+      "title": "Buttons",
+      "url": "https://m3.material.io/components/buttons/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/e31df68a-59d4-41dc-8743-8c48b476d4f8.json",
+      "tables": [
+        "1c4257f8804f9478"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/cards",
+      "title": "Cards",
+      "url": "https://m3.material.io/components/cards/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/1a23fbe7-0474-444c-abfb-717bb148d3a8.json",
+      "tables": [
+        "100ebfb4332adab1"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/carousel",
+      "title": "Carousel",
+      "url": "https://m3.material.io/components/carousel/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/b0726223-2639-4157-84ae-cb84c07ee2e5.json",
+      "tables": [
+        "43a124d2adc8a2ef"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/checkbox",
+      "title": "Checkbox",
+      "url": "https://m3.material.io/components/checkbox/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/c0332583-8417-4b80-a0a1-e283781d31c6.json",
+      "tables": [
+        "31f16b44fe03b0c0"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/chips",
+      "title": "Chips",
+      "url": "https://m3.material.io/components/chips/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/592d28d0-0c82-4642-a203-556b1e0581b0.json",
+      "tables": [
+        "484a63be03b01a17"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/date-pickers",
+      "title": "Date pickers",
+      "url": "https://m3.material.io/components/date-pickers/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/523144a0-9184-44bd-93f0-5b4c7355f421.json",
+      "tables": [
+        "01c5310367774eb8"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/dialogs",
+      "title": "Dialogs",
+      "url": "https://m3.material.io/components/dialogs/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/79c01ab5-d09a-4f6c-9aca-f76d310583bc.json",
+      "tables": [
+        "0b1e39a67d5bafdc"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/divider",
+      "title": "Divider",
+      "url": "https://m3.material.io/components/divider/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/843ffaa9-e73e-45a7-bff7-f198cac0a7c8.json",
+      "tables": [
+        "77f7657eb270e53d"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/extended-fab",
+      "title": "Extended FABs",
+      "url": "https://m3.material.io/components/extended-fab/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/94487cf5-eb79-43b1-b6b1-470512cfcc88.json",
+      "tables": [
+        "36500f77b86d20a5"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/fab-menu",
+      "title": "FAB menu",
+      "url": "https://m3.material.io/components/fab-menu/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/f00af5db-3477-49da-bae5-44b90b3dd7ba.json",
+      "tables": [
+        "1a076cec8bc202c2"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/floating-action-button",
+      "title": "FABs",
+      "url": "https://m3.material.io/components/floating-action-button/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/1e52f150-575c-45fa-8f5f-75868c5ab068.json",
+      "tables": [
+        "41587918e51cca98"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/icon-buttons",
+      "title": "Icon buttons",
+      "url": "https://m3.material.io/components/icon-buttons/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/71391cd0-92f8-4a8e-a625-828f5413a221.json",
+      "tables": [
+        "0fe2282006ae098b"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/lists",
+      "title": "Lists",
+      "url": "https://m3.material.io/components/lists/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/6d4033c2-f92c-4c43-b585-b3bce8468d48.json",
+      "tables": [
+        "6c818a16475113bd"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/loading-indicator",
+      "title": "Loading indicator",
+      "url": "https://m3.material.io/components/loading-indicator/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/eb6cf431-55ab-4d41-b3c5-cf4da1bae66f.json",
+      "tables": [
+        "68895be451a51c31"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/menus",
+      "title": "Menus",
+      "url": "https://m3.material.io/components/menus/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/24b60c3f-1ec7-48df-b175-0d8e011a8106.json",
+      "tables": [
+        "385a28e5d3bb3dd0"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/navigation-bar",
+      "title": "Navigation bar",
+      "url": "https://m3.material.io/components/navigation-bar/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/9e4cdffa-f7fd-425f-9915-867aafbcc7d6.json",
+      "tables": [
+        "52865380210a9b69"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/navigation-drawer",
+      "title": "Navigation drawer",
+      "url": "https://m3.material.io/components/navigation-drawer/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/d2a1a290-0db4-4622-8a4b-bd11b6a4ec8d.json",
+      "tables": [
+        "376969f91547be8e"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/navigation-rail",
+      "title": "Navigation rail",
+      "url": "https://m3.material.io/components/navigation-rail/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/98fe42bd-9bb1-4307-9e92-e61e57c3e9da.json",
+      "tables": [
+        "5b55bd7cc1ea6e29"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/progress-indicators",
+      "title": "Progress indicators",
+      "url": "https://m3.material.io/components/progress-indicators/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/9a92bb46-ccc8-4752-a144-b770d47fe1dd.json",
+      "tables": [
+        "6f51f7ab7775a392"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/radio-button",
+      "title": "Radio button",
+      "url": "https://m3.material.io/components/radio-button/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/091d4b7c-1ab2-4050-963a-4e2558ee5d08.json",
+      "tables": [
+        "6acb269a58d5f93f"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/scroll-fields",
+      "title": "Scroll fields",
+      "url": "https://m3.material.io/components/scroll-fields/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/1624d6a1-96ea-437d-b846-dc6f00ebb49c.json",
+      "tables": [
+        "42f95ef205743188"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/search",
+      "title": "Search",
+      "url": "https://m3.material.io/components/search/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/22081e54-b56a-47b2-b137-9ba82953f05e.json",
+      "tables": [
+        "07341534518f78d0"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/segmented-buttons",
+      "title": "Segmented buttons",
+      "url": "https://m3.material.io/components/segmented-buttons/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/409b50be-403a-4846-932c-706a9b2137dd.json",
+      "tables": [
+        "67e2613d87ca6f98"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/side-sheets",
+      "title": "Side sheets",
+      "url": "https://m3.material.io/components/side-sheets/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/040dabe3-ed0f-4759-824d-812224e78af3.json",
+      "tables": [
+        "06c2c925cf96adca"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/sliders",
+      "title": "Sliders",
+      "url": "https://m3.material.io/components/sliders/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/4d160e88-c954-4614-8d11-4ec3ed399c92.json",
+      "tables": [
+        "0045edb815f2325e"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/snackbar",
+      "title": "Snackbar",
+      "url": "https://m3.material.io/components/snackbar/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/26cf2750-80f7-43f8-a155-834aa01276df.json",
+      "tables": [
+        "346ae12a744b45dd"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/split-button",
+      "title": "Split buttons",
+      "url": "https://m3.material.io/components/split-button/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/1341051a-3131-40d4-abbf-69e37b307651.json",
+      "tables": [
+        "624e8f2da4007fc8"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/switch",
+      "title": "Switch",
+      "url": "https://m3.material.io/components/switch/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/a4ad43f1-5c39-44b2-ae15-a7110bdf4fa6.json",
+      "tables": [
+        "33b1b2925d9ff561"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/tabs",
+      "title": "Tabs",
+      "url": "https://m3.material.io/components/tabs/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/f37f47ba-8e67-4f1e-98a3-3bea94879e52.json",
+      "tables": [
+        "6039f0080a95df1e"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/text-fields",
+      "title": "Text fields",
+      "url": "https://m3.material.io/components/text-fields/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/8741ef66-1a80-4b39-adb1-66bea5e6992f.json",
+      "tables": [
+        "60990dd98dea0998"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/time-pickers",
+      "title": "Time pickers",
+      "url": "https://m3.material.io/components/time-pickers/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/ec8e6da4-b726-403d-bab7-3fb660b6ef86.json",
+      "tables": [
+        "39f4b152dd9bd292"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/toolbars",
+      "title": "Toolbars",
+      "url": "https://m3.material.io/components/toolbars/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/4dc1681d-978a-4927-9ffa-8e2bd3796f64.json",
+      "tables": [
+        "2956a7939bf0879c"
+      ],
+      "hasSpecs": true
+    },
+    {
+      "slug": "components/tooltips",
+      "title": "Tooltips",
+      "url": "https://m3.material.io/components/tooltips/specs",
+      "dataUrl": "https://m3.material.io/_dsm/content/m3/2026-11-19_06-20-01/cb07b841-eae0-4959-bbab-25b1971714ca.json",
+      "tables": [
+        "37697297db0555a6"
+      ],
+      "hasSpecs": true
+    }
+  ]
+}

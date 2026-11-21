@@ -1,0 +1,71 @@
+[
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2><p>Browse the component elements, attributes, tokens, and their values.</p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/31f16b44fe03b0c0",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2>Checkbox</h2>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Container </li><li>Icon</li></ol>",
+    "altText": "Diagram of checkbox indicating the 2 parts of its anatomy.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmemmstmc-1-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Color</h2>"
+  },
+  {
+    "htmlValue": "<p id=\"isPasted\">Color values are implemented through <app-froala-tooltip-element description=\"Design tokens are the building blocks of all UI elements. The same tokens are used in designs, tools, and code.\" link-label=\"More on tokens\" link-url=\"/m3/pages/design-tokens/overview\" should-open-link-in-new-tab=\"true\">design tokens</app-froala-tooltip-element>. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Checkbox</li><li>State-layer</li><li>Icon</li></ol><p><br /></p>",
+    "altText": "Checkbox color roles in light and dark themes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmemmtsu5-2-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Adjacent text label color</h3><p>Use the <app-froala-tooltip-element description=\"Color roles are assigned to UI elements based on emphasis, container type, and relationship with other elements. This ensures proper contrast and usage in any color scheme.\" link-label link-url should-open-link-in-new-tab=\"false\">color role</app-froala-tooltip-element> <strong>on surface</strong> for adjacent text labels. This remains the same even if interacting with the label or component.</p>"
+  },
+  {
+    "footer": "<p>The text color remains the same regardless if the checkbox is selected or not</p>",
+    "altText": "Checkboxes with text labels. The text color is the same for checked and unchecked checkboxes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmemmvnkr-3-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>States</h2>"
+  },
+  {
+    "htmlValue": "<p id=\"isPasted\">States are visual representations used to communicate the status of a component or interactive element. <a href=\"/m3/pages/interaction-states/overview\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more about interaction states</a></p>"
+  },
+  {
+    "footer": "<ol class=\"decimal\"><li id=\"isPasted\">Enabled </li><li>Disabled </li><li>Hovered </li><li>Focused </li><li>Pressed</li></ol>",
+    "altText": "Side by side view of states in light and dark themes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmemmxoan-4-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "altText": "Diagram of a selected checkbox with a container width and height of 18dp and a state-layer width and height of 40dp.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmemn204f-5-3P.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table style=\"margin-right:calc(0%);width:100%\"><thead><tr><th style=\"width:50.7425%;text-align:center\">Attribute</th><th style=\"width:49.1676%;text-align:center\">Value</th></tr></thead><tbody><tr><th><p>Container size</p></th><td><p>18dp</p></td></tr><tr><th><p>Container corner shape</p></th><td><p>2dp</p></td></tr><tr><th><p>Icon size</p></th><td><p>18dp</p></td></tr><tr><th><p>Icon alignment</p></th><td><p>Center-aligned</p></td></tr><tr><th><p>Target size</p></th><td><p>48dp</p></td></tr><tr><th>State-layer size</th><td>40dp</td></tr></tbody></table></div>"
+  }
+]

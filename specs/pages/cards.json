@@ -1,0 +1,111 @@
+[
+  {
+    "htmlValue": "<h2>Tokens &amp; specs</h2><p>Select a component variant below to see its elements, attributes, tokens, and their values.</p>"
+  },
+  {
+    "resourceName": "designSystems/20543ce18892f7d9/components/100ebfb4332adab1",
+    "libraryModuleType": "TOKEN_TABLE",
+    "moduleConfigurationOverrides": {
+      "tokenSets": [
+        "Card - Elevated",
+        "Card - Filled",
+        "Card - Outlined"
+      ],
+      "contextTags": [
+        "None",
+        "Medium contrast",
+        "Default",
+        "High contrast",
+        "3P",
+        "Android",
+        "Dark",
+        "Light"
+      ],
+      "hideSearchField": false,
+      "hideVersionName": true
+    }
+  },
+  {
+    "htmlValue": "<h2>Elevated card</h2>"
+  },
+  {
+    "footer": "<ol><li>Container</li></ol>",
+    "altText": "Diagram indicating elevated card container.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flx8i6cjo-1.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Elevated card color</h3><p>Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview/\" id=\"isPasted\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Elevated card color roles used for light and dark themes:</p><ol><li>Surface container low</li></ol>",
+    "altText": "Color diagram indicating elevated card surface color.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flx8i798w-2.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3>Elevated card states</h3><p>States are visual representations used to communicate the status of a component or interactive element. <a href=\"/m3/pages/interaction-states\" id=\"isPasted\">Learn more about interaction states</a></p>"
+  },
+  {
+    "footer": "<p>Elevated card states: </p><ol><li>Hovered</li><li>Focused </li><li>Pressed </li><li>Dragged </li><li>Disabled</li></ol>",
+    "altText": "Diagram of 5 elevated card states.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm8tathzk-3.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Filled card</h2>"
+  },
+  {
+    "footer": "<ol><li>Container</li></ol>",
+    "altText": "Diagram indicating filled card container.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flx8i88xc-4.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Filled card color</h3><p>Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview/\" id=\"isPasted\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Filled card color roles used for light and dark themes:</p><ol><li>Surface container highest</li></ol>",
+    "altText": "Color diagram indicating filled card surface color.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flx8i8kna-5.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Filled card states</h3><p>States are visual representations used to communicate the status of a component or interactive element. <a href=\"/m3/pages/interaction-states\" id=\"isPasted\">Learn more about interaction states</a></p>"
+  },
+  {
+    "footer": "<p>Filled card states: </p><ol><li>Hovered</li><li>Focused </li><li>Pressed </li><li>Dragged </li><li>Disabled</li></ol>",
+    "altText": "Diagram of 5 filled card states.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm8taswqd-7.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Outlined card</h2>"
+  },
+  {
+    "footer": "<ol><li>Container</li><li>Outline</li></ol>",
+    "altText": "Diagram indicating outlined card container and outline.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flx8ia1sc-8.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Outlined card color</h3><p>Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. <a href=\"/m3/pages/design-tokens/overview/\" id=\"isPasted\">Learn more about design tokens</a></p>"
+  },
+  {
+    "footer": "<p id=\"isPasted\">Outlined card color roles used for light and dark themes:</p><ol><li>Surface</li><li>Outline variant</li></ol>",
+    "altText": "Outlined card color roles in light and dark themes.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flx8iah38-9.png?alt=media"
+  },
+  {
+    "htmlValue": "<h3 id=\"isPasted\">Outlined card states</h3><p>States are visual representations used to communicate the status of a component or interactive element. <a href=\"/m3/pages/interaction-states\" id=\"isPasted\">Learn more about interaction states</a></p>"
+  },
+  {
+    "footer": "<p>Outlined card states: </p><ol><li>Hovered </li><li>Focused </li><li>Pressed </li><li>Dragged </li><li>Disabled</li></ol>",
+    "altText": "Diagram of 5 outlined card states.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm8taue2l-10.png?alt=media"
+  },
+  {
+    "htmlValue": "<h2>Measurements</h2>"
+  },
+  {
+    "footer": "<p>Card padding and size measurements</p>",
+    "altText": "Diagram with card layout measurements.",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flx8ibavc-11.png?alt=media"
+  },
+  {
+    "htmlValue": "<div class=\"table-wrapper\"><table><thead><tr><th style=\"text-align:center\">Attribute<br /></th><th style=\"text-align:center\">Value<br /></th></tr></thead><tbody><tr><th>Shape<br /></th><td>12dp corner radius</td></tr><tr><th>Left/right padding<br /></th><td>16dp</td></tr><tr><th>Padding between cards<br /></th><td>8dp max</td></tr><tr><th>Label text alignment<br /></th><td>Start-aligned</td></tr></tbody></table></div>"
+  }
+]
